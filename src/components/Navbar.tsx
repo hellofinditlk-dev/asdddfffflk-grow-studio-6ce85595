@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navLinks = [
@@ -17,64 +17,62 @@ const Navbar = () => {
   const location = useLocation();
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary/95 backdrop-blur-md border-b border-border/20">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
-        <Link to="/" className="font-heading text-xl font-bold text-primary">
-          Findit<span className="text-secondary-foreground">.lk</span>
+        <Link to="/" className="font-heading text-lg font-extrabold text-foreground">
+          Findit<span className="text-primary">.lk</span>
         </Link>
 
         {/* Desktop */}
-        <div className="hidden lg:flex items-center gap-6">
+        <div className="hidden lg:flex items-center gap-1">
           {navLinks.map((link) => (
             <Link
               key={link.path}
               to={link.path}
-              className={`text-sm font-medium transition-colors hover:text-primary ${
+              className={`text-sm font-medium px-3 py-2 rounded-lg transition-colors ${
                 location.pathname === link.path
-                  ? "text-primary"
-                  : "text-secondary-foreground/70"
+                  ? "text-primary bg-primary/5"
+                  : "text-muted-foreground hover:text-foreground hover:bg-secondary"
               }`}
             >
               {link.label}
             </Link>
           ))}
-          <Button asChild className="bg-gradient-primary text-primary-foreground font-semibold shadow-glow hover:opacity-90 transition-opacity">
-            <Link to="/contact">
-              <Phone className="w-4 h-4 mr-2" /> Free Consultation
-            </Link>
+          <Button asChild size="sm" className="ml-3 bg-primary text-primary-foreground font-semibold hover:bg-primary/90 rounded-lg h-9 px-4">
+            <Link to="/contact">Get Started</Link>
           </Button>
         </div>
 
         {/* Mobile toggle */}
         <button
-          className="lg:hidden text-secondary-foreground"
+          className="lg:hidden text-foreground"
           onClick={() => setOpen(!open)}
         >
-          {open ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          {open ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
         </button>
       </div>
 
       {/* Mobile menu */}
       {open && (
-        <div className="lg:hidden bg-secondary border-t border-border/20 animate-fade-in">
-          <div className="container mx-auto px-4 py-4 flex flex-col gap-3">
+        <div className="lg:hidden bg-background border-t border-border animate-fade-in">
+          <div className="container mx-auto px-4 py-3 flex flex-col gap-1">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
                 onClick={() => setOpen(false)}
-                className={`text-sm font-medium py-2 transition-colors hover:text-primary ${
+                className={`text-sm font-medium py-2.5 px-3 rounded-lg transition-colors ${
                   location.pathname === link.path
-                    ? "text-primary"
-                    : "text-secondary-foreground/70"
+                    ? "text-primary bg-primary/5"
+                    : "text-muted-foreground hover:text-foreground hover:bg-secondary"
                 }`}
               >
                 {link.label}
               </Link>
             ))}
-            <Button asChild className="bg-gradient-primary text-primary-foreground font-semibold mt-2">
+            <Button asChild size="sm" className="bg-primary text-primary-foreground font-semibold mt-2 rounded-lg">
               <Link to="/contact" onClick={() => setOpen(false)}>
-                Free Consultation
+                Get Started
               </Link>
             </Button>
           </div>
