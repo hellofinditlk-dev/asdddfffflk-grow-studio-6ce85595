@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import {
   ArrowRight, CheckCircle, Megaphone, Target, Video, Search,
   BarChart3, Users, Lightbulb, Rocket, FileText, TrendingUp,
-  Phone, ArrowUpRight
+  Phone, ArrowUpRight, Palette
 } from "lucide-react";
 import InquiryForm from "@/components/InquiryForm";
 
@@ -35,6 +35,13 @@ const services = [
     desc: "Boost your Google rankings with on-page and off-page SEO strategies.",
     items: ["On-page SEO", "Off-page SEO", "Technical SEO", "Local SEO", "Keyword research"],
     link: "/seo-services-sri-lanka",
+  },
+  {
+    icon: <Palette className="w-5 h-5" />,
+    title: "Graphic Design",
+    desc: "Professional logo, social media, and print design starting from LKR 6,000.",
+    items: ["Logo design", "Social media graphics", "Flyers & brochures", "Packaging", "Brand identity"],
+    link: "/graphic-design-sri-lanka",
   },
   {
     icon: <Video className="w-5 h-5" />,
