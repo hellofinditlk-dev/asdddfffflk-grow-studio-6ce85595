@@ -1,14 +1,13 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => (
   <footer className="border-t border-border bg-secondary">
     <div className="container mx-auto px-4 py-16">
       <div className="grid md:grid-cols-4 gap-10">
         <div>
-          <h3 className="font-heading text-lg font-extrabold mb-3">
-            Findit<span className="text-primary">.lk</span>
-          </h3>
+          <img src={logo} alt="Cypher Digital" className="h-8 w-auto mb-3" />
           <p className="text-sm text-muted-foreground leading-relaxed">
             Results-driven digital marketing agency in Sri Lanka helping businesses grow.
           </p>
@@ -49,7 +48,7 @@ const Footer = () => (
       </div>
 
       <div className="border-t border-border mt-12 pt-6 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} Findit.lk — Digital Marketing Agency Sri Lanka
+        © {new Date().getFullYear()} Cypher Digital — Digital Marketing Agency Sri Lanka
       </div>
     </div>
   </footer>
