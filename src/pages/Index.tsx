@@ -58,10 +58,9 @@ const process = [
 const locations = ["Colombo", "Kandy", "Gampaha", "Negombo", "Kalutara", "Kurunegala", "Sri Lanka Wide"];
 
 const stats = [
-  { value: "500+", label: "Leads Generated" },
-  { value: "50+", label: "Happy Clients" },
-  { value: "200+", label: "Campaigns Run" },
-  { value: "98%", label: "Client Retention" },
+  { value: "15,000+", label: "Leads Generated" },
+  { value: "20+", label: "Happy Clients" },
+  { value: "2,000+", label: "Campaigns Run" },
 ];
 
 const Index = () => (
@@ -98,7 +97,7 @@ const Index = () => (
     {/* STATS */}
     <section className="border-b border-border">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-border">
+        <div className="grid grid-cols-3 divide-x divide-border">
           {stats.map((s, i) => (
             <div key={i} className="py-10 text-center">
               <div className="font-heading text-3xl md:text-4xl font-extrabold text-foreground mb-1">{s.value}</div>
