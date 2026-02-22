@@ -1,5 +1,6 @@
 import InquiryForm from "@/components/InquiryForm";
 import { Mail, MapPin, Phone, Clock } from "lucide-react";
+import SEOHead from "@/components/SEOHead";
 
 const contactInfo = [
   { icon: <Phone className="w-5 h-5" />, label: "Phone", value: "+94 70 177 2626", href: "tel:+94701772626" },
@@ -10,6 +11,11 @@ const contactInfo = [
 
 const Contact = () => (
   <div className="pt-16">
+    <SEOHead
+      title="Contact Cypher Digital | Get a Free Consultation"
+      description="Contact Cypher Digital for a free digital marketing consultation. Call +94 70 177 2626 or visit us in Colombo, Sri Lanka. We're ready to grow your business."
+      canonical="https://cypherdigital.lk/contact"
+    />
     <section className="section-dark py-20 lg:py-28">
       <div className="container mx-auto px-4 text-center animate-fade-up">
         <p className="text-primary font-semibold text-sm uppercase tracking-wider mb-3">Get In Touch</p>

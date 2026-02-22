@@ -3,6 +3,9 @@ import { Palette } from "lucide-react";
 
 const GraphicDesign = () => (
   <ServicePageLayout
+    metaTitle="Graphic Design Services Sri Lanka | From LKR 6,000"
+    metaDescription="Professional graphic design in Sri Lanka. Logos, social media graphics, brochures & branding. Creative designs from LKR 6,000. Fast turnaround by Cypher Digital."
+    canonical="https://cypherdigital.lk/graphic-design-sri-lanka"
     title="Graphic Design Services Sri Lanka"
     subtitle="Professional Creative Design"
     description="Stand out with stunning visuals crafted for your brand. From social media graphics and logos to brochures and packaging — our design team delivers creative, on-brand designs that capture attention and drive results, all at affordable prices."

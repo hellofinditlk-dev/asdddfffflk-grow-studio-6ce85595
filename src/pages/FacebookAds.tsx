@@ -3,6 +3,9 @@ import { Target } from "lucide-react";
 
 const FacebookAds = () => (
   <ServicePageLayout
+    metaTitle="Facebook Ads Agency Sri Lanka | Lead Generation Campaigns"
+    metaDescription="Run high-performing Facebook & Instagram ad campaigns in Sri Lanka. Lead generation, retargeting & conversion campaigns. Data-driven results from Cypher Digital."
+    canonical="https://cypherdigital.lk/facebook-ads-sri-lanka"
     title="Facebook Advertising Sri Lanka"
     subtitle="High-Performance Facebook Campaigns"
     description="Run high-performing Facebook & Instagram advertising campaigns to generate quality leads and drive sales for your Sri Lankan business. Our data-driven approach ensures every rupee of your ad budget works harder."

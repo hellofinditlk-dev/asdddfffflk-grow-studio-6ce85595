@@ -6,6 +6,7 @@ import {
   Phone, ArrowUpRight, Palette
 } from "lucide-react";
 import InquiryForm from "@/components/InquiryForm";
+import SEOHead from "@/components/SEOHead";
 
 const services = [
   {
@@ -79,6 +80,11 @@ const stats = [
 
 const Index = () => (
   <div className="pt-16">
+    <SEOHead
+      title="Cypher Digital | Digital Marketing Agency Sri Lanka"
+      description="Cypher Digital — leading digital marketing agency in Sri Lanka. Social media management, Facebook & Google Ads, SEO, video production & graphic design. Get a free consultation today."
+      canonical="https://cypherdigital.lk"
+    />
     {/* HERO */}
     <section className="relative py-24 lg:py-32 bg-foreground overflow-hidden">
       <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'radial-gradient(circle at 1px 1px, hsl(0 0% 100%) 1px, transparent 0)', backgroundSize: '32px 32px' }} />

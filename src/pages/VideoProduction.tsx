@@ -3,6 +3,9 @@ import { Video } from "lucide-react";
 
 const VideoProduction = () => (
   <ServicePageLayout
+    metaTitle="Video Production Sri Lanka | Social Media Videos from LKR 15,000"
+    metaDescription="Professional video production for social media in Sri Lanka. Promotional videos, reels & short-form content. Cinematic quality from LKR 15,000. Boost your engagement."
+    canonical="https://cypherdigital.lk/video-production-sri-lanka"
     title="Video Production for Social Media Sri Lanka"
     subtitle="Professional Video Content"
     description="Professional video content that increases engagement and supercharges your ad performance. From promotional videos to short-form reels — we deliver cinematic quality at prices that fit any Sri Lankan business budget."

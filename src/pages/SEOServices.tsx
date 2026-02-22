@@ -3,6 +3,9 @@ import { Search } from "lucide-react";
 
 const SEOServices = () => (
   <ServicePageLayout
+    metaTitle="SEO Services Sri Lanka | On-Page & Off-Page SEO from LKR 25,000"
+    metaDescription="Boost your Google rankings with professional SEO services in Sri Lanka. On-page optimization, link building & technical SEO. Affordable packages from LKR 25,000/month."
+    canonical="https://cypherdigital.lk/seo-services-sri-lanka"
     title="SEO Services Sri Lanka"
     subtitle="On-Page & Off-Page SEO"
     description="Boost your website's Google rankings with our comprehensive SEO services. We combine on-page optimization and off-page strategies to drive organic traffic and generate long-term leads for your Sri Lankan business — affordably and effectively."

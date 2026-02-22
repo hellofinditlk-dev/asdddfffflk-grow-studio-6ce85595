@@ -3,6 +3,7 @@ import { CheckCircle, BarChart3, Users, TrendingUp, Zap, Shield, Clock } from "l
 import InquiryForm from "@/components/InquiryForm";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import SEOHead from "@/components/SEOHead";
 
 interface ServicePageLayoutProps {
   title: string;
@@ -17,6 +18,9 @@ interface ServicePageLayoutProps {
   stats?: { value: string; label: string }[];
   flexibleDescription?: string;
   flexiblePoints?: string[];
+  metaTitle?: string;
+  metaDescription?: string;
+  canonical?: string;
 }
 
 const defaultStats = [
@@ -46,11 +50,17 @@ const ServicePageLayout = ({
   stats,
   flexibleDescription,
   flexiblePoints,
+  metaTitle,
+  metaDescription,
+  canonical,
 }: ServicePageLayoutProps) => {
   const displayStats = stats || defaultStats;
 
   return (
     <div className="pt-16">
+      {metaTitle && metaDescription && (
+        <SEOHead title={metaTitle} description={metaDescription} canonical={canonical} />
+      )}
       {/* Hero */}
       <section className="bg-foreground py-20 lg:py-28">
         <div className="container mx-auto px-4">

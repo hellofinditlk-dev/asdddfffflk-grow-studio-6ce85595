@@ -3,6 +3,9 @@ import { Search } from "lucide-react";
 
 const GoogleAds = () => (
   <ServicePageLayout
+    metaTitle="Google Ads Management Sri Lanka | Search & Display Ads"
+    metaDescription="Google Ads management in Sri Lanka. Search Ads, Display Ads & YouTube Ads with 5x average ROAS. Affordable campaigns from LKR 50,000/month. Free account audit."
+    canonical="https://cypherdigital.lk/google-ads-sri-lanka"
     title="Google Ads Sri Lanka"
     subtitle="Search & Display Advertising"
     description="Capture customers actively searching for your services with Google Search Ads, Display Ads, and YouTube Ads. Appear at the top of Google when it matters most — with affordable, performance-driven campaigns built for Sri Lankan businesses."
