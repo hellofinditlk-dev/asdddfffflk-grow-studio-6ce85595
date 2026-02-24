@@ -70,7 +70,19 @@ const ServicePageLayout = ({
             </div>
             <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">{subtitle}</p>
             <h1 className="font-heading text-3xl md:text-5xl font-extrabold text-white mb-6 leading-tight">{title}</h1>
-            <p className="text-lg text-white/50 leading-relaxed">{description}</p>
+            <p className="text-lg text-white/50 leading-relaxed mb-8">{description}</p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <Button asChild size="lg" className="bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-colors text-sm px-7 h-12 rounded-xl">
+                <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20book%20a%20free%20consultation" target="_blank" rel="noopener noreferrer">
+                  Book a Free Consultation
+                </a>
+              </Button>
+              <Button asChild size="lg" className="bg-[hsl(25,95%,53%)] text-white hover:bg-[hsl(25,95%,45%)] text-sm px-7 h-12 rounded-xl font-semibold">
+                <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20get%20a%20free%20quote" target="_blank" rel="noopener noreferrer">
+                  Get a Free Quote
+                </a>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
