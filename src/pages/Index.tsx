@@ -106,7 +106,7 @@ const Index = () => (
                 Get Free Consultation <ArrowRight className="w-4 h-4 ml-2" />
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-white/15 text-white hover:bg-white/5 text-sm px-7 h-12 rounded-xl">
+            <Button asChild size="lg" className="bg-[hsl(25,95%,53%)] text-white hover:bg-[hsl(25,95%,45%)] text-sm px-7 h-12 rounded-xl font-semibold">
               <Link to="/social-media-management-sri-lanka">Start Your Campaign</Link>
             </Button>
           </div>
