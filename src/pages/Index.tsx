@@ -102,12 +102,14 @@ const Index = () => (
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
             <Button asChild size="lg" className="bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-colors text-sm px-7 h-12 rounded-xl">
-              <Link to="/contact">
-                Get Free Consultation <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
+              <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20book%20a%20free%20consultation" target="_blank" rel="noopener noreferrer">
+                Book a Free Consultation <ArrowRight className="w-4 h-4 ml-2" />
+              </a>
             </Button>
             <Button asChild size="lg" className="bg-[hsl(25,95%,53%)] text-white hover:bg-[hsl(25,95%,45%)] text-sm px-7 h-12 rounded-xl font-semibold">
-              <Link to="/social-media-management-sri-lanka">Start Your Campaign</Link>
+              <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20get%20a%20free%20quote" target="_blank" rel="noopener noreferrer">
+                Get a Free Quote <ArrowRight className="w-4 h-4 ml-2" />
+              </a>
             </Button>
           </div>
         </div>
