@@ -86,6 +86,20 @@ const blogPosts = [
     date: "2026-02-26",
     keyword: "SEO Services Sri Lanka",
   },
+  {
+    slug: "how-facebook-campaigns-help-businesses-grow-sri-lanka",
+    title: "How Facebook Campaigns Help Businesses Grow in Sri Lanka",
+    excerpt: "Learn how structured Facebook campaigns help Sri Lankan businesses reach targeted audiences, generate leads, and drive scalable growth.",
+    date: "2026-02-26",
+    keyword: "Facebook Ads Sri Lanka",
+  },
+  {
+    slug: "facebook-campaign-strategy-guide-sri-lankan-brands",
+    title: "Facebook Campaign Strategy Guide for Sri Lankan Brands",
+    excerpt: "A strategic guide to Facebook campaign funnels — awareness, consideration, conversion, and retargeting for Sri Lankan brands.",
+    date: "2026-02-26",
+    keyword: "Facebook Ads Sri Lanka",
+  },
 ];
 
 const Blog = () => (
