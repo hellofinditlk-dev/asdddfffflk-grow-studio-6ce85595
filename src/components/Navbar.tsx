@@ -12,6 +12,7 @@ const navLinks = [
   { label: "SEO", path: "/seo-services-sri-lanka" },
   { label: "Graphic Design", path: "/graphic-design-sri-lanka" },
   { label: "Video Production", path: "/video-production-sri-lanka" },
+  { label: "Blog", path: "/blog" },
   { label: "Contact", path: "/contact" },
 ];
 
