@@ -27,6 +27,8 @@ import BlogPost9 from "./pages/BlogPost9";
 import BlogPost10 from "./pages/BlogPost10";
 import BlogPost11 from "./pages/BlogPost11";
 import BlogPost12 from "./pages/BlogPost12";
+import BlogPost13 from "./pages/BlogPost13";
+import BlogPost14 from "./pages/BlogPost14";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -60,6 +62,8 @@ const App = () => (
             <Route path="/blog/how-strong-visual-branding-improves-marketing-performance" element={<BlogPost10 />} />
             <Route path="/blog/google-search-ads-vs-display-ads-difference" element={<BlogPost11 />} />
             <Route path="/blog/local-seo-strategies-sri-lankan-businesses" element={<BlogPost12 />} />
+            <Route path="/blog/how-facebook-campaigns-help-businesses-grow-sri-lanka" element={<BlogPost13 />} />
+            <Route path="/blog/facebook-campaign-strategy-guide-sri-lankan-brands" element={<BlogPost14 />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
