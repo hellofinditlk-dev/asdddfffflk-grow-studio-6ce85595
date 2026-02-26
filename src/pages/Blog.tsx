@@ -30,6 +30,34 @@ const blogPosts = [
     date: "2026-02-26",
     keyword: "Facebook Ads Sri Lanka",
   },
+  {
+    slug: "why-video-production-essential-business-growth-sri-lanka",
+    title: "Why Video Production is Essential for Business Growth in Sri Lanka",
+    excerpt: "Discover how professional video production helps Sri Lankan businesses capture attention, improve branding, and increase conversions.",
+    date: "2026-02-26",
+    keyword: "Video Production Sri Lanka",
+  },
+  {
+    slug: "importance-professional-graphic-design-modern-brands",
+    title: "Importance of Professional Graphic Design for Modern Brands",
+    excerpt: "Learn why professional graphic design is critical for brand identity, marketing performance, and credibility for Sri Lankan businesses.",
+    date: "2026-02-26",
+    keyword: "Graphic Design Sri Lanka",
+  },
+  {
+    slug: "how-google-ads-helps-businesses-high-intent-customers",
+    title: "How Google Ads Helps Businesses Get High Intent Customers",
+    excerpt: "Learn how Google Ads targets high-intent customers through search, display, and YouTube ads to drive conversions.",
+    date: "2026-02-26",
+    keyword: "Google Ads Sri Lanka",
+  },
+  {
+    slug: "why-seo-important-long-term-business-growth",
+    title: "Why SEO is Important for Long-Term Business Growth",
+    excerpt: "Learn why SEO is essential for sustainable organic growth, visibility, and lead generation for businesses in Sri Lanka.",
+    date: "2026-02-26",
+    keyword: "SEO Services Sri Lanka",
+  },
 ];
 
 const Blog = () => (
