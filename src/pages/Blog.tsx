@@ -58,6 +58,34 @@ const blogPosts = [
     date: "2026-02-26",
     keyword: "SEO Services Sri Lanka",
   },
+  {
+    slug: "types-business-videos-increase-engagement-sales",
+    title: "Types of Business Videos That Increase Engagement and Sales",
+    excerpt: "Explore the types of business videos that boost engagement and sales — promotional, explainer, testimonial, and social media reels.",
+    date: "2026-02-26",
+    keyword: "Video Production Sri Lanka",
+  },
+  {
+    slug: "how-strong-visual-branding-improves-marketing-performance",
+    title: "How Strong Visual Branding Improves Marketing Performance",
+    excerpt: "Learn how consistent visual branding improves marketing performance, brand recognition, and conversions.",
+    date: "2026-02-26",
+    keyword: "Graphic Design Sri Lanka",
+  },
+  {
+    slug: "google-search-ads-vs-display-ads-difference",
+    title: "Google Search Ads vs Display Ads — Understanding the Difference",
+    excerpt: "Understand the difference between Google Search Ads and Display Ads, and how to use both for maximum ROI.",
+    date: "2026-02-26",
+    keyword: "Google Ads Sri Lanka",
+  },
+  {
+    slug: "local-seo-strategies-sri-lankan-businesses",
+    title: "Local SEO Strategies for Sri Lankan Businesses",
+    excerpt: "Learn effective local SEO strategies — Google Business Profile, local keywords, citations, and reviews.",
+    date: "2026-02-26",
+    keyword: "SEO Services Sri Lanka",
+  },
 ];
 
 const Blog = () => (
