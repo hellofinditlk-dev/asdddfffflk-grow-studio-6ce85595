@@ -156,6 +156,34 @@ const blogPosts = [
     date: "2026-02-26",
     keyword: "SEO Services Sri Lanka",
   },
+  {
+    slug: "video-marketing-strategy-guide-sri-lankan-businesses",
+    title: "Video Marketing Strategy Guide for Sri Lankan Businesses",
+    excerpt: "Build an effective video marketing strategy — goals, formats, consistency, and distribution for maximum impact.",
+    date: "2026-02-26",
+    keyword: "Video Production Sri Lanka",
+  },
+  {
+    slug: "graphic-design-mistakes-damage-brand",
+    title: "Graphic Design Mistakes That Can Damage Your Brand",
+    excerpt: "Avoid common graphic design mistakes — inconsistency, clutter, and poor quality that damage brand perception.",
+    date: "2026-02-26",
+    keyword: "Graphic Design Sri Lanka",
+  },
+  {
+    slug: "google-ads-optimization-tips-improve-campaign-performance",
+    title: "Google Ads Optimization Tips to Improve Campaign Performance",
+    excerpt: "Google Ads optimization tips — keyword refinement, ad copy testing, landing pages, and performance analysis.",
+    date: "2026-02-26",
+    keyword: "Google Ads Sri Lanka",
+  },
+  {
+    slug: "on-page-seo-guide-better-rankings",
+    title: "On-Page SEO Guide for Better Rankings",
+    excerpt: "On-page SEO guide — titles, headings, internal linking, content structure, and keyword intent for better rankings.",
+    date: "2026-02-26",
+    keyword: "SEO Services Sri Lanka",
+  },
 ];
 
 const Blog = () => (
