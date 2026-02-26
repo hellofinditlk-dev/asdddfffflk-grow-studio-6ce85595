@@ -24,6 +24,7 @@ const BlogPost18 = () => (
             <p>Backlinks and topical authority also play a major role. Publishing consistent content around service topics signals expertise to search engines.</p>
             <p>Businesses that invest in professional{" "}<Link to="/seo-services-sri-lanka" className="text-primary font-semibold hover:underline">SEO Services Sri Lanka</Link>{" "}strategies can improve visibility, attract qualified traffic, and generate consistent leads.</p>
             <p>Support your SEO with{" "}<Link to="/google-ads-sri-lanka" className="text-primary font-semibold hover:underline">Google Ads Sri Lanka</Link>{" "}for immediate traffic, strengthen content with{" "}<Link to="/graphic-design-sri-lanka" className="text-primary font-semibold hover:underline">graphic design Sri Lanka</Link>, or build authority with{" "}<Link to="/social-media-management-sri-lanka" className="text-primary font-semibold hover:underline">social media management Sri Lanka</Link>.</p>
+            <p>As one of the{" "}<Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
           </div>
           <div className="mt-14 pt-10 border-t border-border">
             <h2 className="font-heading text-lg font-bold mb-5">Related Services</h2>
