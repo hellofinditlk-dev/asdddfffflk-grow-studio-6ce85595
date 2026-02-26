@@ -128,6 +128,34 @@ const blogPosts = [
     date: "2026-02-26",
     keyword: "SEO Services Sri Lanka",
   },
+  {
+    slug: "benefits-corporate-video-production-brands",
+    title: "Benefits of Corporate Video Production for Brands",
+    excerpt: "Discover how corporate videos strengthen brand credibility and support marketing for Sri Lankan businesses.",
+    date: "2026-02-26",
+    keyword: "Video Production Sri Lanka",
+  },
+  {
+    slug: "flyer-design-tips-improve-marketing-results",
+    title: "Flyer Design Tips That Improve Marketing Results",
+    excerpt: "Learn flyer design tips — clarity, visual hierarchy, branding consistency, and professional design for better results.",
+    date: "2026-02-26",
+    keyword: "Graphic Design Sri Lanka",
+  },
+  {
+    slug: "ppc-advertising-explained-sri-lankan-businesses",
+    title: "PPC Advertising Explained for Sri Lankan Businesses",
+    excerpt: "Understand PPC advertising — how Google Ads works, keyword selection, and generating leads for Sri Lankan businesses.",
+    date: "2026-02-26",
+    keyword: "Google Ads Sri Lanka",
+  },
+  {
+    slug: "technical-seo-checklist-better-website-performance",
+    title: "Technical SEO Checklist for Better Website Performance",
+    excerpt: "A technical SEO checklist — site speed, mobile responsiveness, crawlability, and fixing common issues for better rankings.",
+    date: "2026-02-26",
+    keyword: "SEO Services Sri Lanka",
+  },
 ];
 
 const Blog = () => (

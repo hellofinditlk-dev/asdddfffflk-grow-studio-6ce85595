@@ -33,6 +33,10 @@ import BlogPost15 from "./pages/BlogPost15";
 import BlogPost16 from "./pages/BlogPost16";
 import BlogPost17 from "./pages/BlogPost17";
 import BlogPost18 from "./pages/BlogPost18";
+import BlogPost19 from "./pages/BlogPost19";
+import BlogPost20 from "./pages/BlogPost20";
+import BlogPost21 from "./pages/BlogPost21";
+import BlogPost22 from "./pages/BlogPost22";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -72,6 +76,10 @@ const App = () => (
             <Route path="/blog/social-media-design-best-practices-better-engagement" element={<BlogPost16 />} />
             <Route path="/blog/google-ads-vs-facebook-ads-which-better-business" element={<BlogPost17 />} />
             <Route path="/blog/how-to-rank-on-google-sri-lanka-practical-guide" element={<BlogPost18 />} />
+            <Route path="/blog/benefits-corporate-video-production-brands" element={<BlogPost19 />} />
+            <Route path="/blog/flyer-design-tips-improve-marketing-results" element={<BlogPost20 />} />
+            <Route path="/blog/ppc-advertising-explained-sri-lankan-businesses" element={<BlogPost21 />} />
+            <Route path="/blog/technical-seo-checklist-better-website-performance" element={<BlogPost22 />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
