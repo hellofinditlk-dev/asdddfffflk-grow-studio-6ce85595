@@ -100,6 +100,34 @@ const blogPosts = [
     date: "2026-02-26",
     keyword: "Facebook Ads Sri Lanka",
   },
+  {
+    slug: "how-ad-videos-increase-conversions-businesses",
+    title: "How Ad Videos Increase Conversions for Businesses",
+    excerpt: "Discover how ad videos drive conversions — hooks, storytelling, platform optimization, and measurable results.",
+    date: "2026-02-26",
+    keyword: "Video Production Sri Lanka",
+  },
+  {
+    slug: "social-media-design-best-practices-better-engagement",
+    title: "Social Media Design Best Practices for Better Engagement",
+    excerpt: "Learn social media design best practices — visual hierarchy, consistency, and platform adaptation for better engagement.",
+    date: "2026-02-26",
+    keyword: "Graphic Design Sri Lanka",
+  },
+  {
+    slug: "google-ads-vs-facebook-ads-which-better-business",
+    title: "Google Ads vs Facebook Ads — Which is Better for Your Business?",
+    excerpt: "Compare Google Ads and Facebook Ads — intent vs discovery, when to use each, and how to combine both.",
+    date: "2026-02-26",
+    keyword: "Google Ads Sri Lanka",
+  },
+  {
+    slug: "how-to-rank-on-google-sri-lanka-practical-guide",
+    title: "How to Rank on Google in Sri Lanka — Practical Guide",
+    excerpt: "A practical guide to ranking on Google — keyword research, on-page SEO, technical optimization, and authority building.",
+    date: "2026-02-26",
+    keyword: "SEO Services Sri Lanka",
+  },
 ];
 
 const Blog = () => (
