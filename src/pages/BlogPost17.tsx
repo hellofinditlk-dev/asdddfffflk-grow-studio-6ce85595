@@ -24,6 +24,7 @@ const BlogPost17 = () => (
             <p>Budget allocation, campaign goals, and industry type influence which platform performs better. Service businesses often benefit strongly from search ads due to high intent.</p>
             <p>Working with professionals in{" "}<Link to="/google-ads-sri-lanka" className="text-primary font-semibold hover:underline">Google Ads Sri Lanka</Link>{" "}helps businesses build integrated advertising strategies that maximize results across platforms.</p>
             <p>Combine with{" "}<Link to="/facebook-ads-sri-lanka" className="text-primary font-semibold hover:underline">Facebook Ads Sri Lanka</Link>{" "}for full-funnel coverage, add{" "}<Link to="/seo-services-sri-lanka" className="text-primary font-semibold hover:underline">SEO services Sri Lanka</Link>{" "}for organic growth, or use{" "}<Link to="/video-production-sri-lanka" className="text-primary font-semibold hover:underline">video production Sri Lanka</Link>{" "}for ad creatives.</p>
+            <p>As one of the{" "}<Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
           </div>
           <div className="mt-14 pt-10 border-t border-border">
             <h2 className="font-heading text-lg font-bold mb-5">Related Services</h2>

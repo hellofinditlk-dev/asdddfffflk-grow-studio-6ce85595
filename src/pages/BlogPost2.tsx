@@ -63,6 +63,7 @@ const BlogPost2 = () => (
                 SEO services Sri Lanka
               </Link>.
             </p>
+            <p>As one of the{" "}<Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
           </div>
 
           <div className="mt-14 pt-10 border-t border-border">

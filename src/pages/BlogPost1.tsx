@@ -68,6 +68,7 @@ const BlogPost1 = () => (
               </Link>{" "}
               also plays a vital role in creating scroll-stopping visuals for your posts.
             </p>
+            <p>As one of the{" "}<Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
           </div>
 
           {/* Related Services */}

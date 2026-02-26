@@ -20,6 +20,7 @@ const BlogPost24 = () => (
             <p>Ignoring mobile optimization is another mistake. Designs must be clear and readable across different devices.</p>
             <p>Businesses that invest in professional{" "}<Link to="/graphic-design-sri-lanka" className="text-primary font-semibold hover:underline">Graphic Design Sri Lanka</Link>{" "}services can avoid these mistakes and maintain a strong visual identity.</p>
             <p>Strengthen your brand with{" "}<Link to="/social-media-management-sri-lanka" className="text-primary font-semibold hover:underline">social media management Sri Lanka</Link>{" "}for consistent posting, or create engaging motion content with{" "}<Link to="/video-production-sri-lanka" className="text-primary font-semibold hover:underline">video production Sri Lanka</Link>.</p>
+            <p>As one of the{" "}<Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
           </div>
           <div className="mt-14 pt-10 border-t border-border">
             <h2 className="font-heading text-lg font-bold mb-5">Related Services</h2>
