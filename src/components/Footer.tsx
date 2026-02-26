@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 const Footer = () => (
-  <footer className="border-t border-border bg-secondary">
+  <footer className="border-t border-border bg-secondary" role="contentinfo">
     <div className="container mx-auto px-4 py-16">
       <div className="grid md:grid-cols-4 gap-10">
         <div>
