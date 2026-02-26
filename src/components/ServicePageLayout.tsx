@@ -23,6 +23,15 @@ interface ServicePageLayoutProps {
   canonical?: string;
 }
 
+const allServices = [
+  { name: "Social Media Management", path: "/social-media-management-sri-lanka", keyword: "Social Media Management Sri Lanka", desc: "Complete Facebook & Instagram page management, content creation, and community engagement for Sri Lankan businesses." },
+  { name: "Facebook Advertising", path: "/facebook-ads-sri-lanka", keyword: "Facebook Ads Sri Lanka", desc: "High-performing Facebook & Instagram ad campaigns for lead generation and brand awareness in Sri Lanka." },
+  { name: "Google Ads", path: "/google-ads-sri-lanka", keyword: "Google Ads Sri Lanka", desc: "Google Search, Display & YouTube advertising to capture high-intent customers across Sri Lanka." },
+  { name: "SEO", path: "/seo-services-sri-lanka", keyword: "SEO Services Sri Lanka", desc: "On-page and off-page search engine optimization to rank higher on Google in Sri Lanka." },
+  { name: "Graphic Design", path: "/graphic-design-sri-lanka", keyword: "Graphic Design Sri Lanka", desc: "Professional logo design, social media graphics, and print design for Sri Lankan brands." },
+  { name: "Video Production", path: "/video-production-sri-lanka", keyword: "Video Production Sri Lanka", desc: "Professional video content for ads, social media, and brand storytelling in Sri Lanka." },
+];
+
 const defaultStats = [
   { value: "50+", label: "Happy Clients" },
   { value: "200+", label: "Campaigns Run" },
@@ -229,6 +238,33 @@ const ServicePageLayout = ({
           </div>
         </section>
       )}
+
+      {/* Related Services - Internal Linking */}
+      <section className="py-20 lg:py-28">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Explore More</p>
+            <h2 className="font-heading text-2xl md:text-3xl font-extrabold">Other Digital Marketing Services in Sri Lanka</h2>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {allServices
+              .filter((s) => s.name !== serviceName)
+              .slice(0, 3)
+              .map((s) => (
+                <Link
+                  key={s.path}
+                  to={s.path}
+                  className="bg-card border border-border rounded-xl p-6 hover:border-primary/20 hover:shadow-card transition-all group"
+                >
+                  <h3 className="font-heading text-sm font-bold mb-2 group-hover:text-primary transition-colors">
+                    {s.keyword}
+                  </h3>
+                  <p className="text-xs text-muted-foreground leading-relaxed">{s.desc}</p>
+                </Link>
+              ))}
+          </div>
+        </div>
+      </section>
 
       {/* CTA + Form */}
       <section className="bg-foreground py-20 lg:py-28">
