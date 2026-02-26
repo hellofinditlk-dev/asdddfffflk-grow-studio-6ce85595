@@ -16,6 +16,13 @@ const blogPosts = [
     date: "2026-02-26",
     keyword: "Social Media Management Sri Lanka",
   },
+  {
+    slug: "facebook-instagram-management-guide-sri-lankan-brands",
+    title: "Facebook & Instagram Management Guide for Sri Lankan Brands",
+    excerpt: "A complete guide to managing Facebook and Instagram for Sri Lankan brands — content strategy, visual branding, engagement, and analytics.",
+    date: "2026-02-26",
+    keyword: "Social Media Management Sri Lanka",
+  },
 ];
 
 const Blog = () => (
