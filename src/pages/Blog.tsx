@@ -23,6 +23,13 @@ const blogPosts = [
     date: "2026-02-26",
     keyword: "Social Media Management Sri Lanka",
   },
+  {
+    slug: "complete-guide-facebook-ads-businesses-sri-lanka",
+    title: "Complete Guide to Facebook Ads for Businesses in Sri Lanka",
+    excerpt: "Learn how Facebook Ads can generate leads and drive sales for Sri Lankan businesses with advanced targeting and campaign optimization.",
+    date: "2026-02-26",
+    keyword: "Facebook Ads Sri Lanka",
+  },
 ];
 
 const Blog = () => (
