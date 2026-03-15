@@ -22,10 +22,9 @@ const trustPoints = [
 ];
 
 const defaultStats = [
-  { value: "50+", label: "Happy Clients" },
-  { value: "200+", label: "Campaigns Run" },
-  { value: "3x", label: "Avg ROI Increase" },
-  { value: "24hr", label: "Response Time" },
+  { value: "15,000+", label: "Leads Generated" },
+  { value: "20+", label: "Happy Clients" },
+  { value: "2,000+", label: "Campaigns Run" },
 ];
 
 interface Props {
