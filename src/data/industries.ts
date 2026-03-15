@@ -5,6 +5,12 @@ export interface IndustryFormField {
   required?: boolean;
 }
 
+export interface IndustryStrategySection {
+  heading: string;
+  description?: string;
+  subsections: { h3: string; paragraphs: string[]; bullets?: string[] }[];
+}
+
 export interface IndustryData {
   slug: string;
   seoTitle: string;
@@ -18,6 +24,27 @@ export interface IndustryData {
   ctaButtonText: string;
   formFields: IndustryFormField[];
   faqs: { q: string; a: string }[];
+  /** Optional extended SEO content sections */
+  challengesHeading?: string;
+  challengesIntro?: string;
+  challengesList?: string[];
+  challengesOutro?: string;
+  strategy?: IndustryStrategySection;
+  videoContentHeading?: string;
+  videoContentIntro?: string;
+  videoContentList?: string[];
+  videoContentOutro?: string;
+  benefitsHeading?: string;
+  benefitsIntro?: string;
+  benefitsList?: string[];
+  benefitsOutro?: string;
+  whyChooseHeading?: string;
+  whyChooseIntro?: string;
+  whyChooseList?: string[];
+  bottomCtaHeading?: string;
+  bottomCtaText?: string[];
+  industryLinksHeading?: string;
+  industryLinksIntro?: string;
 }
 
 export const industries: IndustryData[] = [
