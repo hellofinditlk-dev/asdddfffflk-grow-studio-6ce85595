@@ -53,7 +53,7 @@ const IndustryPageLayout = ({ data }: Props) => {
                   Book a Free Consultation
                 </a>
               </Button>
-              <Button asChild size="lg" className="bg-[hsl(25,95%,53%)] text-white hover:bg-[hsl(25,95%,45%)] text-sm px-7 h-12 rounded-xl font-semibold">
+              <Button asChild size="lg" className="bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] text-sm px-7 h-12 rounded-xl font-semibold border-none">
                 <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20get%20a%20free%20quote" target="_blank" rel="noopener noreferrer">
                   Get a Free Quote
                 </a>
