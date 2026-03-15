@@ -68,7 +68,8 @@ const InquiryForm = ({ service }: InquiryFormProps) => {
       />
       <Button
         type="submit"
-        className="w-full bg-gradient-primary text-primary-foreground font-semibold shadow-glow hover:opacity-90 transition-opacity"
+        className="w-full bg-gradient-primary font-semibold shadow-glow hover:opacity-90 transition-opacity"
+        style={{ color: "white" }}
       >
         <Send className="w-4 h-4 mr-2" />
         Send via WhatsApp
