@@ -36,9 +36,53 @@ const IndustryPageLayout = ({ data }: Props) => {
   const canonical = `https://cypherdigital.lk/${data.slug}`;
   const otherIndustries = industries.filter((i) => i.slug !== data.slug);
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: data.faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.q,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.a,
+      },
+    })),
+  };
+
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: "Cypher Digital",
+    description: data.metaDescription,
+    url: canonical,
+    telephone: "+94701772626",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Colombo",
+      addressCountry: "LK",
+    },
+    areaServed: {
+      "@type": "Country",
+      name: "Sri Lanka",
+    },
+    priceRange: "$$",
+    sameAs: [
+      "https://www.facebook.com/cypherdigitallk",
+      "https://www.instagram.com/cypherdigitallk",
+    ],
+  };
+
   return (
     <div className="pt-16">
       <SEOHead title={data.seoTitle} description={data.metaDescription} canonical={canonical} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
 
       {/* Hero */}
       <section className="bg-foreground py-20 lg:py-28">
