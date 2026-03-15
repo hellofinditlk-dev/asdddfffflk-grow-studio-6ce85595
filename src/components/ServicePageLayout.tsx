@@ -314,7 +314,7 @@ const ServicePageLayout = ({
                 <Button asChild className="bg-primary text-primary-foreground font-semibold hover:bg-primary/90 rounded-xl h-11 px-6">
                   <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20book%20a%20free%20consultation" target="_blank" rel="noopener noreferrer">Book Free Consultation</a>
                 </Button>
-                <Button asChild variant="outline" className="border-white/15 !text-white hover:bg-white/5 rounded-xl h-11 px-6">
+                <Button asChild className="border border-white/20 bg-transparent rounded-xl h-11 px-6 hover:bg-white/5" style={{ color: "white" }}>
                   <a href="https://wa.me/94701772626" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
                 </Button>
               </div>
