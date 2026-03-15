@@ -78,6 +78,45 @@ const stats = [
   { value: "2,000+", label: "Campaigns Run" },
 ];
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  name: "Cypher Digital",
+  description: "Leading digital marketing agency in Sri Lanka offering social media management, Facebook & Google Ads, SEO, video production & graphic design.",
+  url: "https://cypherdigital.lk",
+  telephone: "+94701772626",
+  email: "info@cypherdigital.lk",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Colombo",
+    addressCountry: "LK",
+  },
+  areaServed: { "@type": "Country", name: "Sri Lanka" },
+  priceRange: "$$",
+  sameAs: [
+    "https://www.facebook.com/cypherdigitallk",
+    "https://www.instagram.com/cypherdigitallk",
+  ],
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    opens: "09:00",
+    closes: "18:00",
+  },
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Cypher Digital",
+  url: "https://cypherdigital.lk",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: "https://cypherdigital.lk/blog?q={search_term_string}",
+    "query-input": "required name=search_term_string",
+  },
+};
+
 const Index = () => (
   <div className="pt-16">
     <SEOHead
@@ -85,6 +124,8 @@ const Index = () => (
       description="Cypher Digital — leading digital marketing agency in Sri Lanka. Social media management, Facebook & Google Ads, SEO, video production & graphic design. Get a free consultation today."
       canonical="https://cypherdigital.lk"
     />
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
     {/* HERO */}
     <section className="relative py-24 lg:py-32 bg-foreground overflow-hidden">
       <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'radial-gradient(circle at 1px 1px, hsl(0 0% 100%) 1px, transparent 0)', backgroundSize: '32px 32px' }} />

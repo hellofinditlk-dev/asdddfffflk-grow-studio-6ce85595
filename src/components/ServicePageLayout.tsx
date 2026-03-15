@@ -65,10 +65,44 @@ const ServicePageLayout = ({
 }: ServicePageLayoutProps) => {
   const displayStats = stats || defaultStats;
 
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: serviceName,
+    description: description,
+    provider: {
+      "@type": "LocalBusiness",
+      name: "Cypher Digital",
+      url: "https://cypherdigital.lk",
+      telephone: "+94701772626",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Colombo",
+        addressCountry: "LK",
+      },
+    },
+    areaServed: { "@type": "Country", name: "Sri Lanka" },
+    ...(canonical ? { url: `https://cypherdigital.lk${canonical}` } : {}),
+  };
+
+  const faqSchema = faqs && faqs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.q,
+      acceptedAnswer: { "@type": "Answer", text: faq.a },
+    })),
+  } : null;
+
   return (
     <div className="pt-16">
       {metaTitle && metaDescription && (
         <SEOHead title={metaTitle} description={metaDescription} canonical={canonical} />
+      )}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+      {faqSchema && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       )}
       {/* Hero */}
       <section className="bg-foreground py-20 lg:py-28">
