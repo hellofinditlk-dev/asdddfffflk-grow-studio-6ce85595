@@ -106,7 +106,7 @@ const Navbar = () => {
             )}
           </div>
 
-          <Button asChild size="sm" className="ml-3 bg-[hsl(25,95%,53%)] text-white font-semibold hover:bg-[hsl(25,95%,45%)] rounded-lg h-9 px-4">
+          <Button asChild size="sm" className="ml-3 bg-[hsl(25,95%,53%)] !text-white font-semibold hover:bg-[hsl(25,95%,45%)] rounded-lg h-9 px-4 border-none">
             <Link to="/contact">Get Started</Link>
           </Button>
         </div>
@@ -171,7 +171,7 @@ const Navbar = () => {
               </div>
             )}
 
-            <Button asChild size="sm" className="bg-[hsl(25,95%,53%)] text-white font-semibold mt-2 rounded-lg hover:bg-[hsl(25,95%,45%)]">
+            <Button asChild size="sm" className="bg-[hsl(25,95%,53%)] !text-white font-semibold mt-2 rounded-lg hover:bg-[hsl(25,95%,45%)] border-none">
               <Link to="/contact" onClick={() => setOpen(false)}>
                 Get Started
               </Link>
