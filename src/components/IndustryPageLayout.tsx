@@ -64,7 +64,7 @@ const IndustryPageLayout = ({ data }: Props) => {
       {/* Stats */}
       <section className="border-b border-border">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-border">
+          <div className="grid grid-cols-3 divide-x divide-border">
             {defaultStats.map((s, i) => (
               <div key={i} className="py-8 text-center">
                 <div className="font-heading text-2xl md:text-3xl font-extrabold text-foreground mb-1">{s.value}</div>
