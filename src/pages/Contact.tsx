@@ -9,6 +9,26 @@ const contactInfo = [
   { icon: <Clock className="w-5 h-5" />, label: "Working Hours", value: "Mon – Sat, 9AM – 6PM" },
 ];
 
+const contactSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  name: "Cypher Digital",
+  telephone: "+94701772626",
+  email: "info@cypherdigital.lk",
+  url: "https://cypherdigital.lk/contact",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Colombo",
+    addressCountry: "LK",
+  },
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    opens: "09:00",
+    closes: "18:00",
+  },
+};
+
 const Contact = () => (
   <div className="pt-16">
     <SEOHead
@@ -16,6 +36,7 @@ const Contact = () => (
       description="Contact Cypher Digital for a free digital marketing consultation. Call +94 70 177 2626 or visit us in Colombo, Sri Lanka. We're ready to grow your business."
       canonical="https://cypherdigital.lk/contact"
     />
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }} />
     <section className="section-dark py-20 lg:py-28">
       <div className="container mx-auto px-4 text-center animate-fade-up">
         <p className="text-primary font-semibold text-sm uppercase tracking-wider mb-3">Get In Touch</p>
