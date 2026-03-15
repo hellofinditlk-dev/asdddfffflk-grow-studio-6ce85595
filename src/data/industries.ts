@@ -767,10 +767,10 @@ export const industries: IndustryData[] = [
   },
   {
     slug: "small-business-digital-marketing-sri-lanka",
-    seoTitle: "Digital Marketing for Small Businesses in Sri Lanka | Cypher Digital",
-    metaDescription: "Affordable digital marketing solutions for small businesses in Sri Lanka. Social media, ads, branding and lead generation for SMEs.",
-    h1: "Digital Marketing Solutions for SMEs",
-    intro: "Cypher Digital provides affordable and effective digital marketing solutions for small and medium businesses in Sri Lanka, helping them compete and grow online.",
+    seoTitle: "Digital Marketing for Small Businesses in Sri Lanka | SME Marketing Agency",
+    metaDescription: "Affordable digital marketing solutions for small businesses in Sri Lanka. Social media, SEO, ads, branding and lead generation for SMEs.",
+    h1: "Digital Marketing for Small Businesses in Sri Lanka",
+    intro: "Small and medium-sized businesses (SMEs) play a major role in the Sri Lankan economy, but many small businesses struggle to compete with larger companies due to limited marketing budgets and resources. Digital marketing allows small businesses to reach customers online in a cost-effective and measurable way. Cypher Digital helps small businesses grow their online presence through social media marketing, search engine optimization (SEO), paid advertising, and content marketing strategies designed specifically for SMEs.",
     servicesHeading: "SME Marketing Services",
     services: [
       "Social media management",
@@ -780,7 +780,7 @@ export const industries: IndustryData[] = [
       "Lead generation campaigns",
     ],
     ctaHeading: "Grow Your Small Business Online",
-    ctaDescription: "Our affordable marketing packages are designed specifically for SMEs who want to build their brand and generate leads without breaking the bank.",
+    ctaDescription: "Our affordable marketing packages are designed specifically for SMEs who want to build their brand and generate leads without breaking the bank. Digital marketing enables businesses to reach a wider audience, build brand awareness, and generate new customers through online platforms.",
     ctaButtonText: "Get Free Marketing Plan",
     formFields: [
       { name: "name", placeholder: "Your Name *", required: true },
@@ -790,10 +790,93 @@ export const industries: IndustryData[] = [
       { name: "industry", placeholder: "Industry" },
       { name: "message", placeholder: "Tell us about your business marketing needs..." },
     ],
+    // --- Extended SEO content ---
+    challengesHeading: "Why Digital Marketing is Important for Small Businesses",
+    challengesIntro: "In today's digital world, most customers search online before choosing a product or service. Businesses that do not have a strong online presence may miss opportunities to reach potential customers. Unlike traditional marketing methods, digital marketing allows businesses to target specific audiences and measure results in real time.",
+    challengesList: [
+      "Increase online visibility",
+      "Attract new customers",
+      "Build brand awareness",
+      "Compete with larger companies",
+      "Generate leads and sales",
+    ],
+    challengesOutro: "Research shows that marketing tools such as social media and email marketing can significantly improve sales performance for SMEs when used effectively.",
+    strategy: {
+      heading: "Our SME Marketing Strategy",
+      description: "Cypher Digital uses affordable, results-driven strategies to help small businesses in Sri Lanka and Colombo grow online.",
+      subsections: [
+        {
+          h3: "Social Media Marketing for Small Businesses",
+          paragraphs: [
+            "Social media platforms like Facebook, Instagram, and TikTok provide powerful opportunities for small businesses to connect with customers. Social media marketing is particularly valuable for small businesses because it is relatively low cost and can reach a large audience quickly.",
+          ],
+          bullets: [
+            "Brand awareness campaigns",
+            "Product promotion posts",
+            "Short-form video content",
+            "Customer engagement campaigns",
+            "Targeted social media advertising",
+          ],
+        },
+        {
+          h3: "SEO for Small Business Websites",
+          paragraphs: [
+            "Search engine optimization helps small businesses appear on Google when customers search for products or services like 'best businesses near me', 'local services in Sri Lanka', and 'products available in Colombo'.",
+          ],
+          bullets: [
+            "Keyword optimization",
+            "Website SEO improvements",
+            "Local SEO strategies",
+            "Content marketing",
+          ],
+        },
+        {
+          h3: "Paid Advertising for Small Businesses",
+          paragraphs: [
+            "Paid advertising is one of the fastest ways for small businesses to generate leads and sales.",
+          ],
+          bullets: [
+            "Facebook & Instagram Ads",
+            "Google Search Ads",
+            "YouTube Ads",
+            "Remarketing campaigns",
+          ],
+        },
+      ],
+    },
+    benefitsHeading: "Challenges Small Businesses Face in Marketing",
+    benefitsIntro: "Many small businesses face challenges when trying to grow their customer base.",
+    benefitsList: [
+      "Limited marketing budgets",
+      "Lack of digital marketing expertise",
+      "Low online visibility",
+      "Strong competition in local markets",
+      "Inconsistent marketing efforts",
+    ],
+    benefitsOutro: "Digital marketing helps overcome these challenges by providing affordable strategies that target the right audience.",
+    whyChooseHeading: "Why Choose Cypher Digital for SME Marketing",
+    whyChooseIntro: "Cypher Digital provides customized digital marketing strategies specifically designed for small businesses in Sri Lanka.",
+    whyChooseList: [
+      "Affordable marketing solutions",
+      "Targeted advertising campaigns",
+      "Creative content creation",
+      "Measurable marketing performance",
+      "Dedicated account management",
+    ],
+    bottomCtaHeading: "Grow Your Small Business with Cypher Digital",
+    bottomCtaText: [
+      "If you want to attract more customers and grow your business online, Cypher Digital can help.",
+      "Our marketing specialists create customized strategies designed to increase brand visibility, generate leads, and improve sales.",
+      "Contact Cypher Digital today for a free small business marketing consultation.",
+    ],
+    industryLinksHeading: "Digital Marketing Services for Multiple Industries",
+    industryLinksIntro: "In addition to SME marketing, Cypher Digital provides digital marketing solutions for various industries across Sri Lanka:",
     faqs: [
+      { q: "What is digital marketing for small businesses?", a: "Digital marketing for small businesses involves promoting products and services online through SEO, social media marketing, and paid advertising campaigns." },
+      { q: "How can digital marketing help small businesses grow?", a: "Digital marketing increases online visibility, attracts new customers, and helps businesses compete with larger companies." },
+      { q: "Which platform is best for small business marketing?", a: "Facebook, Instagram, Google Search, and YouTube are some of the most effective platforms for small business marketing." },
+      { q: "How long does SEO take for small businesses?", a: "SEO usually takes 3-6 months to generate strong organic traffic and leads depending on competition." },
       { q: "Is digital marketing affordable for small businesses?", a: "Yes, we offer flexible packages starting from budget-friendly monthly plans designed specifically for SMEs in Sri Lanka." },
-      { q: "What's the best marketing strategy for a small business?", a: "A combination of social media management and targeted Facebook ads is the most cost-effective strategy for small businesses to build brand awareness and generate leads." },
-      { q: "How long does it take to see results?", a: "Paid campaigns can generate leads within days, while organic strategies like social media and SEO show significant results in 2-3 months." },
     ],
   },
   {
