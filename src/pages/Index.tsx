@@ -4,7 +4,7 @@ import {
   ArrowRight, CheckCircle, Megaphone, Target, Video, Search,
   BarChart3, Users, Lightbulb, Rocket, FileText, TrendingUp,
   Phone, ArrowUpRight, Palette, Globe, Eye, MousePointerClick,
-  Layers, Monitor, Tv, MapPin, ShoppingBag, GraduationCap, Building2
+  MapPin, ShoppingBag, GraduationCap, Building2, Sparkles, Zap, Star
 } from "lucide-react";
 import InquiryForm from "@/components/InquiryForm";
 import SEOHead from "@/components/SEOHead";
@@ -16,6 +16,7 @@ const services = [
     desc: "Complete Facebook and Instagram page management to build a strong online presence.",
     items: ["Content planning", "Creative post design", "Post scheduling", "Inbox management", "Monthly reports"],
     link: "/social-media-management-sri-lanka",
+    accent: "from-purple-500/10 to-blue-500/10",
   },
   {
     icon: <Target className="w-5 h-5" />,
@@ -23,6 +24,7 @@ const services = [
     desc: "Run high-performing Facebook campaigns to generate leads and sales.",
     items: ["Lead generation campaigns", "Awareness campaigns", "Remarketing campaigns", "Conversion campaigns", "Advanced audience targeting"],
     link: "/facebook-ads-sri-lanka",
+    accent: "from-blue-500/10 to-cyan-500/10",
   },
   {
     icon: <Search className="w-5 h-5" />,
@@ -30,6 +32,7 @@ const services = [
     desc: "Capture customers actively searching for your services.",
     items: ["Google Search Ads", "Display Ads", "YouTube Ads", "Keyword research", "Conversion tracking"],
     link: "/google-ads-sri-lanka",
+    accent: "from-green-500/10 to-emerald-500/10",
   },
   {
     icon: <FileText className="w-5 h-5" />,
@@ -37,6 +40,7 @@ const services = [
     desc: "Boost your Google rankings with on-page and off-page SEO strategies.",
     items: ["On-page SEO", "Off-page SEO", "Technical SEO", "Local SEO", "Keyword research"],
     link: "/seo-services-sri-lanka",
+    accent: "from-orange-500/10 to-yellow-500/10",
   },
   {
     icon: <Palette className="w-5 h-5" />,
@@ -44,6 +48,7 @@ const services = [
     desc: "Professional logo, social media, and print design starting from LKR 6,000.",
     items: ["Logo design", "Social media graphics", "Flyers & brochures", "Packaging", "Brand identity"],
     link: "/graphic-design-sri-lanka",
+    accent: "from-pink-500/10 to-rose-500/10",
   },
   {
     icon: <Video className="w-5 h-5" />,
@@ -51,6 +56,7 @@ const services = [
     desc: "Professional video content that increases engagement and ad performance.",
     items: ["Promo videos", "Reels & short videos", "Brand videos", "Ad creatives", "Product videos"],
     link: "/video-production-sri-lanka",
+    accent: "from-violet-500/10 to-purple-500/10",
   },
 ];
 
@@ -72,9 +78,9 @@ const process = [
 ];
 
 const stats = [
-  { value: "15,000+", label: "Leads Generated" },
-  { value: "20+", label: "Happy Clients" },
-  { value: "2,000+", label: "Campaigns Run" },
+  { value: "15,000+", label: "Leads Generated", icon: <Zap className="w-5 h-5" /> },
+  { value: "20+", label: "Happy Clients", icon: <Star className="w-5 h-5" /> },
+  { value: "2,000+", label: "Campaigns Run", icon: <Rocket className="w-5 h-5" /> },
 ];
 
 const organizationSchema = {
@@ -127,27 +133,33 @@ const Index = () => (
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
 
     {/* HERO */}
-    <section className="relative py-24 lg:py-32 bg-foreground overflow-hidden">
+    <section className="relative py-28 lg:py-36 bg-foreground overflow-hidden">
+      {/* Animated gradient orbs */}
+      <div className="absolute top-1/4 -left-32 w-96 h-96 bg-primary/20 rounded-full blur-[120px] animate-float" />
+      <div className="absolute bottom-0 right-0 w-80 h-80 bg-primary/10 rounded-full blur-[100px] animate-float" style={{ animationDelay: "1.5s" }} />
       <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'radial-gradient(circle at 1px 1px, hsl(0 0% 100%) 1px, transparent 0)', backgroundSize: '32px 32px' }} />
+      
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-2xl animate-fade-up">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-primary/20 bg-primary/5 text-primary text-xs font-medium mb-8">
-            <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
+        <div className="max-w-2xl">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-primary/20 bg-primary/5 text-primary text-xs font-medium mb-8 animate-fade-up" style={{ animationDelay: "0.1s" }}>
+            <Sparkles className="w-3.5 h-3.5" />
             Digital Marketing Agency Sri Lanka
           </div>
-          <h1 className="font-heading text-4xl md:text-5xl lg:text-[3.5rem] font-extrabold text-white leading-[1.1] mb-6">
-            Social Media & Digital Marketing Solutions in Sri Lanka
+          <h1 className="font-heading text-4xl md:text-5xl lg:text-[3.5rem] font-extrabold text-white leading-[1.1] mb-6 animate-fade-up" style={{ animationDelay: "0.2s" }}>
+            Social Media & Digital Marketing{" "}
+            <span className="bg-gradient-to-r from-primary to-[hsl(280,80%,65%)] bg-clip-text text-transparent">Solutions</span>
+            {" "}in Sri Lanka
           </h1>
-          <p className="text-lg text-white/60 leading-relaxed mb-10 max-w-xl">
+          <p className="text-lg text-white/60 leading-relaxed mb-10 max-w-xl animate-fade-up" style={{ animationDelay: "0.3s" }}>
             We help Sri Lankan businesses grow with professional social media management, Facebook advertising, Google Ads, and video production.
           </p>
-          <div className="flex flex-col sm:flex-row gap-3">
-            <Button asChild size="lg" className="bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-colors text-sm px-7 h-12 rounded-xl">
+          <div className="flex flex-col sm:flex-row gap-3 animate-fade-up" style={{ animationDelay: "0.4s" }}>
+            <Button asChild size="lg" className="bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-all text-sm px-7 h-12 rounded-xl shadow-[0_0_24px_hsl(252_65%_55%/0.3)] hover:shadow-[0_0_32px_hsl(252_65%_55%/0.5)]">
               <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20book%20a%20free%20consultation" target="_blank" rel="noopener noreferrer">
                 Book a Free Consultation <ArrowRight className="w-4 h-4 ml-2" />
               </a>
             </Button>
-            <Button asChild size="lg" className="bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] text-sm px-7 h-12 rounded-xl font-semibold border-none">
+            <Button asChild size="lg" className="bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] text-sm px-7 h-12 rounded-xl font-semibold border-none shadow-[0_0_24px_hsl(25_95%_53%/0.3)] hover:shadow-[0_0_32px_hsl(25_95%_53%/0.5)] transition-all">
               <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20get%20a%20free%20quote" target="_blank" rel="noopener noreferrer">
                 Get a Free Quote <ArrowRight className="w-4 h-4 ml-2" />
               </a>
@@ -158,13 +170,20 @@ const Index = () => (
     </section>
 
     {/* STATS */}
-    <section className="border-b border-border">
+    <section className="relative -mt-8 z-20">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-3 divide-x divide-border">
+        <div className="grid grid-cols-3 gap-4 max-w-3xl mx-auto">
           {stats.map((s, i) => (
-            <div key={i} className="py-10 text-center">
-              <div className="font-heading text-3xl md:text-4xl font-extrabold text-foreground mb-1">{s.value}</div>
-              <div className="text-sm text-muted-foreground">{s.label}</div>
+            <div
+              key={i}
+              className="bg-card border border-border rounded-2xl py-8 px-4 text-center shadow-card hover:shadow-card-hover transition-shadow animate-count-up"
+              style={{ animationDelay: `${0.1 * (i + 1)}s` }}
+            >
+              <div className="w-10 h-10 rounded-xl bg-primary/8 flex items-center justify-center text-primary mx-auto mb-3">
+                {s.icon}
+              </div>
+              <div className="font-heading text-2xl md:text-3xl font-extrabold text-foreground mb-1">{s.value}</div>
+              <div className="text-xs text-muted-foreground">{s.label}</div>
             </div>
           ))}
         </div>
@@ -208,22 +227,26 @@ const Index = () => (
             <Link
               key={i}
               to={s.link}
-              className="group rounded-2xl border border-border bg-card p-7 md:p-8 hover:border-primary/30 hover:shadow-card-hover transition-all duration-300"
+              className={`group relative rounded-2xl border border-border bg-card p-7 md:p-8 hover:border-primary/30 hover:shadow-card-hover transition-all duration-300 overflow-hidden`}
             >
-              <div className="flex items-center justify-between mb-5">
-                <div className="w-10 h-10 rounded-xl bg-primary/8 flex items-center justify-center text-primary">
-                  {s.icon}
+              {/* Subtle gradient background on hover */}
+              <div className={`absolute inset-0 bg-gradient-to-br ${s.accent} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
+              <div className="relative z-10">
+                <div className="flex items-center justify-between mb-5">
+                  <div className="w-10 h-10 rounded-xl bg-primary/8 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300">
+                    {s.icon}
+                  </div>
+                  <ArrowUpRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-300" />
                 </div>
-                <ArrowUpRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
-              </div>
-              <h3 className="font-heading text-lg font-bold mb-2">{s.title}</h3>
-              <p className="text-muted-foreground text-sm mb-5 leading-relaxed">{s.desc}</p>
-              <div className="flex flex-wrap gap-2">
-                {s.items.map((item, j) => (
-                  <span key={j} className="text-xs px-2.5 py-1 rounded-md bg-secondary text-muted-foreground">
-                    {item}
-                  </span>
-                ))}
+                <h3 className="font-heading text-lg font-bold mb-2">{s.title}</h3>
+                <p className="text-muted-foreground text-sm mb-5 leading-relaxed">{s.desc}</p>
+                <div className="flex flex-wrap gap-2">
+                  {s.items.map((item, j) => (
+                    <span key={j} className="text-xs px-2.5 py-1 rounded-md bg-secondary text-muted-foreground">
+                      {item}
+                    </span>
+                  ))}
+                </div>
               </div>
             </Link>
           ))}
@@ -242,8 +265,8 @@ const Index = () => (
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {whyUs.map((item, i) => (
-            <div key={i} className="flex items-center gap-4 bg-card rounded-xl p-5 border border-border hover:border-primary/20 transition-colors">
-              <div className="w-10 h-10 rounded-lg bg-primary/8 flex items-center justify-center text-primary shrink-0">
+            <div key={i} className="group flex items-center gap-4 bg-card rounded-xl p-5 border border-border hover:border-primary/30 hover:shadow-card-hover transition-all duration-300">
+              <div className="w-10 h-10 rounded-lg bg-primary/8 flex items-center justify-center text-primary shrink-0 group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300">
                 {item.icon}
               </div>
               <span className="text-sm font-medium">{item.text}</span>
@@ -264,8 +287,12 @@ const Index = () => (
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
           {process.map((p, i) => (
-            <div key={i} className="text-center group">
-              <div className="w-12 h-12 rounded-full border-2 border-primary/20 text-primary font-heading font-bold text-sm flex items-center justify-center mx-auto mb-4 group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary transition-colors">
+            <div key={i} className="text-center group relative">
+              {/* Connector line */}
+              {i < process.length - 1 && (
+                <div className="hidden lg:block absolute top-6 left-[calc(50%+28px)] w-[calc(100%-56px)] h-px bg-border" />
+              )}
+              <div className="w-12 h-12 rounded-full border-2 border-primary/20 text-primary font-heading font-bold text-sm flex items-center justify-center mx-auto mb-4 group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:scale-110 transition-all duration-300 relative z-10 bg-background">
                 {p.step}
               </div>
               <h3 className="font-heading text-sm font-bold mb-1.5">{p.title}</h3>
@@ -290,7 +317,7 @@ const Index = () => (
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 mb-16">
-          <div className="bg-card border border-border rounded-2xl p-7 md:p-8">
+          <div className="bg-card border border-border rounded-2xl p-7 md:p-8 hover:shadow-card-hover transition-shadow duration-300">
             <div className="w-10 h-10 rounded-xl bg-primary/8 flex items-center justify-center text-primary mb-5">
               <Globe className="w-5 h-5" />
             </div>
@@ -305,7 +332,7 @@ const Index = () => (
             </p>
           </div>
 
-          <div className="bg-card border border-border rounded-2xl p-7 md:p-8">
+          <div className="bg-card border border-border rounded-2xl p-7 md:p-8 hover:shadow-card-hover transition-shadow duration-300">
             <div className="w-10 h-10 rounded-xl bg-primary/8 flex items-center justify-center text-primary mb-5">
               <Users className="w-5 h-5" />
             </div>
@@ -336,8 +363,8 @@ const Index = () => (
               { icon: <MousePointerClick className="w-4 h-4" />, text: "Better engagement with online audiences" },
               { icon: <Rocket className="w-4 h-4" />, text: "Measurable results and detailed campaign analytics" },
             ].map((item, i) => (
-              <div key={i} className="flex items-start gap-3 bg-secondary rounded-xl p-4">
-                <div className="w-8 h-8 rounded-lg bg-primary/8 flex items-center justify-center text-primary shrink-0 mt-0.5">
+              <div key={i} className="group flex items-start gap-3 bg-secondary rounded-xl p-4 hover:bg-primary/5 transition-colors duration-300">
+                <div className="w-8 h-8 rounded-lg bg-primary/8 flex items-center justify-center text-primary shrink-0 mt-0.5 group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300">
                   {item.icon}
                 </div>
                 <span className="text-sm text-muted-foreground leading-relaxed">{item.text}</span>
@@ -359,14 +386,14 @@ const Index = () => (
             { icon: <Search className="w-5 h-5" />, title: "Search Engine Advertising", desc: "Google Search and Display Ads to capture high-intent customers.", link: "/google-ads-sri-lanka" },
             { icon: <Users className="w-5 h-5" />, title: "Influencer Marketing", desc: "Collaborate with local influencers to reach niche audiences authentically.", link: "" },
           ].map((item, i) => (
-            <div key={i} className="bg-card border border-border rounded-xl p-6 hover:border-primary/20 hover:shadow-card-hover transition-all">
-              <div className="w-10 h-10 rounded-xl bg-primary/8 flex items-center justify-center text-primary mb-4">
+            <div key={i} className="group bg-card border border-border rounded-xl p-6 hover:border-primary/20 hover:shadow-card-hover transition-all duration-300">
+              <div className="w-10 h-10 rounded-xl bg-primary/8 flex items-center justify-center text-primary mb-4 group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300">
                 {item.icon}
               </div>
               <h4 className="font-heading text-sm font-bold mb-2">{item.title}</h4>
               <p className="text-xs text-muted-foreground leading-relaxed mb-3">{item.desc}</p>
               {item.link && (
-                <Link to={item.link} className="text-xs text-primary font-semibold hover:underline inline-flex items-center gap-1">
+                <Link to={item.link} className="text-xs text-primary font-semibold hover:underline inline-flex items-center gap-1 group-hover:gap-2 transition-all">
                   Learn more <ArrowRight className="w-3 h-3" />
                 </Link>
               )}
@@ -375,30 +402,33 @@ const Index = () => (
         </div>
 
         {/* INDUSTRIES */}
-        <div className="bg-foreground text-white rounded-2xl p-8 md:p-12 mb-16">
-          <div className="max-w-2xl mx-auto text-center mb-10">
-            <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Industries</p>
-            <h3 className="font-heading text-2xl font-extrabold mb-3">Top Advertising Industries in Sri Lanka</h3>
-            <p className="text-white/50 text-sm">
-              Many companies in Sri Lanka now allocate a significant portion of their marketing budget to digital and social media advertising, as it provides measurable results compared to traditional channels.
-            </p>
-          </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
-            {[
-              { icon: <GraduationCap className="w-4 h-4" />, label: "Education Institutes" },
-              { icon: <Building2 className="w-4 h-4" />, label: "Real Estate Companies" },
-              { icon: <ShoppingBag className="w-4 h-4" />, label: "Ecommerce Brands" },
-              { icon: <TrendingUp className="w-4 h-4" />, label: "Financial Services" },
-              { icon: <MapPin className="w-4 h-4" />, label: "Tourism Companies" },
-              { icon: <Phone className="w-4 h-4" />, label: "Mobile Retailers" },
-              { icon: <Palette className="w-4 h-4" />, label: "Beauty & Salons" },
-              { icon: <Lightbulb className="w-4 h-4" />, label: "Startup Brands" },
-            ].map((item, i) => (
-              <div key={i} className="flex items-center gap-3 bg-white/5 border border-white/10 rounded-xl px-4 py-3">
-                <span className="text-primary">{item.icon}</span>
-                <span className="text-sm font-medium text-white/80">{item.label}</span>
-              </div>
-            ))}
+        <div className="relative bg-foreground text-white rounded-2xl p-8 md:p-12 mb-16 overflow-hidden">
+          <div className="absolute top-0 right-0 w-64 h-64 bg-primary/10 rounded-full blur-[80px]" />
+          <div className="relative z-10">
+            <div className="max-w-2xl mx-auto text-center mb-10">
+              <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Industries</p>
+              <h3 className="font-heading text-2xl font-extrabold mb-3">Top Advertising Industries in Sri Lanka</h3>
+              <p className="text-white/50 text-sm">
+                Many companies in Sri Lanka now allocate a significant portion of their marketing budget to digital and social media advertising, as it provides measurable results compared to traditional channels.
+              </p>
+            </div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
+              {[
+                { icon: <GraduationCap className="w-4 h-4" />, label: "Education Institutes" },
+                { icon: <Building2 className="w-4 h-4" />, label: "Real Estate Companies" },
+                { icon: <ShoppingBag className="w-4 h-4" />, label: "Ecommerce Brands" },
+                { icon: <TrendingUp className="w-4 h-4" />, label: "Financial Services" },
+                { icon: <MapPin className="w-4 h-4" />, label: "Tourism Companies" },
+                { icon: <Phone className="w-4 h-4" />, label: "Mobile Retailers" },
+                { icon: <Palette className="w-4 h-4" />, label: "Beauty & Salons" },
+                { icon: <Lightbulb className="w-4 h-4" />, label: "Startup Brands" },
+              ].map((item, i) => (
+                <div key={i} className="group flex items-center gap-3 bg-white/5 border border-white/10 rounded-xl px-4 py-3 hover:bg-white/10 hover:border-primary/30 transition-all duration-300">
+                  <span className="text-primary">{item.icon}</span>
+                  <span className="text-sm font-medium text-white/80">{item.label}</span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 
@@ -409,7 +439,7 @@ const Index = () => (
             Cypher Digital provides insights into the Sri Lankan advertising industry, including digital marketing trends, platform usage statistics, and audience behavior. Access to these insights helps businesses make informed marketing decisions and develop effective advertising strategies.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <Link to="/advertising-in-sri-lanka" className="inline-flex items-center gap-2 bg-primary text-primary-foreground text-sm font-semibold px-5 py-2.5 rounded-xl hover:bg-primary/90 transition-colors">
+            <Link to="/advertising-in-sri-lanka" className="inline-flex items-center gap-2 bg-primary text-primary-foreground text-sm font-semibold px-5 py-2.5 rounded-xl hover:bg-primary/90 transition-all shadow-[0_0_16px_hsl(252_65%_55%/0.2)] hover:shadow-[0_0_24px_hsl(252_65%_55%/0.4)]">
               Advertising in Sri Lanka Guide <ArrowRight className="w-4 h-4" />
             </Link>
             <Link to="/blog" className="inline-flex items-center gap-2 bg-card border border-border text-foreground text-sm font-semibold px-5 py-2.5 rounded-xl hover:border-primary/20 transition-colors">
@@ -421,8 +451,9 @@ const Index = () => (
     </section>
 
     {/* FINAL CTA + FORM */}
-    <section className="py-20 lg:py-28 bg-foreground text-white">
-      <div className="container mx-auto px-4">
+    <section className="relative py-20 lg:py-28 bg-foreground text-white overflow-hidden">
+      <div className="absolute top-1/2 left-0 w-72 h-72 bg-primary/15 rounded-full blur-[100px] -translate-y-1/2" />
+      <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Get Started</p>
@@ -439,7 +470,7 @@ const Index = () => (
               </a>
             </div>
           </div>
-          <div className="bg-white/5 border border-white/10 rounded-2xl p-7 md:p-8">
+          <div className="bg-white/5 border border-white/10 rounded-2xl p-7 md:p-8 backdrop-blur-sm">
             <h3 className="font-heading text-lg font-bold mb-1.5">Book a Free Consultation</h3>
             <p className="text-sm text-white/40 mb-6">Fill in the form and our team will contact you within 24 hours.</p>
             <InquiryForm />
