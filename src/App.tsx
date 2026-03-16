@@ -42,6 +42,7 @@ import BlogPost24 from "./pages/BlogPost24";
 import BlogPost25 from "./pages/BlogPost25";
 import BlogPost26 from "./pages/BlogPost26";
 import BlogPost27 from "./pages/BlogPost27";
+import AdvertisingInSriLanka from "./pages/AdvertisingInSriLanka";
 import IndustryPage from "./pages/IndustryPage";
 import NotFound from "./pages/NotFound";
 
