@@ -92,7 +92,7 @@ const AdvertisingInSriLanka = () => {
   return (
     <>
       <SEOHead
-        title="Advertising in Sri Lanka | Complete Digital Advertising Guide 2026"
+        title="Advertising in Sri Lanka: Complete Guide for Businesses (2026)"
         description="Learn about advertising in Sri Lanka. Comprehensive guide covering digital audience data, advertising costs, best platforms, targeting strategies, and industry-specific marketing for Sri Lankan businesses."
         canonical="https://cypherdigital.lk/advertising-in-sri-lanka"
       />
