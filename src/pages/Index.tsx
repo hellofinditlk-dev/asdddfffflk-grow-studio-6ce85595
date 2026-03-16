@@ -3,7 +3,8 @@ import { Button } from "@/components/ui/button";
 import {
   ArrowRight, CheckCircle, Megaphone, Target, Video, Search,
   BarChart3, Users, Lightbulb, Rocket, FileText, TrendingUp,
-  Phone, ArrowUpRight, Palette
+  Phone, ArrowUpRight, Palette, Globe, Eye, MousePointerClick,
+  Layers, Monitor, Tv, MapPin, ShoppingBag, GraduationCap, Building2
 } from "lucide-react";
 import InquiryForm from "@/components/InquiryForm";
 import SEOHead from "@/components/SEOHead";
