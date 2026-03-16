@@ -90,6 +90,7 @@ const App = () => (
             <Route path="/blog/graphic-design-mistakes-damage-brand" element={<BlogPost24 />} />
             <Route path="/blog/google-ads-optimization-tips-improve-campaign-performance" element={<BlogPost25 />} />
             <Route path="/blog/on-page-seo-guide-better-rankings" element={<BlogPost26 />} />
+            <Route path="/blog/why-industry-specific-digital-marketing-important-businesses-sri-lanka" element={<BlogPost27 />} />
             <Route path="/contact" element={<Contact />} />
             {/* Industry pages */}
             <Route path="/:slug" element={<IndustryPage />} />

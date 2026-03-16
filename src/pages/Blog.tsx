@@ -184,6 +184,13 @@ const blogPosts = [
     date: "2026-02-26",
     keyword: "SEO Services Sri Lanka",
   },
+  {
+    slug: "why-industry-specific-digital-marketing-important-businesses-sri-lanka",
+    title: "Why Industry-Specific Digital Marketing Is Important for Businesses in Sri Lanka",
+    excerpt: "Learn why industry-specific digital marketing strategies are essential for Sri Lankan businesses — hotels, travel, fashion, restaurants, real estate, education, and more.",
+    date: "2026-03-16",
+    keyword: "Digital Marketing Sri Lanka",
+  },
 ];
 
 const Blog = () => (
