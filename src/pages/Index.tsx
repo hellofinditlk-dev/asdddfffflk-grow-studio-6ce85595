@@ -144,30 +144,38 @@ const Index = () => (
       <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'radial-gradient(circle at 1px 1px, hsl(0 0% 100%) 1px, transparent 0)', backgroundSize: '32px 32px' }} />
       
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-2xl">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-primary/20 bg-primary/5 text-primary text-xs font-medium mb-8 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            <Sparkles className="w-3.5 h-3.5" />
-            Digital Marketing Agency Sri Lanka
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-primary/20 bg-primary/5 text-primary text-xs font-medium mb-8 animate-fade-up" style={{ animationDelay: "0.1s" }}>
+              <Sparkles className="w-3.5 h-3.5" />
+              Digital Marketing Agency Sri Lanka
+            </div>
+            <h1 className="font-heading text-4xl md:text-5xl lg:text-[3.5rem] font-extrabold text-white leading-[1.1] mb-6 animate-fade-up" style={{ animationDelay: "0.2s" }}>
+              Social Media & Digital Marketing{" "}
+              <span className="bg-gradient-to-r from-primary to-[hsl(280,80%,65%)] bg-clip-text text-transparent">Solutions</span>
+              {" "}in Sri Lanka
+            </h1>
+            <p className="text-lg text-white/60 leading-relaxed mb-10 max-w-xl animate-fade-up" style={{ animationDelay: "0.3s" }}>
+              We help Sri Lankan businesses grow with professional social media management, Facebook advertising, Google Ads, and video production.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 animate-fade-up" style={{ animationDelay: "0.4s" }}>
+              <Button asChild size="lg" className="bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-all text-sm px-7 h-12 rounded-xl shadow-[0_0_24px_hsl(252_65%_55%/0.3)] hover:shadow-[0_0_32px_hsl(252_65%_55%/0.5)]">
+                <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20book%20a%20free%20consultation" target="_blank" rel="noopener noreferrer">
+                  Book a Free Consultation <ArrowRight className="w-4 h-4 ml-2" />
+                </a>
+              </Button>
+              <Button asChild size="lg" className="bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] text-sm px-7 h-12 rounded-xl font-semibold border-none shadow-[0_0_24px_hsl(25_95%_53%/0.3)] hover:shadow-[0_0_32px_hsl(25_95%_53%/0.5)] transition-all">
+                <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20get%20a%20free%20quote" target="_blank" rel="noopener noreferrer">
+                  Get a Free Quote <ArrowRight className="w-4 h-4 ml-2" />
+                </a>
+              </Button>
+            </div>
           </div>
-          <h1 className="font-heading text-4xl md:text-5xl lg:text-[3.5rem] font-extrabold text-white leading-[1.1] mb-6 animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            Social Media & Digital Marketing{" "}
-            <span className="bg-gradient-to-r from-primary to-[hsl(280,80%,65%)] bg-clip-text text-transparent">Solutions</span>
-            {" "}in Sri Lanka
-          </h1>
-          <p className="text-lg text-white/60 leading-relaxed mb-10 max-w-xl animate-fade-up" style={{ animationDelay: "0.3s" }}>
-            We help Sri Lankan businesses grow with professional social media management, Facebook advertising, Google Ads, and video production.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3 animate-fade-up" style={{ animationDelay: "0.4s" }}>
-            <Button asChild size="lg" className="bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-all text-sm px-7 h-12 rounded-xl shadow-[0_0_24px_hsl(252_65%_55%/0.3)] hover:shadow-[0_0_32px_hsl(252_65%_55%/0.5)]">
-              <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20book%20a%20free%20consultation" target="_blank" rel="noopener noreferrer">
-                Book a Free Consultation <ArrowRight className="w-4 h-4 ml-2" />
-              </a>
-            </Button>
-            <Button asChild size="lg" className="bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] text-sm px-7 h-12 rounded-xl font-semibold border-none shadow-[0_0_24px_hsl(25_95%_53%/0.3)] hover:shadow-[0_0_32px_hsl(25_95%_53%/0.5)] transition-all">
-              <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20get%20a%20free%20quote" target="_blank" rel="noopener noreferrer">
-                Get a Free Quote <ArrowRight className="w-4 h-4 ml-2" />
-              </a>
-            </Button>
+          <div className="hidden lg:flex justify-center animate-fade-up" style={{ animationDelay: "0.5s" }}>
+            <div className="relative">
+              <div className="absolute inset-0 bg-primary/20 rounded-full blur-[60px] animate-pulse-glow" />
+              <img src={mascotDefault} alt="Cypher Digital mascot" className="relative w-72 h-72 rounded-3xl object-cover shadow-[0_0_40px_hsl(252_65%_55%/0.3)] animate-float" />
+            </div>
           </div>
         </div>
       </div>
