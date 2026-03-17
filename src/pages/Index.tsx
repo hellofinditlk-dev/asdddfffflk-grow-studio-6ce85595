@@ -352,7 +352,12 @@ const Index = () => (
           </div>
 
           <div className="bg-card border border-border rounded-2xl p-7 md:p-8 hover:shadow-card-hover transition-shadow duration-300">
-            <h3 className="font-heading text-lg font-bold mb-3">Social Media Advertising in Sri Lanka</h3>
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
+                <Megaphone className="w-5 h-5 text-primary" />
+              </div>
+              <h3 className="font-heading text-lg font-bold">Social Media Advertising in Sri Lanka</h3>
+            </div>
             <p className="text-muted-foreground text-sm leading-relaxed mb-4">
               Social media advertising has become one of the most effective ways for businesses in Sri Lanka to connect with customers. Millions of Sri Lankans actively use social platforms every day, making them valuable channels for targeted marketing campaigns.
             </p>
