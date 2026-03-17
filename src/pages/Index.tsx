@@ -8,6 +8,10 @@ import {
 } from "lucide-react";
 import InquiryForm from "@/components/InquiryForm";
 import SEOHead from "@/components/SEOHead";
+import mascotDefault from "@/assets/mascot-default.jpeg";
+import mascotSocial from "@/assets/mascot-social.jpeg";
+import mascotGlasses from "@/assets/mascot-glasses.jpeg";
+import mascotHeadset from "@/assets/mascot-headset.jpeg";
 
 const services = [
   {
