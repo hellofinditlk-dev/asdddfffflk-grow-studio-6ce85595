@@ -484,13 +484,16 @@ const Index = () => (
             <p className="text-white/50 text-lg leading-relaxed mb-8">
               Generate consistent leads with Facebook ads, Google Ads, and professional social media management in Sri Lanka.
             </p>
-            <div className="flex items-center gap-5 mb-6">
+            <div className="flex items-center gap-5 mb-6 bg-white/5 border border-white/10 rounded-2xl p-4">
               <img src={mascotHeadset} alt="Cypher Digital support mascot" className="w-16 h-16 rounded-xl object-cover hidden sm:block" />
-              <div className="flex items-center gap-3 text-white/70">
-                <Phone className="w-4 h-4" />
-                <a href="tel:+94701772626" className="font-heading font-semibold hover:text-primary transition-colors">
-                  +94 70 177 2626
-                </a>
+              <div>
+                <p className="text-white/80 text-sm font-medium mb-2">💬 Ready to grow? Drop us a message — we reply fast!</p>
+                <div className="flex items-center gap-3 text-white/70">
+                  <Phone className="w-4 h-4" />
+                  <a href="tel:+94701772626" className="font-heading font-semibold hover:text-primary transition-colors">
+                    +94 70 177 2626
+                  </a>
+                </div>
               </div>
             </div>
           </div>
