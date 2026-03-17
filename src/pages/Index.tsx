@@ -205,22 +205,29 @@ const Index = () => (
     {/* ABOUT */}
     <section className="py-20 lg:py-28">
       <div className="container mx-auto px-4">
-        <div className="max-w-2xl mx-auto text-center">
-          <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">About Us</p>
-          <h2 className="font-heading text-3xl md:text-4xl font-extrabold mb-6">
-            Results-Driven Digital Marketing Agency
-          </h2>
-          <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-            Our digital marketing solutions are built to help businesses increase brand awareness, generate quality leads, and scale faster.
-          </p>
-          <p className="text-muted-foreground text-sm">
-            Perfect for SMEs, salons, education institutes, real estate, healthcare, and service businesses in Sri Lanka.
-          </p>
-          <p className="text-muted-foreground text-sm mt-3">
-            Explore our comprehensive guide on{" "}
-            <Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link>
-            {" "}for market data, costs, and strategies.
-          </p>
+        <div className="grid lg:grid-cols-[1fr_auto_1fr] gap-10 items-center max-w-4xl mx-auto">
+          <div className="text-center lg:text-right">
+            <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">About Us</p>
+            <h2 className="font-heading text-3xl md:text-4xl font-extrabold mb-6">
+              Results-Driven Digital Marketing Agency
+            </h2>
+            <p className="text-muted-foreground text-lg leading-relaxed mb-4">
+              Our digital marketing solutions are built to help businesses increase brand awareness, generate quality leads, and scale faster.
+            </p>
+          </div>
+          <div className="hidden lg:block">
+            <img src={mascotGlasses} alt="Cypher Digital mascot with glasses" className="w-48 h-48 rounded-2xl object-cover shadow-card-hover" />
+          </div>
+          <div className="text-center lg:text-left">
+            <p className="text-muted-foreground text-sm">
+              Perfect for SMEs, salons, education institutes, real estate, healthcare, and service businesses in Sri Lanka.
+            </p>
+            <p className="text-muted-foreground text-sm mt-3">
+              Explore our comprehensive guide on{" "}
+              <Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link>
+              {" "}for market data, costs, and strategies.
+            </p>
+          </div>
         </div>
       </div>
     </section>
