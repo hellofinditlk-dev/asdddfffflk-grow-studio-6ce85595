@@ -32,11 +32,11 @@ const industries = [
 const faqs = [
   {
     q: "What is advertising in Sri Lanka?",
-    a: "Advertising in Sri Lanka refers to promoting products and services using media channels such as television, newspapers, billboards, and digital platforms including Google, Facebook, Instagram, and YouTube."
+    a: "Advertising in Sri Lanka involves promoting products or services using both digital and traditional channels including Google Ads, social media platforms, TV, radio, billboards, and content marketing to reach target audiences effectively."
   },
   {
     q: "How much does advertising cost in Sri Lanka?",
-    a: "Advertising costs vary depending on the platform and campaign type. Digital advertising can start from as little as LKR 10 per click on Google Ads, while social media campaigns can begin with budgets as low as LKR 500 per day."
+    a: "Advertising costs vary depending on the platform and campaign type. Digital advertising can start from as little as LKR 10 per click on Google Ads, while social media campaigns can begin with budgets as low as LKR 500 per day. Costs depend on your goals, audience, and strategy."
   },
   {
     q: "What is the best advertising platform in Sri Lanka?",
@@ -49,6 +49,18 @@ const faqs = [
   {
     q: "Why should I hire an advertising agency in Sri Lanka?",
     a: "A professional advertising agency brings expertise in strategy development, campaign management, creative production, and performance tracking. This helps businesses achieve better results and higher return on investment."
+  },
+  {
+    q: "Which advertising method delivers the highest ROI?",
+    a: "Digital advertising consistently delivers the highest ROI due to precise targeting, real-time tracking, and cost-effective campaign management. Google Ads and social media advertising are particularly effective for measurable results."
+  },
+  {
+    q: "Is Google Ads effective for businesses in Sri Lanka?",
+    a: "Yes — Google Ads targets high-intent users who are actively searching for products and services, making it one of the most effective advertising channels for generating leads and sales in Sri Lanka."
+  },
+  {
+    q: "How long does it take to see results from advertising?",
+    a: "Paid advertising (Google Ads, Facebook Ads) delivers immediate traffic and results. SEO and content marketing typically take 3–6 months to build significant organic visibility and traffic."
   }
 ];
 
