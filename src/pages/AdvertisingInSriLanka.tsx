@@ -1068,8 +1068,6 @@ const AdvertisingInSriLanka = () => {
         </section>
 
 
-
-
         {/* Why Advertising is More Important Than Ever */}
         <section className="mb-16">
           <div className="max-w-4xl mx-auto">
