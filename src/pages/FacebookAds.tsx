@@ -200,7 +200,7 @@ const FacebookAds = () => {
                   Book a Free Consultation
                 </a>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-white/20 text-white hover:bg-white/10 text-sm px-7 h-12 rounded-xl">
+              <Button asChild size="lg" className="bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] text-sm px-7 h-12 rounded-xl font-semibold border-none shadow-[0_0_24px_hsl(25_95%_53%/0.3)] hover:shadow-[0_0_32px_hsl(25_95%_53%/0.5)] transition-all">
                 <a href="#inquiry-form">Get a Free Quote</a>
               </Button>
             </div>
