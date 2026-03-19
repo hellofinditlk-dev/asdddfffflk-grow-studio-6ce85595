@@ -1032,7 +1032,7 @@ const AdvertisingInSriLanka = () => {
         </section>
 
         {/* FAQ Section */}
-        <section className="mb-16">
+        <section id="faq" className="mb-16 scroll-mt-20">
           <h2 className="font-heading text-2xl md:text-3xl font-bold mb-6">Frequently Asked Questions About Advertising in Sri Lanka</h2>
           <Accordion type="single" collapsible className="w-full">
             {faqs.map((faq, i) => (
