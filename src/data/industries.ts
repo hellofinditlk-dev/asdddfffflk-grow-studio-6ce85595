@@ -869,12 +869,94 @@ export const industries: IndustryData[] = [
     industryLinksHeading: "Digital Marketing Services for Multiple Industries",
     industryLinksIntro: "In addition to restaurant marketing, Cypher Digital provides digital marketing solutions for various industries across Sri Lanka:",
     faqs: [
-      { q: "What is restaurant digital marketing?", a: "Restaurant digital marketing involves promoting restaurants online through social media marketing, search engine optimization, and online advertising campaigns." },
-      { q: "How can digital marketing increase restaurant customers?", a: "Digital marketing increases restaurant visibility online and helps attract customers who are searching for dining options nearby." },
-      { q: "Which platform is best for restaurant marketing?", a: "Instagram, Facebook, TikTok, and Google Search are among the most effective platforms for restaurant marketing." },
-      { q: "How long does restaurant SEO take?", a: "SEO improvements typically take 3-6 months to show strong results depending on competition and optimization." },
-      { q: "Do you handle food photography?", a: "Yes, we create professional food photography and video reels that make your dishes look irresistible on social media." },
+      { q: "What is restaurant digital marketing?", a: "Restaurant digital marketing involves promoting restaurants online through social media marketing, search engine optimization, and online advertising campaigns to attract more customers and increase sales." },
+      { q: "How can digital marketing increase restaurant customers?", a: "Digital marketing increases restaurant visibility online through SEO, social media, and paid ads, helping attract customers who are actively searching for dining options nearby." },
+      { q: "Which platform is best for restaurant marketing?", a: "Instagram, Facebook, TikTok, and Google Search are among the most effective platforms for restaurant marketing. Social media is particularly powerful due to the visual nature of food content." },
+      { q: "How long does restaurant SEO take?", a: "SEO improvements typically take 3-6 months to show strong results. Paid ads deliver immediate visibility and customers." },
+      { q: "Do you handle food photography?", a: "Yes, we create professional food photography and video reels that make your dishes look irresistible on social media and drive customer visits." },
+      { q: "Is social media important for restaurants?", a: "Yes — research shows social media directly influences customer decisions and brand perception. 58% of diners follow at least one restaurant on social media." },
+      { q: "Can digital marketing increase restaurant sales?", a: "Yes — significantly, especially with local SEO, social media marketing, and targeted paid advertising campaigns." },
+      { q: "How can I get more customers to my restaurant?", a: "By using SEO to rank in local searches, social media to showcase your food, and paid ads to reach targeted local audiences." },
     ],
+    bookingJourney: [
+      { stage: "Discovery", description: "Customers search for 'restaurants near me', 'best restaurants in Colombo', or 'cafes near me' on Google and Maps.", tip: "Google SEO + Maps optimization is critical at this stage." },
+      { stage: "Inspiration", description: "Customers browse Instagram, TikTok, and Facebook looking at food photos, reels, and restaurant experiences.", tip: "Visual food content and short-form videos drive decisions." },
+      { stage: "Consideration", description: "Customers compare reviews, ratings, menus, photos, and prices across multiple restaurants.", tip: "Trust signals like reviews and professional food photography are critical." },
+      { stage: "Purchase", description: "Customers visit physically, order online through delivery apps, or place orders via the restaurant website.", tip: "CRO + delivery platform optimization drives conversions." },
+      { stage: "Loyalty", description: "Satisfied customers return, recommend to others, and share their experience on social media.", tip: "Email + WhatsApp marketing and loyalty programs drive repeat visits." },
+    ],
+    extraSections: [
+      {
+        heading: "Advanced Restaurant Marketing Strategies",
+        intro: "To outrank competitors in the restaurant industry, basic marketing is not enough. We implement advanced strategies for maximum impact.",
+        bullets: [
+          "Hyper-Local Targeting — Target specific areas like Colombo, Maharagama, Negombo, and surrounding neighborhoods to reach customers who can actually visit",
+          "Delivery Platform Optimization — Optimize listings and visibility on platforms like PickMe Food for maximum delivery orders",
+          "Video-First Strategy — Short-form food content dominates social media and generates the highest engagement in the food industry",
+          "Retargeting Campaigns — Convert interested users who visited your website or social media but didn't place an order",
+        ],
+      },
+      {
+        heading: "Content Marketing for Restaurants",
+        intro: "Content marketing helps your restaurant rank on Google and build authority in the food industry.",
+        bullets: [
+          "Best restaurants in Colombo guides",
+          "Top cafes in Sri Lanka features",
+          "Food and dining guides for tourists",
+          "Seasonal menu highlights and chef stories",
+        ],
+        outro: "This type of content drives long-term organic traffic and positions your restaurant as a top choice for diners searching online.",
+      },
+      {
+        heading: "Conversion Funnel for Restaurants",
+        intro: "We build full-funnel marketing strategies that guide potential customers from discovery to dining.",
+        bullets: [
+          "Top Funnel — SEO and social media content attract new audiences discovering dining options online",
+          "Middle Funnel — Reviews, food photography, and retargeting ads build trust and appetite with interested prospects",
+          "Bottom Funnel — Special offers, promotions, and streamlined ordering experiences convert prospects into paying customers",
+        ],
+      },
+      {
+        heading: "Restaurant Marketing Trends in Sri Lanka",
+        intro: "Stay ahead of competitors by leveraging emerging trends in the Sri Lankan food industry.",
+        bullets: [
+          "Online food delivery is growing rapidly due to smartphone adoption and convenience",
+          "Mobile ordering and contactless payments are becoming standard",
+          "Social media influence on dining decisions continues to increase",
+          "AI-powered personalization and recommendation engines are emerging",
+        ],
+        outro: "Restaurants that adopt these trends early gain significant competitive advantage in the market.",
+      },
+      {
+        heading: "Building a Strong Restaurant Brand Online",
+        intro: "A strong brand increases repeat customers and drives word-of-mouth referrals.",
+        bullets: [
+          "Consistent visual identity across all platforms",
+          "Unique brand story and positioning",
+          "Active customer engagement and community building",
+          "Professional food content that creates emotional connections",
+        ],
+        outro: "Brand building is a long-term investment that delivers compounding returns through customer loyalty and organic growth.",
+      },
+    ],
+    locationsHeading: "Target Locations in Sri Lanka",
+    locationsList: ["Colombo", "Negombo", "Kandy", "Galle", "Dehiwala", "Maharagama", "Nugegoda", "Mount Lavinia", "Wattala", "Battaramulla"],
+    serviceSchema: {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Restaurant Digital Marketing Sri Lanka",
+      "provider": {
+        "@type": "Organization",
+        "name": "Cypher Digital",
+        "url": "https://cypherdigital.lk"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Sri Lanka"
+      },
+      "serviceType": "Restaurant Marketing",
+      "description": "SEO, social media marketing, and paid advertising for restaurants in Sri Lanka to increase customers and sales."
+    },
   },
   {
     slug: "real-estate-digital-marketing-sri-lanka",
