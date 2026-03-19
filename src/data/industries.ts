@@ -1370,6 +1370,7 @@ export const industries: IndustryData[] = [
   },
   {
     slug: "small-business-digital-marketing-sri-lanka",
+    shortName: "Small Business",
     seoTitle: "Digital Marketing for Small Businesses in Sri Lanka | SME Marketing Agency",
     metaDescription: "Affordable digital marketing solutions for small businesses in Sri Lanka. Social media, SEO, ads, branding and lead generation for SMEs.",
     h1: "Digital Marketing for Small Businesses in Sri Lanka",
