@@ -13,6 +13,7 @@ export interface IndustryStrategySection {
 
 export interface IndustryData {
   slug: string;
+  shortName: string;
   seoTitle: string;
   metaDescription: string;
   h1: string;
