@@ -574,7 +574,7 @@ const AdvertisingInSriLanka = () => {
         </section>
 
         {/* ===== NEW: Best Advertising Times ===== */}
-        <section className="mb-16">
+        <section id="best-times" className="mb-16 scroll-mt-20">
           <h2 className="font-heading text-2xl md:text-3xl font-bold mb-6 flex items-center gap-3">
             <Clock className="w-7 h-7 text-primary" />
             Best Advertising Times in Sri Lanka
