@@ -446,7 +446,7 @@ const IndustryPageLayout = ({ data }: Props) => {
                   to={`/${ind.slug}`}
                   className="bg-card border border-border rounded-xl p-5 hover:border-primary/20 hover:shadow-card transition-all group"
                 >
-                  <h3 className="font-heading text-sm font-bold group-hover:text-primary transition-colors">{ind.h1}</h3>
+                  <h3 className="font-heading text-sm font-bold group-hover:text-primary transition-colors">{ind.shortName} Marketing</h3>
                 </Link>
               ))}
             </div>

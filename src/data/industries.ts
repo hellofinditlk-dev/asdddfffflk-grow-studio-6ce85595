@@ -13,6 +13,7 @@ export interface IndustryStrategySection {
 
 export interface IndustryData {
   slug: string;
+  shortName: string;
   seoTitle: string;
   metaDescription: string;
   h1: string;
@@ -58,6 +59,7 @@ export interface IndustryData {
 export const industries: IndustryData[] = [
   {
     slug: "hotel-digital-marketing-sri-lanka",
+    shortName: "Hotel",
     seoTitle: "Hotel Digital Marketing Sri Lanka | Increase Direct Bookings | Cypher Digital",
     metaDescription: "Expert hotel digital marketing in Sri Lanka. SEO, social media, Google Ads & conversion optimization to increase direct bookings and reduce OTA dependency.",
     h1: "Hotel Digital Marketing in Sri Lanka: The Ultimate Strategy to Increase Direct Bookings",
@@ -330,6 +332,7 @@ export const industries: IndustryData[] = [
   },
   {
     slug: "travel-agency-digital-marketing-sri-lanka",
+    shortName: "Travel",
     seoTitle: "Travel Agency Digital Marketing Sri Lanka | Get More Tour Bookings | Cypher Digital",
     metaDescription: "Expert travel agency digital marketing in Sri Lanka. SEO, social media, Google Ads & CRO strategies to increase tour bookings and reach international travelers.",
     h1: "Travel Agency Digital Marketing in Sri Lanka – The Ultimate Guide to Getting More Tour Bookings",
@@ -625,6 +628,7 @@ export const industries: IndustryData[] = [
   },
   {
     slug: "fashion-brand-digital-marketing-sri-lanka",
+    shortName: "Fashion",
     seoTitle: "Fashion Brand Digital Marketing Sri Lanka | Clothing Brand Marketing Agency",
     metaDescription: "Grow your clothing brand online with social media marketing, influencer campaigns, SEO, and Facebook ads in Sri Lanka. Fashion advertising agency.",
     h1: "Digital Marketing for Fashion & Clothing Brands in Sri Lanka",
@@ -749,6 +753,7 @@ export const industries: IndustryData[] = [
   },
   {
     slug: "restaurant-digital-marketing-sri-lanka",
+    shortName: "Restaurant",
     seoTitle: "Restaurant Marketing Agency Sri Lanka | Social Media Marketing for Restaurants",
     metaDescription: "Increase restaurant customers with social media marketing, food photography, local SEO, and targeted advertising campaigns in Sri Lanka.",
     h1: "Digital Marketing for Restaurants in Sri Lanka",
@@ -873,6 +878,7 @@ export const industries: IndustryData[] = [
   },
   {
     slug: "real-estate-digital-marketing-sri-lanka",
+    shortName: "Real Estate",
     seoTitle: "Real Estate Digital Marketing Sri Lanka | Property Marketing Agency",
     metaDescription: "Generate property buyers and investor leads with real estate digital marketing, SEO, video marketing, and paid advertising campaigns in Sri Lanka.",
     h1: "Digital Marketing for Real Estate Companies in Sri Lanka",
@@ -998,6 +1004,7 @@ export const industries: IndustryData[] = [
   },
   {
     slug: "education-marketing-agency-sri-lanka",
+    shortName: "Education",
     seoTitle: "Education Marketing Agency Sri Lanka | Student Lead Generation",
     metaDescription: "Get more student enrollments with digital marketing for institutes, universities, and tuition classes in Sri Lanka. SEO, social media, and paid ads.",
     h1: "Digital Marketing for Education Institutes in Sri Lanka",
@@ -1112,6 +1119,7 @@ export const industries: IndustryData[] = [
   },
   {
     slug: "beauty-salon-digital-marketing-sri-lanka",
+    shortName: "Beauty Salon",
     seoTitle: "Beauty Salon Digital Marketing Sri Lanka | Salon Marketing Agency",
     metaDescription: "Grow your beauty salon with social media marketing, Instagram growth strategies, local SEO, and targeted ads in Sri Lanka. Spa marketing agency.",
     h1: "Digital Marketing for Beauty Salons in Sri Lanka",
@@ -1236,6 +1244,7 @@ export const industries: IndustryData[] = [
   },
   {
     slug: "automotive-digital-marketing-sri-lanka",
+    shortName: "Automotive",
     seoTitle: "Automotive Digital Marketing Sri Lanka | Car Dealer Marketing Agency",
     metaDescription: "Generate car buyer leads with automotive digital marketing, video showcases, SEO, and targeted ads in Sri Lanka. Vehicle advertising agency.",
     h1: "Digital Marketing for Automotive Businesses in Sri Lanka",
@@ -1361,6 +1370,7 @@ export const industries: IndustryData[] = [
   },
   {
     slug: "small-business-digital-marketing-sri-lanka",
+    shortName: "Small Business",
     seoTitle: "Digital Marketing for Small Businesses in Sri Lanka | SME Marketing Agency",
     metaDescription: "Affordable digital marketing solutions for small businesses in Sri Lanka. Social media, SEO, ads, branding and lead generation for SMEs.",
     h1: "Digital Marketing for Small Businesses in Sri Lanka",
@@ -1475,6 +1485,7 @@ export const industries: IndustryData[] = [
   },
   {
     slug: "ecommerce-digital-marketing-sri-lanka",
+    shortName: "Ecommerce",
     seoTitle: "Ecommerce Digital Marketing Sri Lanka | Online Store Marketing Agency",
     metaDescription: "Increase online sales with ecommerce marketing strategies including SEO, Facebook ads, Google Shopping, product videos, and retargeting campaigns in Sri Lanka.",
     h1: "Ecommerce Digital Marketing Services in Sri Lanka",

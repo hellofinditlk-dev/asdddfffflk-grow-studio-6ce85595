@@ -17,14 +17,7 @@ const navLinks = [
 ];
 
 const industryItems = industries.map((i) => ({
-  label: i.h1
-    .replace(/Digital Marketing Services?/gi, "")
-    .replace(/Social Media Marketing/gi, "")
-    .replace(/Digital Marketing Solutions for /gi, "")
-    .replace(/Digital Marketing for /gi, "")
-    .replace(/in Sri Lanka/gi, "")
-    .replace(/& /g, "& ")
-    .trim(),
+  label: i.shortName,
   path: `/${i.slug}`,
 }));
 
