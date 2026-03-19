@@ -80,10 +80,12 @@ const IndustryPageLayout = ({ data }: Props) => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
-      />
+      {data.serviceSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(data.serviceSchema) }}
+        />
+      )}
 
       {/* Hero */}
       <section className="bg-foreground py-20 lg:py-28">
