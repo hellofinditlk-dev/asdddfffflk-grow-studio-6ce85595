@@ -262,7 +262,7 @@ const AdvertisingInSriLanka = () => {
         </section>
 
         {/* ===== NEW: Digital Audience in Sri Lanka ===== */}
-        <section className="mb-16">
+        <section id="digital-audience" className="mb-16 scroll-mt-20">
           <div className="max-w-4xl mx-auto">
             <h2 className="font-heading text-2xl md:text-3xl font-bold mb-6 flex items-center gap-3">
               <Users className="w-7 h-7 text-primary" />
