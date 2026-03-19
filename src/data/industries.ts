@@ -753,6 +753,7 @@ export const industries: IndustryData[] = [
   },
   {
     slug: "restaurant-digital-marketing-sri-lanka",
+    shortName: "Restaurant",
     seoTitle: "Restaurant Marketing Agency Sri Lanka | Social Media Marketing for Restaurants",
     metaDescription: "Increase restaurant customers with social media marketing, food photography, local SEO, and targeted advertising campaigns in Sri Lanka.",
     h1: "Digital Marketing for Restaurants in Sri Lanka",
