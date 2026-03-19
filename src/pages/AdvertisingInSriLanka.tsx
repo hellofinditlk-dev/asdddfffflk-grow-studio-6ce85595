@@ -139,10 +139,19 @@ const AdvertisingInSriLanka = () => {
         canonical="https://cypherdigital.lk/advertising-in-sri-lanka"
       />
 
+      {/* Breadcrumb */}
+      <nav className="container mx-auto px-4 pt-4" aria-label="Breadcrumb">
+        <ol className="flex items-center gap-2 text-sm text-muted-foreground">
+          <li><Link to="/" className="hover:text-primary transition-colors">Home</Link></li>
+          <li>/</li>
+          <li className="text-foreground font-medium">Advertising in Sri Lanka</li>
+        </ol>
+      </nav>
+
       {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src={heroImg} alt="Digital advertising dashboard showing marketing analytics for businesses in Sri Lanka" className="w-full h-full object-cover" loading="eager" />
+          <img src={heroImg} alt="Advertising in Sri Lanka - digital marketing analytics dashboard for Sri Lankan businesses" className="w-full h-full object-cover" loading="eager" />
           <div className="absolute inset-0 bg-gradient-to-r from-[hsl(var(--hero-bg)/0.92)] to-[hsl(var(--hero-bg)/0.75)]" />
         </div>
         <div className="relative container mx-auto px-4 py-24 md:py-36 text-center max-w-4xl">
@@ -150,20 +159,62 @@ const AdvertisingInSriLanka = () => {
             Complete Digital Advertising Guide 2026
           </span>
           <h1 className="font-heading text-3xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-[hsl(var(--hero-foreground))]">
-            <a href="https://cypherdigital.lk/" className="text-primary hover:underline">Advertising in Sri Lanka</a>: The Complete Guide to Digital Advertising for Businesses
+            Advertising in Sri Lanka: The Complete Guide to Digital Advertising for Businesses
           </h1>
           <p className="text-lg md:text-xl text-[hsl(var(--hero-muted))] max-w-3xl mx-auto leading-relaxed">
-            Discover how modern digital advertising strategies help Sri Lankan businesses increase brand awareness, attract customers, and drive measurable growth.
+            Discover how modern digital advertising strategies help Sri Lankan businesses increase brand awareness, attract customers, and drive measurable growth. Published by <a href="https://cypherdigital.lk/" className="text-primary hover:underline font-semibold">Cypher Digital</a>.
           </p>
         </div>
       </section>
 
       <article className="container mx-auto px-4 py-16 max-w-5xl">
 
-        {/* Introduction */}
+        {/* Table of Contents */}
         <section className="mb-16">
+          <div className="max-w-4xl mx-auto p-6 md:p-8 rounded-2xl border border-border bg-secondary">
+            <h2 className="font-heading text-xl md:text-2xl font-bold mb-4">📋 Table of Contents – Advertising in Sri Lanka</h2>
+            <nav aria-label="Table of contents">
+              <ol className="grid sm:grid-cols-2 gap-2">
+                {[
+                  { id: "what-is", label: "What is Advertising in Sri Lanka?" },
+                  { id: "market-overview", label: "Market Overview" },
+                  { id: "digital-audience", label: "Digital Audience Data" },
+                  { id: "types", label: "Types of Advertising" },
+                  { id: "best-channels", label: "Best Advertising Channels" },
+                  { id: "costs", label: "Advertising Costs" },
+                  { id: "best-times", label: "Best Advertising Times" },
+                  { id: "strategies", label: "Best Strategies" },
+                  { id: "benefits", label: "Benefits of Digital Advertising" },
+                  { id: "metrics", label: "Key Metrics to Track" },
+                  { id: "mistakes", label: "Common Mistakes" },
+                  { id: "budget", label: "Budget Guide" },
+                  { id: "targeting", label: "Targeting Strategies" },
+                  { id: "industry-specific", label: "Industry-Specific Strategies" },
+                  { id: "trends", label: "Trends (2026)" },
+                  { id: "agency", label: "Choosing an Agency" },
+                  { id: "faq", label: "FAQs" },
+                ].map((item, i) => (
+                  <li key={item.id}>
+                    <a href={`#${item.id}`} className="flex items-center gap-2 p-2 rounded-lg hover:bg-background transition-colors text-sm text-muted-foreground hover:text-primary">
+                      <span className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 text-xs font-bold text-primary">{i + 1}</span>
+                      {item.label}
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
+          </div>
+        </section>
+
+        {/* What is Advertising - Featured Snippet Bait */}
+        <section id="what-is" className="mb-16 scroll-mt-20">
           <div className="max-w-4xl mx-auto">
-            <h2 className="font-heading text-2xl md:text-3xl font-bold mb-6">Introduction</h2>
+            <h2 className="font-heading text-2xl md:text-3xl font-bold mb-6">What is Advertising in Sri Lanka?</h2>
+            <div className="p-6 md:p-8 rounded-2xl border-2 border-primary/20 bg-primary/5 mb-6">
+              <p className="text-lg leading-relaxed font-medium">
+                <strong>Advertising in Sri Lanka</strong> refers to the practice of promoting products, services, or brands to Sri Lankan consumers through digital and traditional media channels. This includes Google Ads, Facebook and Instagram advertising, SEO, YouTube video ads, TikTok campaigns, television, radio, newspaper, and billboard advertising. Sri Lanka's advertising industry is rapidly growing, driven by increasing internet penetration (50–55%), over 8 million social media users, and mobile-first consumer behavior.
+              </p>
+            </div>
             <p className="text-muted-foreground leading-relaxed text-lg mb-4">
               <a href="https://cypherdigital.lk/" className="text-primary font-semibold hover:underline">Advertising in Sri Lanka</a> has evolved dramatically over the past decade. Businesses are no longer limited to traditional advertising channels such as television, radio, and newspapers. Today, digital platforms allow businesses to reach their target audience more efficiently through data-driven campaigns.
             </p>
