@@ -66,9 +66,16 @@ const faqs = [
 
 const AdvertisingInSriLanka = () => {
   useEffect(() => {
-    const articleScript = document.createElement("script");
-    articleScript.type = "application/ld+json";
-    articleScript.text = JSON.stringify({
+    const scripts: HTMLScriptElement[] = [];
+    const addSchema = (data: object) => {
+      const s = document.createElement("script");
+      s.type = "application/ld+json";
+      s.text = JSON.stringify(data);
+      document.head.appendChild(s);
+      scripts.push(s);
+    };
+
+    addSchema({
       "@context": "https://schema.org",
       "@type": "Article",
       headline: "Advertising in Sri Lanka: The Complete Guide to Digital Advertising for Businesses",
@@ -78,13 +85,10 @@ const AdvertisingInSriLanka = () => {
       publisher: { "@type": "Organization", name: "Cypher Digital", url: "https://cypherdigital.lk" },
       mainEntityOfPage: "https://cypherdigital.lk/advertising-in-sri-lanka",
       datePublished: "2025-03-16",
-      dateModified: "2026-03-16",
+      dateModified: "2026-03-19",
     });
-    document.head.appendChild(articleScript);
 
-    const faqScript = document.createElement("script");
-    faqScript.type = "application/ld+json";
-    faqScript.text = JSON.stringify({
+    addSchema({
       "@context": "https://schema.org",
       "@type": "FAQPage",
       mainEntity: faqs.map(f => ({
@@ -93,11 +97,8 @@ const AdvertisingInSriLanka = () => {
         acceptedAnswer: { "@type": "Answer", text: f.a }
       }))
     });
-    document.head.appendChild(faqScript);
 
-    const serviceScript = document.createElement("script");
-    serviceScript.type = "application/ld+json";
-    serviceScript.text = JSON.stringify({
+    addSchema({
       "@context": "https://schema.org",
       "@type": "Service",
       name: "Advertising in Sri Lanka",
@@ -106,13 +107,28 @@ const AdvertisingInSriLanka = () => {
       serviceType: "Advertising Services",
       description: "Comprehensive advertising services in Sri Lanka including digital advertising, social media marketing, Google Ads, and brand campaigns."
     });
-    document.head.appendChild(serviceScript);
 
-    return () => {
-      document.head.removeChild(articleScript);
-      document.head.removeChild(faqScript);
-      document.head.removeChild(serviceScript);
-    };
+    addSchema({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://cypherdigital.lk/" },
+        { "@type": "ListItem", position: 2, name: "Advertising in Sri Lanka", item: "https://cypherdigital.lk/advertising-in-sri-lanka" }
+      ]
+    });
+
+    addSchema({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: "Advertising in Sri Lanka – Complete Guide (2026)",
+      description: "The most comprehensive guide to advertising in Sri Lanka covering digital channels, costs, strategies, and industry-specific marketing.",
+      url: "https://cypherdigital.lk/advertising-in-sri-lanka",
+      isPartOf: { "@type": "WebSite", name: "Cypher Digital", url: "https://cypherdigital.lk" },
+      about: { "@type": "Thing", name: "Advertising in Sri Lanka" },
+      lastReviewed: "2026-03-19"
+    });
+
+    return () => { scripts.forEach(s => document.head.removeChild(s)); };
   }, []);
 
   return (
