@@ -878,6 +878,7 @@ export const industries: IndustryData[] = [
   },
   {
     slug: "real-estate-digital-marketing-sri-lanka",
+    shortName: "Real Estate",
     seoTitle: "Real Estate Digital Marketing Sri Lanka | Property Marketing Agency",
     metaDescription: "Generate property buyers and investor leads with real estate digital marketing, SEO, video marketing, and paid advertising campaigns in Sri Lanka.",
     h1: "Digital Marketing for Real Estate Companies in Sri Lanka",
