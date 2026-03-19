@@ -311,6 +311,52 @@ const IndustryPageLayout = ({ data }: Props) => {
         </section>
       )}
 
+      {/* Extra Deep-Content Sections (optional) */}
+      {data.extraSections && data.extraSections.map((section, i) => (
+        <section key={i} className={`py-20 lg:py-28 ${i % 2 === 0 ? '' : 'bg-secondary'}`}>
+          <div className="container mx-auto px-4 max-w-3xl">
+            <div className="text-center mb-12">
+              <h2 className="font-heading text-2xl md:text-3xl font-extrabold">{section.heading}</h2>
+              {section.intro && (
+                <p className="text-sm text-muted-foreground mt-4 leading-relaxed">{section.intro}</p>
+              )}
+            </div>
+            {section.bullets && (
+              <div className="space-y-3">
+                {section.bullets.map((item, j) => (
+                  <div key={j} className="flex items-start gap-3 p-4 rounded-lg bg-card border border-border">
+                    <CheckCircle className="w-4 h-4 text-primary mt-0.5 shrink-0" />
+                    <span className="text-sm">{item}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+            {section.outro && (
+              <p className="text-sm text-muted-foreground leading-relaxed mt-8 text-center">{section.outro}</p>
+            )}
+          </div>
+        </section>
+      ))}
+
+      {/* Locations Section (optional) */}
+      {data.locationsHeading && data.locationsList && (
+        <section className="py-20 lg:py-28 bg-secondary">
+          <div className="container mx-auto px-4 max-w-3xl">
+            <div className="text-center mb-12">
+              <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                <MapPin className="w-6 h-6" />
+              </div>
+              <h2 className="font-heading text-2xl md:text-3xl font-extrabold">{data.locationsHeading}</h2>
+            </div>
+            <div className="flex flex-wrap justify-center gap-3">
+              {data.locationsList.map((loc, i) => (
+                <span key={i} className="bg-card border border-border rounded-full px-5 py-2.5 text-sm font-medium hover:border-primary/20 transition-colors">{loc}</span>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Trust Points */}
       <section className="py-20 lg:py-28">
         <div className="container mx-auto px-4">
