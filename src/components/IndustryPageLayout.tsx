@@ -152,6 +152,36 @@ const IndustryPageLayout = ({ data }: Props) => {
         </section>
       )}
 
+      {/* Booking Journey (optional) */}
+      {data.bookingJourney && data.bookingJourney.length > 0 && (
+        <section className="py-20 lg:py-28">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <div className="text-center mb-12">
+              <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Booking Journey</p>
+              <h2 className="font-heading text-2xl md:text-3xl font-extrabold">{data.bookingJourneyHeading || "Understanding the Booking Journey"}</h2>
+              {data.bookingJourneyIntro && (
+                <p className="text-sm text-muted-foreground mt-4 max-w-2xl mx-auto leading-relaxed">{data.bookingJourneyIntro}</p>
+              )}
+            </div>
+            <div className="grid sm:grid-cols-2 gap-5">
+              {data.bookingJourney.map((step, i) => (
+                <div key={i} className="bg-card border border-border rounded-xl p-6">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center text-primary font-bold text-sm">{i + 1}</div>
+                    <h3 className="font-heading text-sm font-bold">{step.stage}</h3>
+                  </div>
+                  <p className="text-sm text-muted-foreground leading-relaxed mb-3">{step.description}</p>
+                  <div className="flex items-start gap-2 bg-primary/5 rounded-lg p-3">
+                    <ArrowRight className="w-4 h-4 text-primary mt-0.5 shrink-0" />
+                    <span className="text-xs font-medium text-primary">{step.tip}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Services + Form */}
       <section className="py-20 lg:py-28">
         <div className="container mx-auto px-4">
