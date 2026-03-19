@@ -1004,6 +1004,7 @@ export const industries: IndustryData[] = [
   },
   {
     slug: "education-marketing-agency-sri-lanka",
+    shortName: "Education",
     seoTitle: "Education Marketing Agency Sri Lanka | Student Lead Generation",
     metaDescription: "Get more student enrollments with digital marketing for institutes, universities, and tuition classes in Sri Lanka. SEO, social media, and paid ads.",
     h1: "Digital Marketing for Education Institutes in Sri Lanka",
