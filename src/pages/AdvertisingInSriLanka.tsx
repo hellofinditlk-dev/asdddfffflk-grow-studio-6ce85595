@@ -95,9 +95,23 @@ const AdvertisingInSriLanka = () => {
     });
     document.head.appendChild(faqScript);
 
+    const serviceScript = document.createElement("script");
+    serviceScript.type = "application/ld+json";
+    serviceScript.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Service",
+      name: "Advertising in Sri Lanka",
+      provider: { "@type": "Organization", name: "Cypher Digital", url: "https://cypherdigital.lk" },
+      areaServed: { "@type": "Country", name: "Sri Lanka" },
+      serviceType: "Advertising Services",
+      description: "Comprehensive advertising services in Sri Lanka including digital advertising, social media marketing, Google Ads, and brand campaigns."
+    });
+    document.head.appendChild(serviceScript);
+
     return () => {
       document.head.removeChild(articleScript);
       document.head.removeChild(faqScript);
+      document.head.removeChild(serviceScript);
     };
   }, []);
 
