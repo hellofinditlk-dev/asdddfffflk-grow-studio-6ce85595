@@ -642,7 +642,7 @@ const VideoProduction = () => {
                   </div>
                 </div>
               </div>
-              <InquiryForm serviceName="Video Production" />
+              <InquiryForm service="Video Production" />
             </div>
           </div>
         </div>
