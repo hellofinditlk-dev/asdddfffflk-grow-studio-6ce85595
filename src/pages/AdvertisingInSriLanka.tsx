@@ -985,8 +985,7 @@ const AdvertisingInSriLanka = () => {
           </p>
         </section>
 
-        {/* Choosing the Right Agency */}
-        <section className="mb-16 bg-secondary rounded-2xl p-8 md:p-12">
+        <section id="agency" className="mb-16 scroll-mt-20 bg-secondary rounded-2xl p-8 md:p-12">
           <h2 className="font-heading text-2xl md:text-3xl font-bold mb-4">Choosing the Right Advertising Agency</h2>
           <p className="text-muted-foreground leading-relaxed mb-6">
             Working with a professional advertising agency can help businesses develop effective marketing strategies and achieve measurable results. A professional agency provides services such as:
