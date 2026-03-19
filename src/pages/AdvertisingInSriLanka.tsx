@@ -1067,7 +1067,8 @@ const AdvertisingInSriLanka = () => {
           </div>
         </section>
 
-        {/* ===== NEW SEO EXPANSION: Complete Advertising Guide ===== */}
+
+
 
         {/* Why Advertising is More Important Than Ever */}
         <section className="mb-16">
