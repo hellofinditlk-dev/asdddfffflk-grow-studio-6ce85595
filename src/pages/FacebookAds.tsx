@@ -640,7 +640,7 @@ const FacebookAds = () => {
               <img src={mascotGlasses} alt="Cypher Digital Facebook Marketing Sri Lanka" className="w-40 h-40 rounded-2xl object-cover mx-auto lg:mx-0 border-2 border-white/10" loading="lazy" />
             </div>
             <div>
-              <InquiryForm serviceName="Facebook advertising" />
+              <InquiryForm service="Facebook advertising" />
             </div>
           </div>
         </div>
