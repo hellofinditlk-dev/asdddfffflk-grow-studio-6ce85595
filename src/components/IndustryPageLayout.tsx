@@ -79,8 +79,7 @@ const IndustryPageLayout = ({ data }: Props) => {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: "https://cypherdigital.lk" },
-      { "@type": "ListItem", position: 2, name: "Advertising in Sri Lanka", item: "https://cypherdigital.lk/advertising-in-sri-lanka" },
-      { "@type": "ListItem", position: 3, name: `${data.shortName} Digital Marketing`, item: canonical },
+      { "@type": "ListItem", position: 2, name: `${data.shortName} Digital Marketing`, item: canonical },
     ],
   };
 
