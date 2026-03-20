@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import SEOHead from "@/components/SEOHead";
+import PageBreadcrumb from "@/components/PageBreadcrumb";
 import mascotGlasses from "@/assets/mascot-glasses.jpeg";
 
 const blogPosts = [
@@ -201,6 +202,7 @@ const Blog = () => (
       description="Expert digital marketing tips, strategies, and insights for businesses in Sri Lanka. Learn about social media, SEO, Google Ads, and more."
       canonical="https://cypherdigital.lk/blog"
     />
+    <PageBreadcrumb items={[{ label: "Blog" }]} />
     <div className="pt-24 pb-20">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">

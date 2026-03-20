@@ -1,4 +1,5 @@
 import { CheckCircle, Zap, Shield, BarChart3, Clock, Users, TrendingUp, Video, Award, MapPin, ArrowRight } from "lucide-react";
+import PageBreadcrumb from "@/components/PageBreadcrumb";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import SEOHead from "@/components/SEOHead";
@@ -100,6 +101,11 @@ const IndustryPageLayout = ({ data }: Props) => {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(data.serviceSchema) }}
         />
       )}
+
+      <PageBreadcrumb items={[
+        { label: "Advertising in Sri Lanka", href: "/advertising-in-sri-lanka" },
+        { label: `${data.shortName} Digital Marketing` },
+      ]} />
 
       {/* Hero */}
       <section className="bg-foreground py-20 lg:py-28">

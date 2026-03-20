@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import SEOHead from "@/components/SEOHead";
+import PageBreadcrumb from "@/components/PageBreadcrumb";
 
 const BlogPost6 = () => (
   <>
@@ -8,10 +9,10 @@ const BlogPost6 = () => (
       description="Learn why professional graphic design is critical for brand identity, marketing performance, and credibility for Sri Lankan businesses."
       canonical="https://cypherdigital.lk/blog/importance-professional-graphic-design-modern-brands"
     />
+    <PageBreadcrumb items={[{ label: "Blog", href: "/blog" }, { label: "Article" }]} />
     <article className="pt-24 pb-20">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto">
-          <Link to="/blog" className="text-xs font-semibold text-primary hover:underline mb-6 inline-block">← Back to Blog</Link>
           <header className="mb-10">
             <time className="text-xs text-muted-foreground">February 26, 2026</time>
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Importance of Professional Graphic Design for Modern Brands</h1>

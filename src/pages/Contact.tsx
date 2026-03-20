@@ -1,6 +1,7 @@
 import InquiryForm from "@/components/InquiryForm";
 import { Mail, MapPin, Phone, Clock } from "lucide-react";
 import SEOHead from "@/components/SEOHead";
+import PageBreadcrumb from "@/components/PageBreadcrumb";
 import mascotHeadset from "@/assets/mascot-headset.jpeg";
 
 const contactInfo = [
@@ -38,6 +39,7 @@ const Contact = () => (
       canonical="https://cypherdigital.lk/contact"
     />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }} />
+    <PageBreadcrumb items={[{ label: "Contact Us" }]} />
     <section className="section-dark py-20 lg:py-28">
       <div className="container mx-auto px-4 text-center animate-fade-up">
         <p className="text-primary font-semibold text-sm uppercase tracking-wider mb-3">Get In Touch</p>

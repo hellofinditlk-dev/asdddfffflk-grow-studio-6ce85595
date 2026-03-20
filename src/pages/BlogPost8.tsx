@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import SEOHead from "@/components/SEOHead";
+import PageBreadcrumb from "@/components/PageBreadcrumb";
 
 const BlogPost8 = () => (
   <>
@@ -8,10 +9,10 @@ const BlogPost8 = () => (
       description="Learn why SEO is essential for sustainable organic growth, visibility, and lead generation for businesses in Sri Lanka."
       canonical="https://cypherdigital.lk/blog/why-seo-important-long-term-business-growth"
     />
+    <PageBreadcrumb items={[{ label: "Blog", href: "/blog" }, { label: "Article" }]} />
     <article className="pt-24 pb-20">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto">
-          <Link to="/blog" className="text-xs font-semibold text-primary hover:underline mb-6 inline-block">← Back to Blog</Link>
           <header className="mb-10">
             <time className="text-xs text-muted-foreground">February 26, 2026</time>
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Why SEO is Important for Long-Term Business Growth</h1>

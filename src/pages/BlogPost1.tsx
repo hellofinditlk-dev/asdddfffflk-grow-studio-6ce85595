@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import SEOHead from "@/components/SEOHead";
+import PageBreadcrumb from "@/components/PageBreadcrumb";
 
 const BlogPost1 = () => (
   <>
@@ -8,10 +9,10 @@ const BlogPost1 = () => (
       description="Learn why a structured social media strategy is essential for Sri Lankan businesses to grow reach, engagement, and conversions."
       canonical="https://cypherdigital.lk/blog/why-social-media-management-important-businesses-sri-lanka"
     />
+    <PageBreadcrumb items={[{ label: "Blog", href: "/blog" }, { label: "Article" }]} />
     <article className="pt-24 pb-20">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto">
-          <Link to="/blog" className="text-xs font-semibold text-primary hover:underline mb-6 inline-block">← Back to Blog</Link>
 
           <header className="mb-10">
             <time className="text-xs text-muted-foreground">February 26, 2026</time>
