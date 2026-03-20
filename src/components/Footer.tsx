@@ -23,6 +23,7 @@ const Footer = () => (
               <Instagram className="w-4 h-4" />
             </a>
           </div>
+        </div>
 
         <div>
           <h4 className="font-heading text-sm font-bold mb-4">Services</h4>
