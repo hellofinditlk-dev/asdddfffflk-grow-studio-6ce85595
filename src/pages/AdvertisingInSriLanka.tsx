@@ -140,14 +140,7 @@ const AdvertisingInSriLanka = () => {
         canonical="https://cypherdigital.lk/advertising-in-sri-lanka"
       />
 
-      {/* Breadcrumb */}
-      <nav className="container mx-auto px-4 pt-4" aria-label="Breadcrumb">
-        <ol className="flex items-center gap-2 text-sm text-muted-foreground">
-          <li><Link to="/" className="hover:text-primary transition-colors">Home</Link></li>
-          <li>/</li>
-          <li className="text-foreground font-medium">Advertising in Sri Lanka</li>
-        </ol>
-      </nav>
+      <PageBreadcrumb items={[{ label: "Advertising in Sri Lanka" }]} />
 
       {/* Hero */}
       <section className="relative overflow-hidden">
