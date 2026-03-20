@@ -12,10 +12,17 @@ const Footer = () => (
             <img src={logo} alt="Cypher Digital" className="h-8 w-auto" />
             <img src={mascotDefault} alt="Cypher Digital mascot" className="w-8 h-8 rounded-lg object-cover" />
           </div>
-          <p className="text-sm text-muted-foreground leading-relaxed">
+          <p className="text-sm text-muted-foreground leading-relaxed mb-4">
             Results-driven digital marketing agency in Sri Lanka helping businesses grow.
           </p>
-        </div>
+          <div className="flex items-center gap-3">
+            <a href="https://www.facebook.com/cypherdigitalsrilanka" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center text-muted-foreground hover:text-primary transition-colors" aria-label="Facebook">
+              <Facebook className="w-4 h-4" />
+            </a>
+            <a href="https://www.instagram.com/cypherdigital_sl/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center text-muted-foreground hover:text-primary transition-colors" aria-label="Instagram">
+              <Instagram className="w-4 h-4" />
+            </a>
+          </div>
 
         <div>
           <h4 className="font-heading text-sm font-bold mb-4">Services</h4>
