@@ -1,6 +1,7 @@
 import InquiryForm from "@/components/InquiryForm";
 import { Mail, MapPin, Phone, Clock } from "lucide-react";
 import SEOHead from "@/components/SEOHead";
+import PageBreadcrumb from "@/components/PageBreadcrumb";
 import mascotHeadset from "@/assets/mascot-headset.jpeg";
 
 const contactInfo = [
