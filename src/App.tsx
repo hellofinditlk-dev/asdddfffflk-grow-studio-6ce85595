@@ -13,6 +13,7 @@ import GoogleAds from "./pages/GoogleAds";
 import VideoProduction from "./pages/VideoProduction";
 import SEOServices from "./pages/SEOServices";
 import GraphicDesign from "./pages/GraphicDesign";
+import TikTokMarketing from "./pages/TikTokMarketing";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
 import BlogPost1 from "./pages/BlogPost1";
