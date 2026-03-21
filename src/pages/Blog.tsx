@@ -193,6 +193,41 @@ const blogPosts = [
     date: "2026-03-16",
     keyword: "Digital Marketing Sri Lanka",
   },
+  {
+    slug: "why-tiktok-marketing-essential-sri-lankan-businesses",
+    title: "Why TikTok Marketing is Essential for Sri Lankan Businesses in 2026",
+    excerpt: "Discover why TikTok has become the most powerful marketing platform for businesses in Sri Lanka — massive reach, low costs, and viral potential.",
+    date: "2026-03-21",
+    keyword: "TikTok Marketing Sri Lanka",
+  },
+  {
+    slug: "how-create-viral-tiktok-content-business",
+    title: "How to Create Viral TikTok Content for Your Business",
+    excerpt: "Learn the proven strategies for creating TikTok videos that go viral — hooks, storytelling, trends, and optimization tips for Sri Lankan brands.",
+    date: "2026-03-21",
+    keyword: "TikTok Marketing Sri Lanka",
+  },
+  {
+    slug: "tiktok-ads-vs-facebook-ads-sri-lankan-businesses",
+    title: "TikTok Ads vs Facebook Ads — Which is Better for Sri Lankan Businesses?",
+    excerpt: "Compare TikTok Ads and Facebook Ads — cost, reach, engagement, targeting, and which platform delivers better ROI for Sri Lankan businesses.",
+    date: "2026-03-21",
+    keyword: "TikTok Marketing Sri Lanka",
+  },
+  {
+    slug: "tiktok-influencer-marketing-guide-sri-lankan-brands",
+    title: "TikTok Influencer Marketing Guide for Sri Lankan Brands",
+    excerpt: "Learn how to leverage TikTok influencer marketing in Sri Lanka — finding creators, collaboration strategies, and measuring ROI.",
+    date: "2026-03-21",
+    keyword: "TikTok Marketing Sri Lanka",
+  },
+  {
+    slug: "tiktok-marketing-hotels-tourism-sri-lanka",
+    title: "TikTok Marketing for Hotels and Tourism Businesses in Sri Lanka",
+    excerpt: "Learn how hotels and tourism businesses in Sri Lanka can use TikTok marketing to attract guests, showcase experiences, and drive bookings.",
+    date: "2026-03-21",
+    keyword: "TikTok Marketing Sri Lanka",
+  },
 ];
 
 const Blog = () => (
