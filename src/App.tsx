@@ -43,6 +43,11 @@ import BlogPost24 from "./pages/BlogPost24";
 import BlogPost25 from "./pages/BlogPost25";
 import BlogPost26 from "./pages/BlogPost26";
 import BlogPost27 from "./pages/BlogPost27";
+import BlogPost28 from "./pages/BlogPost28";
+import BlogPost29 from "./pages/BlogPost29";
+import BlogPost30 from "./pages/BlogPost30";
+import BlogPost31 from "./pages/BlogPost31";
+import BlogPost32 from "./pages/BlogPost32";
 import AdvertisingInSriLanka from "./pages/AdvertisingInSriLanka";
 import IndustryPage from "./pages/IndustryPage";
 import NotFound from "./pages/NotFound";
@@ -94,6 +99,11 @@ const App = () => (
             <Route path="/blog/google-ads-optimization-tips-improve-campaign-performance" element={<BlogPost25 />} />
             <Route path="/blog/on-page-seo-guide-better-rankings" element={<BlogPost26 />} />
             <Route path="/blog/why-industry-specific-digital-marketing-important-businesses-sri-lanka" element={<BlogPost27 />} />
+            <Route path="/blog/why-tiktok-marketing-essential-sri-lankan-businesses" element={<BlogPost28 />} />
+            <Route path="/blog/how-create-viral-tiktok-content-business" element={<BlogPost29 />} />
+            <Route path="/blog/tiktok-ads-vs-facebook-ads-sri-lankan-businesses" element={<BlogPost30 />} />
+            <Route path="/blog/tiktok-influencer-marketing-guide-sri-lankan-brands" element={<BlogPost31 />} />
+            <Route path="/blog/tiktok-marketing-hotels-tourism-sri-lanka" element={<BlogPost32 />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/advertising-in-sri-lanka" element={<AdvertisingInSriLanka />} />
             {/* Industry pages */}
