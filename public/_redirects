@@ -1,1 +1,29 @@
-/*    /index.html   200
+# Service pages
+/social-media-management-sri-lanka    /index.html   200
+/facebook-ads-sri-lanka               /index.html   200
+/google-ads-sri-lanka                 /index.html   200
+/video-production-sri-lanka           /index.html   200
+/seo-services-sri-lanka               /index.html   200
+/graphic-design-sri-lanka             /index.html   200
+/tiktok-marketing-sri-lanka           /index.html   200
+/advertising-in-sri-lanka             /index.html   200
+
+# Static pages
+/contact                              /index.html   200
+/blog                                 /index.html   200
+/blog/*                               /index.html   200
+
+# Industry pages
+/hotel-digital-marketing-sri-lanka              /index.html   200
+/travel-agency-digital-marketing-sri-lanka      /index.html   200
+/fashion-brand-digital-marketing-sri-lanka      /index.html   200
+/restaurant-digital-marketing-sri-lanka         /index.html   200
+/real-estate-digital-marketing-sri-lanka        /index.html   200
+/education-marketing-agency-sri-lanka           /index.html   200
+/beauty-salon-digital-marketing-sri-lanka       /index.html   200
+/automotive-digital-marketing-sri-lanka         /index.html   200
+/small-business-digital-marketing-sri-lanka     /index.html   200
+/ecommerce-digital-marketing-sri-lanka          /index.html   200
+
+# Catch-all: serve index.html but with 404 status for unknown routes
+/*    /index.html   404
