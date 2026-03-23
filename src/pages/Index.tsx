@@ -138,7 +138,7 @@ const Index = () => (
   <div className="pt-16">
     <SEOHead
       title="Cypher Digital | Digital Marketing Agency Sri Lanka"
-      description="Cypher Digital — leading digital marketing agency in Sri Lanka. Social media management, Facebook & Google Ads, SEO, video production & graphic design. Get a free consultation today."
+      description="Best digital marketing agency in Sri Lanka. Social media management, Facebook & Google Ads, SEO, video production & graphic design"
       canonical="https://cypherdigital.lk"
     />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
