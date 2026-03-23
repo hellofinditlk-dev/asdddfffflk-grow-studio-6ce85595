@@ -62,6 +62,14 @@ const services = [
     link: "/video-production-sri-lanka",
     accent: "from-violet-500/10 to-purple-500/10",
   },
+  {
+    icon: <Rocket className="w-5 h-5" />,
+    title: "TikTok Marketing",
+    desc: "Viral TikTok campaigns and ads to reach younger audiences in Sri Lanka.",
+    items: ["TikTok Ads", "Content creation", "Influencer campaigns", "Viral strategies", "Analytics"],
+    link: "/tiktok-marketing-sri-lanka",
+    accent: "from-rose-500/10 to-pink-500/10",
+  },
 ];
 
 const whyUs = [
