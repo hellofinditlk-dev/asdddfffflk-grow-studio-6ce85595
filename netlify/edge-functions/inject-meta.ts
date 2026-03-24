@@ -227,68 +227,78 @@ const META_MAP: Record<string, { title: string; description: string }> = {
   },
 };
 
-const BOT_UA_REGEX =
-  /googlebot|bingbot|yandex|baiduspider|facebookexternalhit|twitterbot|rogerbot|linkedinbot|embedly|quora link preview|showyoubot|outbrain|pinterest|slackbot|vkShare|W3C_Validator|semrush|ahrefs|mj12bot|dotbot|petalbot|neilpatel|ubersuggest|seography/i;
+const escapeAttr = (value: string) =>
+  value
+    .replaceAll("&", "&amp;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;");
 
 export default async function handler(request: Request, context: any) {
-  const ua = request.headers.get("user-agent") || "";
   const url = new URL(request.url);
   const path = url.pathname.replace(/\/$/, "") || "/";
-
-  // Only process for bots
-  if (!BOT_UA_REGEX.test(ua)) {
-    return context.next();
-  }
-
   const meta = META_MAP[path];
+
   if (!meta) {
     return context.next();
   }
 
-  // Get the original response
   const response = await context.next();
-  const html = await response.text();
+  const contentType = response.headers.get("content-type") || "";
+  if (!contentType.includes("text/html")) {
+    return response;
+  }
 
-  // Replace the default meta tags with page-specific ones
-  let modified = html
-    .replace(/<title>[^<]*<\/title>/, `<title>${meta.title}</title>`)
+  const safeTitle = escapeAttr(meta.title);
+  const safeDescription = escapeAttr(meta.description);
+  const canonical = `https://cypherdigital.lk${path}`;
+
+  let modified = (await response.text())
+    .replace(/<title>[^<]*<\/title>/, `<title>${safeTitle}</title>`)
     .replace(
       /<meta\s+name="description"\s+content="[^"]*"\s*\/?>/,
-      `<meta name="description" content="${meta.description}" />`
+      `<meta name="description" content="${safeDescription}" />`
     )
     .replace(
       /<meta\s+property="og:title"\s+content="[^"]*"\s*\/?>/,
-      `<meta property="og:title" content="${meta.title}" />`
+      `<meta property="og:title" content="${safeTitle}" />`
     )
     .replace(
       /<meta\s+property="og:description"\s+content="[^"]*"\s*\/?>/,
-      `<meta property="og:description" content="${meta.description}" />`
+      `<meta property="og:description" content="${safeDescription}" />`
     )
     .replace(
       /<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/,
-      `<meta property="og:url" content="https://cypherdigital.lk${path}" />`
+      `<meta property="og:url" content="${canonical}" />`
     )
     .replace(
       /<meta\s+name="twitter:title"\s+content="[^"]*"\s*\/?>/,
-      `<meta name="twitter:title" content="${meta.title}" />`
+      `<meta name="twitter:title" content="${safeTitle}" />`
     )
     .replace(
       /<meta\s+name="twitter:description"\s+content="[^"]*"\s*\/?>/,
-      `<meta name="twitter:description" content="${meta.description}" />`
+      `<meta name="twitter:description" content="${safeDescription}" />`
     );
 
-  // Add canonical link for bots
-  const canonical = `https://cypherdigital.lk${path}`;
-  if (!modified.includes('rel="canonical"')) {
+  if (modified.includes('rel="canonical"')) {
+    modified = modified.replace(
+      /<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/,
+      `<link rel="canonical" href="${canonical}" />`
+    );
+  } else {
     modified = modified.replace(
       "</head>",
       `  <link rel="canonical" href="${canonical}" />\n  </head>`
     );
   }
 
+  const headers = new Headers(response.headers);
+  headers.delete("content-length");
+  headers.delete("etag");
+
   return new Response(modified, {
     status: response.status,
-    headers: response.headers,
+    headers,
   });
 }
 
