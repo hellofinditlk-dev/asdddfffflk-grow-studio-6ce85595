@@ -336,7 +336,12 @@ export default async function handler(request: Request, context: any) {
       `<meta name="twitter:description" content="${safeDescription}" />`
     );
 
-  if (modified.includes('rel="canonical"')) {
+  // Inject H1 into body for crawlers that don't execute JS
+  const safeH1 = escapeAttr(meta.h1);
+  modified = modified.replace(
+    '<div id="root"></div>',
+    `<div id="root"><h1>${safeH1}</h1></div>`
+  );
     modified = modified.replace(
       /<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/,
       `<link rel="canonical" href="${canonical}" />`
