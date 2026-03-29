@@ -4,7 +4,8 @@ import {
   ArrowRight, CheckCircle, Megaphone, Target, Video, Search,
   BarChart3, Users, Lightbulb, Rocket, FileText, TrendingUp,
   Phone, ArrowUpRight, Palette, Globe, Eye, MousePointerClick,
-  MapPin, ShoppingBag, GraduationCap, Building2, Sparkles, Zap, Star
+  MapPin, ShoppingBag, GraduationCap, Building2, Sparkles, Zap, Star,
+  Play, ChevronRight
 } from "lucide-react";
 import InquiryForm from "@/components/InquiryForm";
 import SEOHead from "@/components/SEOHead";
@@ -20,7 +21,7 @@ const services = [
     desc: "Complete Facebook and Instagram page management to build a strong online presence.",
     items: ["Content planning", "Creative post design", "Post scheduling", "Inbox management", "Monthly reports"],
     link: "/social-media-management-sri-lanka",
-    accent: "from-purple-500/10 to-blue-500/10",
+    gradient: "from-[hsl(252,65%,55%)] to-[hsl(280,80%,65%)]",
   },
   {
     icon: <Target className="w-5 h-5" />,
@@ -28,7 +29,7 @@ const services = [
     desc: "Run high-performing Facebook campaigns to generate leads and sales.",
     items: ["Lead generation campaigns", "Awareness campaigns", "Remarketing campaigns", "Conversion campaigns", "Advanced audience targeting"],
     link: "/facebook-ads-sri-lanka",
-    accent: "from-blue-500/10 to-cyan-500/10",
+    gradient: "from-[hsl(220,80%,55%)] to-[hsl(200,90%,55%)]",
   },
   {
     icon: <Search className="w-5 h-5" />,
@@ -36,7 +37,7 @@ const services = [
     desc: "Capture customers actively searching for your services.",
     items: ["Google Search Ads", "Display Ads", "YouTube Ads", "Keyword research", "Conversion tracking"],
     link: "/google-ads-sri-lanka",
-    accent: "from-green-500/10 to-emerald-500/10",
+    gradient: "from-[hsl(150,60%,45%)] to-[hsl(170,70%,50%)]",
   },
   {
     icon: <FileText className="w-5 h-5" />,
@@ -44,7 +45,7 @@ const services = [
     desc: "Boost your Google rankings with on-page and off-page SEO strategies.",
     items: ["On-page SEO", "Off-page SEO", "Technical SEO", "Local SEO", "Keyword research"],
     link: "/seo-services-sri-lanka",
-    accent: "from-orange-500/10 to-yellow-500/10",
+    gradient: "from-[hsl(30,90%,55%)] to-[hsl(45,95%,55%)]",
   },
   {
     icon: <Palette className="w-5 h-5" />,
@@ -52,7 +53,7 @@ const services = [
     desc: "Professional logo, social media, and print design starting from LKR 6,000.",
     items: ["Logo design", "Social media graphics", "Flyers & brochures", "Packaging", "Brand identity"],
     link: "/graphic-design-sri-lanka",
-    accent: "from-pink-500/10 to-rose-500/10",
+    gradient: "from-[hsl(340,80%,55%)] to-[hsl(320,70%,60%)]",
   },
   {
     icon: <Video className="w-5 h-5" />,
@@ -60,7 +61,7 @@ const services = [
     desc: "Professional video content that increases engagement and ad performance.",
     items: ["Promo videos", "Reels & short videos", "Brand videos", "Ad creatives", "Product videos"],
     link: "/video-production-sri-lanka",
-    accent: "from-violet-500/10 to-purple-500/10",
+    gradient: "from-[hsl(270,70%,55%)] to-[hsl(252,65%,55%)]",
   },
   {
     icon: <Rocket className="w-5 h-5" />,
@@ -68,25 +69,25 @@ const services = [
     desc: "Viral TikTok campaigns and ads to reach younger audiences in Sri Lanka.",
     items: ["TikTok Ads", "Content creation", "Influencer campaigns", "Viral strategies", "Analytics"],
     link: "/tiktok-marketing-sri-lanka",
-    accent: "from-rose-500/10 to-pink-500/10",
+    gradient: "from-[hsl(350,80%,55%)] to-[hsl(330,75%,60%)]",
   },
 ];
 
 const whyUs = [
-  { icon: <Lightbulb className="w-5 h-5" />, text: "Strategy-first campaigns" },
-  { icon: <TrendingUp className="w-5 h-5" />, text: "Lead generation focused" },
-  { icon: <BarChart3 className="w-5 h-5" />, text: "Multi-channel marketing" },
-  { icon: <Users className="w-5 h-5" />, text: "Creative content team" },
-  { icon: <FileText className="w-5 h-5" />, text: "Transparent reporting" },
-  { icon: <Rocket className="w-5 h-5" />, text: "Affordable packages" },
+  { icon: <Lightbulb className="w-5 h-5" />, text: "Strategy-first campaigns", detail: "Data-backed strategies tailored to your market" },
+  { icon: <TrendingUp className="w-5 h-5" />, text: "Lead generation focused", detail: "Every campaign optimized for real business results" },
+  { icon: <BarChart3 className="w-5 h-5" />, text: "Multi-channel marketing", detail: "Reach customers across all digital platforms" },
+  { icon: <Users className="w-5 h-5" />, text: "Creative content team", detail: "In-house designers, writers & video editors" },
+  { icon: <FileText className="w-5 h-5" />, text: "Transparent reporting", detail: "Clear monthly reports with actionable insights" },
+  { icon: <Rocket className="w-5 h-5" />, text: "Affordable packages", detail: "Enterprise-quality at SME-friendly pricing" },
 ];
 
 const process = [
-  { step: "01", title: "Strategy & Planning", desc: "We analyze your business, competitors, and target audience." },
-  { step: "02", title: "Content Creation", desc: "Our creative team designs engaging content for your brand." },
-  { step: "03", title: "Campaign Launch", desc: "We launch targeted campaigns across selected platforms." },
-  { step: "04", title: "Optimization", desc: "Continuous optimization to maximize ROI and results." },
-  { step: "05", title: "Reporting", desc: "Transparent monthly reports with actionable insights." },
+  { step: "01", title: "Strategy & Planning", desc: "We analyze your business, competitors, and target audience.", icon: <Lightbulb className="w-5 h-5" /> },
+  { step: "02", title: "Content Creation", desc: "Our creative team designs engaging content for your brand.", icon: <Palette className="w-5 h-5" /> },
+  { step: "03", title: "Campaign Launch", desc: "We launch targeted campaigns across selected platforms.", icon: <Rocket className="w-5 h-5" /> },
+  { step: "04", title: "Optimization", desc: "Continuous optimization to maximize ROI and results.", icon: <TrendingUp className="w-5 h-5" /> },
+  { step: "05", title: "Reporting", desc: "Transparent monthly reports with actionable insights.", icon: <BarChart3 className="w-5 h-5" /> },
 ];
 
 const stats = [
@@ -94,6 +95,8 @@ const stats = [
   { value: "20+", label: "Happy Clients", icon: <Star className="w-5 h-5" /> },
   { value: "2,000+", label: "Campaigns Run", icon: <Rocket className="w-5 h-5" /> },
 ];
+
+const trustedLogos = ["Facebook", "Google", "TikTok", "Instagram", "YouTube", "LinkedIn"];
 
 const organizationSchema = {
   "@context": "https://schema.org",
@@ -145,44 +148,81 @@ const Index = () => (
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
 
     {/* HERO */}
-    <section className="relative py-28 lg:py-36 bg-foreground overflow-hidden">
-      {/* Animated gradient orbs */}
-      <div className="absolute top-1/4 -left-32 w-96 h-96 bg-primary/20 rounded-full blur-[120px] animate-float" />
-      <div className="absolute bottom-0 right-0 w-80 h-80 bg-primary/10 rounded-full blur-[100px] animate-float" style={{ animationDelay: "1.5s" }} />
-      <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'radial-gradient(circle at 1px 1px, hsl(0 0% 100%) 1px, transparent 0)', backgroundSize: '32px 32px' }} />
+    <section className="relative py-28 lg:py-40 bg-foreground overflow-hidden">
+      {/* Multiple animated gradient orbs */}
+      <div className="absolute top-1/4 -left-32 w-[500px] h-[500px] bg-primary/25 rounded-full blur-[140px] animate-float" />
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-[hsl(280,80%,65%)]/15 rounded-full blur-[120px] animate-float" style={{ animationDelay: "1.5s" }} />
+      <div className="absolute top-0 right-1/4 w-64 h-64 bg-[hsl(200,90%,55%)]/10 rounded-full blur-[100px] animate-float" style={{ animationDelay: "3s" }} />
+      {/* Dot grid */}
+      <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: 'radial-gradient(circle at 1px 1px, hsl(0 0% 100%) 1px, transparent 0)', backgroundSize: '32px 32px' }} />
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-primary/20 bg-primary/5 text-primary text-xs font-medium mb-8 animate-fade-up" style={{ animationDelay: "0.1s" }}>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/30 bg-primary/10 text-primary text-xs font-semibold mb-8 animate-fade-up" style={{ animationDelay: "0.1s" }}>
               <Sparkles className="w-3.5 h-3.5" />
-              Digital Marketing Agency Sri Lanka
+              #1 Digital Marketing Agency Sri Lanka
             </div>
-            <h1 className="font-heading text-4xl md:text-5xl lg:text-[3.5rem] font-extrabold text-white leading-[1.1] mb-6 animate-fade-up" style={{ animationDelay: "0.2s" }}>
+            <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-[1.08] mb-6 animate-fade-up" style={{ animationDelay: "0.2s" }}>
               Social Media & Digital Marketing{" "}
-              <span className="bg-gradient-to-r from-primary to-[hsl(280,80%,65%)] bg-clip-text text-transparent">Solutions</span>
+              <span className="gradient-text">Solutions</span>
               {" "}in Sri Lanka
             </h1>
-            <p className="text-lg text-white/60 leading-relaxed mb-10 max-w-xl animate-fade-up" style={{ animationDelay: "0.3s" }}>
+            <p className="text-lg md:text-xl text-white/55 leading-relaxed mb-10 max-w-xl animate-fade-up" style={{ animationDelay: "0.3s" }}>
               We help Sri Lankan businesses grow with professional social media management, Facebook advertising, Google Ads, and video production.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 animate-fade-up" style={{ animationDelay: "0.4s" }}>
-              <Button asChild size="lg" className="bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-all text-sm px-7 h-12 rounded-xl shadow-[0_0_24px_hsl(252_65%_55%/0.3)] hover:shadow-[0_0_32px_hsl(252_65%_55%/0.5)]">
+              <Button asChild size="lg" className="bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-all text-sm px-8 h-13 rounded-xl shadow-[0_0_30px_hsl(252_65%_55%/0.4)] hover:shadow-[0_0_40px_hsl(252_65%_55%/0.6)] hover:scale-[1.02] active:scale-[0.98]">
                 <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20book%20a%20free%20consultation" target="_blank" rel="noopener noreferrer">
                   Book a Free Consultation <ArrowRight className="w-4 h-4 ml-2" />
                 </a>
               </Button>
-              <Button asChild size="lg" className="bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] text-sm px-7 h-12 rounded-xl font-semibold border-none shadow-[0_0_24px_hsl(25_95%_53%/0.3)] hover:shadow-[0_0_32px_hsl(25_95%_53%/0.5)] transition-all">
+              <Button asChild size="lg" className="bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] text-sm px-8 h-13 rounded-xl font-semibold border-none shadow-[0_0_30px_hsl(25_95%_53%/0.35)] hover:shadow-[0_0_40px_hsl(25_95%_53%/0.55)] hover:scale-[1.02] active:scale-[0.98] transition-all">
                 <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20get%20a%20free%20quote" target="_blank" rel="noopener noreferrer">
                   Get a Free Quote <ArrowRight className="w-4 h-4 ml-2" />
                 </a>
               </Button>
             </div>
+            {/* Trust markers */}
+            <div className="mt-10 animate-fade-up" style={{ animationDelay: "0.5s" }}>
+              <p className="text-xs text-white/30 uppercase tracking-widest mb-3">We Advertise On</p>
+              <div className="flex flex-wrap items-center gap-4">
+                {trustedLogos.map((name) => (
+                  <span key={name} className="text-xs font-semibold text-white/25 border border-white/10 px-3 py-1.5 rounded-lg">{name}</span>
+                ))}
+              </div>
+            </div>
           </div>
           <div className="hidden lg:flex justify-center animate-fade-up" style={{ animationDelay: "0.5s" }}>
             <div className="relative">
-              <div className="absolute inset-0 bg-primary/20 rounded-full blur-[60px] animate-pulse-glow" />
-              <img src={mascotDefault} alt="Cypher Digital mascot" className="relative w-72 h-72 rounded-3xl object-cover shadow-[0_0_40px_hsl(252_65%_55%/0.3)] animate-float" />
+              <div className="absolute -inset-8 bg-gradient-to-br from-primary/30 via-[hsl(280,80%,65%)]/20 to-transparent rounded-full blur-[80px] animate-pulse-glow" />
+              {/* Decorative ring */}
+              <div className="absolute -inset-4 rounded-[2rem] border border-white/10 animate-float" style={{ animationDelay: "0.5s" }} />
+              <img src={mascotDefault} alt="Cypher Digital mascot" className="relative w-80 h-80 rounded-3xl object-cover shadow-[0_20px_60px_hsl(252_65%_55%/0.4)] animate-float" />
+              {/* Floating badge */}
+              <div className="absolute -bottom-4 -left-6 bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl px-4 py-3 animate-float" style={{ animationDelay: "1s" }}>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center">
+                    <TrendingUp className="w-4 h-4 text-green-400" />
+                  </div>
+                  <div>
+                    <p className="text-white text-xs font-bold">+340%</p>
+                    <p className="text-white/50 text-[10px]">Avg. ROI</p>
+                  </div>
+                </div>
+              </div>
+              {/* Floating badge right */}
+              <div className="absolute -top-4 -right-6 bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl px-4 py-3 animate-float" style={{ animationDelay: "2s" }}>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center">
+                    <Star className="w-4 h-4 text-primary" />
+                  </div>
+                  <div>
+                    <p className="text-white text-xs font-bold">5.0 ★</p>
+                    <p className="text-white/50 text-[10px]">Client Rating</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -190,20 +230,20 @@ const Index = () => (
     </section>
 
     {/* STATS */}
-    <section className="relative -mt-8 z-20">
+    <section className="relative -mt-10 z-20">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-3 gap-4 max-w-3xl mx-auto">
           {stats.map((s, i) => (
             <div
               key={i}
-              className="bg-card border border-border rounded-2xl py-8 px-4 text-center shadow-card hover:shadow-card-hover transition-shadow animate-count-up"
+              className="glass-card rounded-2xl py-8 px-4 text-center hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300 animate-count-up"
               style={{ animationDelay: `${0.1 * (i + 1)}s` }}
             >
-              <div className="w-10 h-10 rounded-xl bg-primary/8 flex items-center justify-center text-primary mx-auto mb-3">
+              <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-primary/15 to-primary/5 flex items-center justify-center text-primary mx-auto mb-3">
                 {s.icon}
               </div>
-              <div className="font-heading text-2xl md:text-3xl font-extrabold text-foreground mb-1">{s.value}</div>
-              <div className="text-xs text-muted-foreground">{s.label}</div>
+              <div className="font-heading text-3xl md:text-4xl font-extrabold text-foreground mb-1">{s.value}</div>
+              <div className="text-xs text-muted-foreground font-medium">{s.label}</div>
             </div>
           ))}
         </div>
@@ -211,7 +251,7 @@ const Index = () => (
     </section>
 
     {/* ABOUT */}
-    <section className="py-20 lg:py-28">
+    <section className="py-24 lg:py-32">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-[1fr_auto_1fr] gap-10 items-center max-w-4xl mx-auto">
           <div className="text-center lg:text-right">
@@ -223,8 +263,9 @@ const Index = () => (
               Our digital marketing solutions are built to help businesses increase brand awareness, generate quality leads, and scale faster.
             </p>
           </div>
-          <div className="hidden lg:block">
-            <img src={mascotGlasses} alt="Cypher Digital mascot with glasses" className="w-48 h-48 rounded-2xl object-cover shadow-card-hover" />
+          <div className="hidden lg:block relative">
+            <div className="absolute -inset-4 bg-gradient-to-br from-primary/10 to-transparent rounded-3xl blur-xl" />
+            <img src={mascotGlasses} alt="Cypher Digital mascot with glasses" className="relative w-48 h-48 rounded-2xl object-cover shadow-card-hover" />
           </div>
           <div className="text-center lg:text-left">
             <p className="text-muted-foreground text-sm">
@@ -241,26 +282,31 @@ const Index = () => (
     </section>
 
     {/* SERVICES */}
-    <section className="pb-20 lg:pb-28">
+    <section className="pb-24 lg:pb-32">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Services</p>
-          <h2 className="font-heading text-3xl md:text-4xl font-extrabold">
+          <h2 className="font-heading text-3xl md:text-4xl font-extrabold mb-4">
             Our Digital Marketing Services
           </h2>
+          <p className="text-muted-foreground max-w-lg mx-auto">End-to-end digital solutions to grow your brand in Sri Lanka</p>
         </div>
         <div className="grid md:grid-cols-2 gap-5">
           {services.map((s, i) => (
             <Link
               key={i}
               to={s.link}
-              className={`group relative rounded-2xl border border-border bg-card p-7 md:p-8 hover:border-primary/30 hover:shadow-card-hover transition-all duration-300 overflow-hidden`}
+              className="group relative rounded-2xl border border-border bg-card p-7 md:p-8 hover:border-primary/30 hover:shadow-[0_8px_30px_hsl(252_65%_55%/0.08)] transition-all duration-500 overflow-hidden hover:-translate-y-1"
             >
-              {/* Subtle gradient background on hover */}
-              <div className={`absolute inset-0 bg-gradient-to-br ${s.accent} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
+              {/* Animated gradient line on top */}
+              <div className={`absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r ${s.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
+              {/* Shimmer effect on hover */}
+              <div className="absolute inset-0 overflow-hidden opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/[0.03] to-transparent" style={{ animation: 'shimmer 2s infinite' }} />
+              </div>
               <div className="relative z-10">
                 <div className="flex items-center justify-between mb-5">
-                  <div className="w-10 h-10 rounded-xl bg-primary/8 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300">
+                  <div className={`w-11 h-11 rounded-xl bg-gradient-to-br ${s.gradient} flex items-center justify-center text-white shadow-sm`}>
                     {s.icon}
                   </div>
                   <ArrowUpRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-300" />
@@ -269,7 +315,7 @@ const Index = () => (
                 <p className="text-muted-foreground text-sm mb-5 leading-relaxed">{s.desc}</p>
                 <div className="flex flex-wrap gap-2">
                   {s.items.map((item, j) => (
-                    <span key={j} className="text-xs px-2.5 py-1 rounded-md bg-secondary text-muted-foreground">
+                    <span key={j} className="text-xs px-2.5 py-1 rounded-md bg-secondary text-muted-foreground group-hover:bg-primary/5 transition-colors duration-300">
                       {item}
                     </span>
                   ))}
@@ -282,21 +328,24 @@ const Index = () => (
     </section>
 
     {/* WHY CHOOSE US */}
-    <section className="py-20 lg:py-28 bg-secondary">
-      <div className="container mx-auto px-4">
+    <section className="py-24 lg:py-32 bg-secondary relative overflow-hidden">
+      <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-[120px]" />
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Why Us</p>
-          <h2 className="font-heading text-3xl md:text-4xl font-extrabold">
+          <h2 className="font-heading text-3xl md:text-4xl font-extrabold mb-4">
             Why Choose Our Agency
           </h2>
+          <p className="text-muted-foreground max-w-lg mx-auto">We bring strategy, creativity, and results together</p>
         </div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {whyUs.map((item, i) => (
-            <div key={i} className="group flex items-center gap-4 bg-card rounded-xl p-5 border border-border hover:border-primary/30 hover:shadow-card-hover transition-all duration-300">
-              <div className="w-10 h-10 rounded-lg bg-primary/8 flex items-center justify-center text-primary shrink-0 group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300">
+            <div key={i} className="group bg-card rounded-2xl p-6 border border-border hover:border-primary/30 hover:shadow-[0_8px_30px_hsl(252_65%_55%/0.06)] transition-all duration-500 hover:-translate-y-1">
+              <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-primary/15 to-primary/5 flex items-center justify-center text-primary shrink-0 mb-4 group-hover:from-primary group-hover:to-primary group-hover:text-primary-foreground transition-all duration-300">
                 {item.icon}
               </div>
-              <span className="text-sm font-medium">{item.text}</span>
+              <h3 className="font-heading text-sm font-bold mb-1.5">{item.text}</h3>
+              <p className="text-xs text-muted-foreground leading-relaxed">{item.detail}</p>
             </div>
           ))}
         </div>
@@ -304,25 +353,28 @@ const Index = () => (
     </section>
 
     {/* PROCESS */}
-    <section className="py-20 lg:py-28">
-      <div className="container mx-auto px-4">
+    <section className="py-24 lg:py-32 relative overflow-hidden">
+      <div className="absolute bottom-0 left-0 w-72 h-72 bg-primary/5 rounded-full blur-[100px]" />
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Process</p>
-          <h2 className="font-heading text-3xl md:text-4xl font-extrabold">
+          <h2 className="font-heading text-3xl md:text-4xl font-extrabold mb-4">
             Our Campaign Process
           </h2>
+          <p className="text-muted-foreground max-w-lg mx-auto">From strategy to results in 5 clear steps</p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
           {process.map((p, i) => (
             <div key={i} className="text-center group relative">
               {/* Connector line */}
               {i < process.length - 1 && (
-                <div className="hidden lg:block absolute top-6 left-[calc(50%+28px)] w-[calc(100%-56px)] h-px bg-border" />
+                <div className="hidden lg:block absolute top-7 left-[calc(50%+32px)] w-[calc(100%-64px)] h-px bg-gradient-to-r from-primary/20 to-border" />
               )}
-              <div className="w-12 h-12 rounded-full border-2 border-primary/20 text-primary font-heading font-bold text-sm flex items-center justify-center mx-auto mb-4 group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary group-hover:scale-110 transition-all duration-300 relative z-10 bg-background">
-                {p.step}
+              <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-primary/10 to-primary/5 text-primary font-heading font-bold text-sm flex items-center justify-center mx-auto mb-4 group-hover:from-primary group-hover:to-[hsl(280,80%,65%)] group-hover:text-white group-hover:scale-110 group-hover:shadow-[0_8px_24px_hsl(252_65%_55%/0.3)] transition-all duration-300 relative z-10">
+                {p.icon}
               </div>
-              <h3 className="font-heading text-sm font-bold mb-1.5">{p.title}</h3>
+              <span className="text-[10px] font-bold text-primary/50 uppercase tracking-widest">Step {p.step}</span>
+              <h3 className="font-heading text-sm font-bold mb-1.5 mt-1">{p.title}</h3>
               <p className="text-xs text-muted-foreground leading-relaxed">{p.desc}</p>
             </div>
           ))}
@@ -331,7 +383,7 @@ const Index = () => (
     </section>
 
     {/* DIGITAL ADVERTISING IN SRI LANKA */}
-    <section className="py-20 lg:py-28 bg-secondary">
+    <section className="py-24 lg:py-32 bg-secondary">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Digital Advertising</p>
@@ -344,7 +396,7 @@ const Index = () => (
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 mb-16">
-          <div className="bg-card border border-border rounded-2xl p-7 md:p-8 hover:shadow-card-hover transition-shadow duration-300">
+          <div className="bg-card border border-border rounded-2xl p-7 md:p-8 hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300">
             <div className="w-10 h-10 rounded-xl bg-primary/8 flex items-center justify-center text-primary mb-5">
               <Globe className="w-5 h-5" />
             </div>
@@ -359,7 +411,7 @@ const Index = () => (
             </p>
           </div>
 
-          <div className="bg-card border border-border rounded-2xl p-7 md:p-8 hover:shadow-card-hover transition-shadow duration-300">
+          <div className="bg-card border border-border rounded-2xl p-7 md:p-8 hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300">
             <div className="flex items-center gap-3 mb-3">
               <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
                 <Megaphone className="w-5 h-5 text-primary" />
@@ -415,7 +467,7 @@ const Index = () => (
             { icon: <Search className="w-5 h-5" />, title: "Search Engine Advertising", desc: "Google Search and Display Ads to capture high-intent customers.", link: "/google-ads-sri-lanka" },
             { icon: <Users className="w-5 h-5" />, title: "Influencer Marketing", desc: "Collaborate with local influencers to reach niche audiences authentically.", link: "" },
           ].map((item, i) => (
-            <div key={i} className="group bg-card border border-border rounded-xl p-6 hover:border-primary/20 hover:shadow-card-hover transition-all duration-300">
+            <div key={i} className="group bg-card border border-border rounded-xl p-6 hover:border-primary/20 hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300">
               <div className="w-10 h-10 rounded-xl bg-primary/8 flex items-center justify-center text-primary mb-4 group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300">
                 {item.icon}
               </div>
@@ -433,6 +485,7 @@ const Index = () => (
         {/* INDUSTRIES */}
         <div className="relative bg-foreground text-white rounded-2xl p-8 md:p-12 mb-16 overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-primary/10 rounded-full blur-[80px]" />
+          <div className="absolute bottom-0 left-0 w-48 h-48 bg-[hsl(280,80%,65%)]/10 rounded-full blur-[60px]" />
           <div className="relative z-10">
             <div className="max-w-2xl mx-auto text-center mb-10">
               <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Industries</p>
@@ -480,8 +533,9 @@ const Index = () => (
     </section>
 
     {/* FINAL CTA + FORM */}
-    <section className="relative py-20 lg:py-28 bg-foreground text-white overflow-hidden">
-      <div className="absolute top-1/2 left-0 w-72 h-72 bg-primary/15 rounded-full blur-[100px] -translate-y-1/2" />
+    <section className="relative py-24 lg:py-32 bg-foreground text-white overflow-hidden">
+      <div className="absolute top-1/2 left-0 w-96 h-96 bg-primary/20 rounded-full blur-[120px] -translate-y-1/2" />
+      <div className="absolute bottom-0 right-0 w-72 h-72 bg-[hsl(280,80%,65%)]/10 rounded-full blur-[100px]" />
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
@@ -492,7 +546,7 @@ const Index = () => (
             <p className="text-white/50 text-lg leading-relaxed mb-8">
               Generate consistent leads with Facebook ads, Google Ads, and professional social media management in Sri Lanka.
             </p>
-            <div className="flex items-center gap-5 mb-6 bg-white/5 border border-white/10 rounded-2xl p-4">
+            <div className="flex items-center gap-5 mb-6 bg-white/5 border border-white/10 rounded-2xl p-5 backdrop-blur-sm">
               <img src={mascotHeadset} alt="Cypher Digital support mascot" className="w-16 h-16 rounded-xl object-cover hidden sm:block" />
               <div>
                 <p className="text-white/80 text-sm font-medium mb-2">💬 Ready to grow? Drop us a message — we reply fast!</p>
