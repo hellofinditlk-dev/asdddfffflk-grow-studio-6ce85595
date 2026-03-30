@@ -60,10 +60,12 @@ const Footer = () => (
           <div className="flex flex-col gap-2.5 text-sm text-muted-foreground">
             <Link to="/logo-design-sri-lanka" className="hover:text-foreground transition-colors">Logo Design</Link>
             <Link to="/brand-identity-design-sri-lanka" className="hover:text-foreground transition-colors">Brand Identity</Link>
-            <Link to="/company-profile-design-sri-lanka" className="hover:text-foreground transition-colors">Company Profile</Link>
             <Link to="/social-media-design-sri-lanka" className="hover:text-foreground transition-colors">Social Media Design</Link>
-            <Link to="/facebook-ad-design-sri-lanka" className="hover:text-foreground transition-colors">Facebook Ad Design</Link>
-            <Link to="/instagram-post-design-sri-lanka" className="hover:text-foreground transition-colors">Instagram Design</Link>
+            <Link to="/flyer-design-sri-lanka" className="hover:text-foreground transition-colors">Flyer Design</Link>
+            <Link to="/packaging-design-sri-lanka" className="hover:text-foreground transition-colors">Packaging Design</Link>
+            <Link to="/ui-ux-design-sri-lanka" className="hover:text-foreground transition-colors">UI/UX Design</Link>
+            <Link to="/motion-graphics-sri-lanka" className="hover:text-foreground transition-colors">Motion Graphics</Link>
+            <Link to="/infographic-design-sri-lanka" className="hover:text-foreground transition-colors">Infographic Design</Link>
           </div>
         </div>
 
