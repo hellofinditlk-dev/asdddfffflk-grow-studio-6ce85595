@@ -58,12 +58,12 @@ const Footer = () => (
         <div>
           <h4 className="font-heading text-sm font-bold mb-4">Design Services</h4>
           <div className="flex flex-col gap-2.5 text-sm text-muted-foreground">
-            <Link to="/graphic-design-sri-lanka/logo-design-sri-lanka" className="hover:text-foreground transition-colors">Logo Design</Link>
-            <Link to="/graphic-design-sri-lanka/brand-identity-design-sri-lanka" className="hover:text-foreground transition-colors">Brand Identity</Link>
-            <Link to="/graphic-design-sri-lanka/company-profile-design-sri-lanka" className="hover:text-foreground transition-colors">Company Profile</Link>
-            <Link to="/graphic-design-sri-lanka/social-media-design-sri-lanka" className="hover:text-foreground transition-colors">Social Media Design</Link>
-            <Link to="/graphic-design-sri-lanka/facebook-ad-design-sri-lanka" className="hover:text-foreground transition-colors">Facebook Ad Design</Link>
-            <Link to="/graphic-design-sri-lanka/instagram-post-design-sri-lanka" className="hover:text-foreground transition-colors">Instagram Design</Link>
+            <Link to="/logo-design-sri-lanka" className="hover:text-foreground transition-colors">Logo Design</Link>
+            <Link to="/brand-identity-design-sri-lanka" className="hover:text-foreground transition-colors">Brand Identity</Link>
+            <Link to="/company-profile-design-sri-lanka" className="hover:text-foreground transition-colors">Company Profile</Link>
+            <Link to="/social-media-design-sri-lanka" className="hover:text-foreground transition-colors">Social Media Design</Link>
+            <Link to="/facebook-ad-design-sri-lanka" className="hover:text-foreground transition-colors">Facebook Ad Design</Link>
+            <Link to="/instagram-post-design-sri-lanka" className="hover:text-foreground transition-colors">Instagram Design</Link>
           </div>
         </div>
 

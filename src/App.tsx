@@ -136,7 +136,12 @@ const App = () => (
               <Route path="/blog/cost-effective-advertising-strategies-sri-lankan-businesses" element={<BlogPost35 />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/advertising-in-sri-lanka" element={<AdvertisingInSriLanka />} />
-              <Route path="/graphic-design-sri-lanka/:slug" element={<DesignSubService />} />
+              <Route path="/logo-design-sri-lanka" element={<DesignSubService />} />
+              <Route path="/brand-identity-design-sri-lanka" element={<DesignSubService />} />
+              <Route path="/company-profile-design-sri-lanka" element={<DesignSubService />} />
+              <Route path="/social-media-design-sri-lanka" element={<DesignSubService />} />
+              <Route path="/facebook-ad-design-sri-lanka" element={<DesignSubService />} />
+              <Route path="/instagram-post-design-sri-lanka" element={<DesignSubService />} />
               <Route path="/:slug" element={<IndustryPage />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
