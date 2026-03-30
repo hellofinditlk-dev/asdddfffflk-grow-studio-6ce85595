@@ -39,6 +39,11 @@ const META_MAP: Record<string, { title: string; description: string; h1: string 
     description: "Professional TikTok marketing services in Sri Lanka. Viral content creation, TikTok Ads management, influencer marketing & trend optimization. Cost-effective campaigns from LKR 30,000/month.",
     h1: "TikTok Marketing Sri Lanka – Grow Your Brand with Viral, Cost-Effective Campaigns",
   },
+  "/influencer-marketing-sri-lanka": {
+    title: "Influencer Marketing Sri Lanka (2026) | Influencer Agency Sri Lanka | Cypher Digital",
+    description: "Professional influencer marketing services in Sri Lanka. Instagram, TikTok, YouTube & Facebook influencer campaigns. Data-driven influencer selection & end-to-end campaign management by Cypher Digital.",
+    h1: "Influencer Marketing Sri Lanka – Drive Real Engagement with Trusted Influencers",
+  },
   "/advertising-in-sri-lanka": {
     title: "Advertising in Sri Lanka (2026) – Complete Guide | Cypher Digital",
     description: "The #1 guide to advertising in Sri Lanka. Learn about digital advertising costs, best platforms, targeting strategies, industry-specific marketing, and how to grow your business with Google Ads, Facebook Ads, SEO & more.",
