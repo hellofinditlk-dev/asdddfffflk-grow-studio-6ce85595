@@ -644,6 +644,39 @@ export const designSubServices: DesignSubService[] = [
     relatedServices: ["presentation-design-sri-lanka", "social-media-design-sri-lanka", "company-profile-design-sri-lanka"],
     parentLink: { label: "Graphic Design Sri Lanka", path: "/graphic-design-sri-lanka" },
   },
+  {
+    slug: "label-design-sri-lanka",
+    shortName: "Label Design",
+    seoTitle: "Label Design Sri Lanka | Product Label Designers",
+    metaDescription: "Professional product label design services in Sri Lanka for food, beverages, cosmetics & retail products.",
+    h1: "Label Design Sri Lanka – Professional Product Label Design Services",
+    intro: "Your product label is your silent salesperson — it's the first thing customers see on the shelf and the primary factor that influences their buying decision. A professionally designed label communicates quality, builds trust, and differentiates your product from competitors. At Cypher Digital, we design product labels that sell. From food and beverage labels to cosmetic, pharmaceutical, and retail product labels, we create designs that combine shelf appeal with regulatory compliance. Our labels are print-ready, production-tested, and designed to make your product stand out in the Sri Lankan market and beyond.",
+    benefits: [
+      "Eye-catching designs that stand out on retail shelves",
+      "Compliant with Sri Lankan labeling regulations",
+      "Food, beverage, cosmetic, and retail label design",
+      "Die-cut and custom shape label designs",
+      "Print-ready files for local label manufacturers",
+      "Barcode, nutritional info, and regulatory text integration",
+      "Material and finish recommendations (matte, gloss, metallic)",
+      "Multiple label variations for product lines",
+    ],
+    processSteps: [
+      { title: "Product & Market Research", desc: "We study your product, target audience, retail environment, and competitor labels to inform the design direction." },
+      { title: "Label Layout Design", desc: "We create the label structure — dimensions, die-cut shape, content placement, and visual hierarchy for maximum shelf impact." },
+      { title: "Visual Design & Branding", desc: "We design the label graphics, typography, colors, and brand elements ensuring consistency with your overall brand identity." },
+      { title: "Print-Ready Delivery", desc: "We deliver production-ready files with proper bleed, color profiles (CMYK), and die-cut guides for your label printer." },
+    ],
+    faqs: [
+      { q: "What types of labels do you design?", a: "We design product labels for food & beverages, cosmetics & skincare, health supplements, household products, retail goods, wine & spirits, and industrial products. Both adhesive labels and wraparound labels are covered." },
+      { q: "How much does label design cost in Sri Lanka?", a: "Product label design starts from LKR 8,000 per label. Product line packages with multiple SKU variations start from LKR 25,000. Pricing depends on complexity and regulatory requirements." },
+      { q: "Do you handle regulatory compliance?", a: "We ensure your label includes all required regulatory information — ingredients, nutritional facts, barcodes, batch numbers, and compliance marks as per Sri Lankan labeling standards." },
+      { q: "Can you design labels for different packaging shapes?", a: "Yes, we design labels for bottles, jars, pouches, boxes, tubes, sachets, and any custom packaging shape. We create accurate die-cut templates that fit your specific packaging." },
+      { q: "Do you provide mockups?", a: "Yes, we create realistic 3D product mockups showing how your label will look on the actual packaging, helping you visualize the final result before printing." },
+    ],
+    relatedServices: ["packaging-design-sri-lanka", "brand-identity-design-sri-lanka", "logo-design-sri-lanka"],
+    parentLink: { label: "Graphic Design Sri Lanka", path: "/graphic-design-sri-lanka" },
+  },
 ];
 
 /** All 19 sub-service definitions for navigation/linking purposes */
@@ -667,4 +700,5 @@ export const allDesignServiceMeta: { slug: string; shortName: string; seoTitle: 
   { slug: "video-ad-design-sri-lanka", shortName: "Video Ad Design", seoTitle: "Video Ad Design Sri Lanka | Creative Video Ads", metaDescription: "High-impact video ad creatives for social media and campaigns.", h1: "Video Ad Design Sri Lanka" },
   { slug: "presentation-design-sri-lanka", shortName: "Presentation Design", seoTitle: "Presentation Design Sri Lanka | PowerPoint Experts", metaDescription: "Professional PowerPoint and pitch deck design services.", h1: "Presentation Design Sri Lanka" },
   { slug: "infographic-design-sri-lanka", shortName: "Infographic Design", seoTitle: "Infographic Design Sri Lanka | Visual Data Design", metaDescription: "Creative infographic designs to present data visually and clearly.", h1: "Infographic Design Sri Lanka" },
+  { slug: "label-design-sri-lanka", shortName: "Label Design", seoTitle: "Label Design Sri Lanka | Product Label Designers", metaDescription: "Professional product label design services in Sri Lanka for food, beverages, cosmetics & retail products.", h1: "Label Design Sri Lanka" },
 ];

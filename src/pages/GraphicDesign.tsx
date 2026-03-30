@@ -409,10 +409,14 @@ const GraphicDesign = () => {
             {/* Packaging, Motion & Corporate */}
             <div className="mb-8">
               <h3 className="font-heading text-lg font-bold text-foreground mb-4 flex items-center gap-2"><Package className="w-4 h-4 text-primary" /> Packaging, Motion & Corporate</h3>
-              <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4">
                 <Link to="/packaging-design-sri-lanka" className="p-5 bg-card border border-border rounded-xl hover:border-primary/30 transition-colors group">
                   <h4 className="font-heading text-sm font-bold text-foreground group-hover:text-primary transition-colors mb-1">Packaging Design Sri Lanka</h4>
-                  <p className="text-xs text-muted-foreground">Product packaging & label design.</p>
+                  <p className="text-xs text-muted-foreground">Product packaging design.</p>
+                </Link>
+                <Link to="/label-design-sri-lanka" className="p-5 bg-card border border-border rounded-xl hover:border-primary/30 transition-colors group">
+                  <h4 className="font-heading text-sm font-bold text-foreground group-hover:text-primary transition-colors mb-1">Label Design Sri Lanka</h4>
+                  <p className="text-xs text-muted-foreground">Product label design for retail.</p>
                 </Link>
                 <Link to="/motion-graphics-sri-lanka" className="p-5 bg-card border border-border rounded-xl hover:border-primary/30 transition-colors group">
                   <h4 className="font-heading text-sm font-bold text-foreground group-hover:text-primary transition-colors mb-1">Motion Graphics Sri Lanka</h4>

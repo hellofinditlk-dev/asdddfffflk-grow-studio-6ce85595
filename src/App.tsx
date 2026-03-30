@@ -155,6 +155,7 @@ const App = () => (
               <Route path="/video-ad-design-sri-lanka" element={<DesignSubService />} />
               <Route path="/presentation-design-sri-lanka" element={<DesignSubService />} />
               <Route path="/infographic-design-sri-lanka" element={<DesignSubService />} />
+              <Route path="/label-design-sri-lanka" element={<DesignSubService />} />
               <Route path="/:slug" element={<IndustryPage />} />
               <Route path="*" element={<NotFound />} />
             </Routes>

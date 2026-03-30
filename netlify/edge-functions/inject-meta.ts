@@ -129,6 +129,12 @@ const META_MAP: Record<string, { title: string; description: string; h1: string 
     description: "Creative infographic designs to present data visually and clearly.",
     h1: "Infographic Design Sri Lanka – Visual Data & Information Design Services",
   },
+  "/label-design-sri-lanka": {
+    title: "Label Design Sri Lanka | Product Label Designers",
+    description: "Professional product label design services in Sri Lanka for food, beverages, cosmetics & retail products.",
+    h1: "Label Design Sri Lanka – Professional Product Label Design Services",
+  },
+  "/tiktok-marketing-sri-lanka": {
     title: "TikTok Marketing Sri Lanka (2026) | TikTok Ads & Viral Campaigns | Cypher Digital",
     description: "Professional TikTok marketing services in Sri Lanka. Viral content creation, TikTok Ads management, influencer marketing & trend optimization. Cost-effective campaigns from LKR 30,000/month.",
     h1: "TikTok Marketing Sri Lanka – Grow Your Brand with Viral, Cost-Effective Campaigns",
