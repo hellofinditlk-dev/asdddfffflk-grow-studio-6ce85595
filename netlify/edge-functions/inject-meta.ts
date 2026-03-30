@@ -64,7 +64,71 @@ const META_MAP: Record<string, { title: string; description: string; h1: string 
     description: "Eye-catching Instagram posts and story designs to boost engagement.",
     h1: "Instagram Post Design Sri Lanka – Creative Visuals That Boost Engagement",
   },
-  "/tiktok-marketing-sri-lanka": {
+  "/banner-design-sri-lanka": {
+    title: "Banner Design Sri Lanka | Display & Web Banners",
+    description: "Professional banner ad designs for websites, Google ads & campaigns.",
+    h1: "Banner Design Sri Lanka – Professional Display & Web Banner Design Services",
+  },
+  "/email-design-sri-lanka": {
+    title: "Email Newsletter Design Sri Lanka | EDM Design",
+    description: "Creative email template and newsletter designs for marketing campaigns.",
+    h1: "Email Newsletter Design Sri Lanka – Professional EDM & Email Template Design",
+  },
+  "/landing-page-design-sri-lanka": {
+    title: "Landing Page Design Sri Lanka | Conversion Focused",
+    description: "High-converting landing page design services to generate leads and sales.",
+    h1: "Landing Page Design Sri Lanka – Conversion-Focused Designs That Generate Leads",
+  },
+  "/ui-ux-design-sri-lanka": {
+    title: "UI UX Design Sri Lanka | Website & App Design",
+    description: "User-friendly UI/UX design for websites, apps and digital platforms.",
+    h1: "UI/UX Design Sri Lanka – User-Centered Design for Websites & Apps",
+  },
+  "/website-ui-design-sri-lanka": {
+    title: "Website UI Design Sri Lanka | Modern Web Design",
+    description: "Modern website UI designs that improve user experience and conversions.",
+    h1: "Website UI Design Sri Lanka – Modern, Conversion-Focused Web Design",
+  },
+  "/flyer-design-sri-lanka": {
+    title: "Flyer Design Sri Lanka | Brochure & Poster Design",
+    description: "Professional flyer, brochure and poster design services in Sri Lanka.",
+    h1: "Flyer Design Sri Lanka – Professional Flyer & Leaflet Design Services",
+  },
+  "/brochure-design-sri-lanka": {
+    title: "Brochure Design Sri Lanka | Corporate Print Design",
+    description: "Creative brochure designs for marketing, corporate and product promotions.",
+    h1: "Brochure Design Sri Lanka – Professional Corporate & Marketing Brochure Design",
+  },
+  "/poster-design-sri-lanka": {
+    title: "Poster Design Sri Lanka | Creative Advertising Posters",
+    description: "Eye-catching poster designs for events, promotions and advertising.",
+    h1: "Poster Design Sri Lanka – Creative Advertising & Event Poster Design",
+  },
+  "/packaging-design-sri-lanka": {
+    title: "Packaging Design Sri Lanka | Product Packaging Experts",
+    description: "Professional product packaging and label design services in Sri Lanka.",
+    h1: "Packaging Design Sri Lanka – Professional Product Packaging & Label Design",
+  },
+  "/motion-graphics-sri-lanka": {
+    title: "Motion Graphics Sri Lanka | Animated Video Design",
+    description: "Creative motion graphics, animated ads and explainer videos.",
+    h1: "Motion Graphics Sri Lanka – Animated Video & Motion Design Services",
+  },
+  "/video-ad-design-sri-lanka": {
+    title: "Video Ad Design Sri Lanka | Creative Video Ads",
+    description: "High-impact video ad creatives for social media and campaigns.",
+    h1: "Video Ad Design Sri Lanka – High-Impact Video Ad Creatives",
+  },
+  "/presentation-design-sri-lanka": {
+    title: "Presentation Design Sri Lanka | PowerPoint Experts",
+    description: "Professional PowerPoint and pitch deck design services.",
+    h1: "Presentation Design Sri Lanka – Professional PowerPoint & Pitch Deck Design",
+  },
+  "/infographic-design-sri-lanka": {
+    title: "Infographic Design Sri Lanka | Visual Data Design",
+    description: "Creative infographic designs to present data visually and clearly.",
+    h1: "Infographic Design Sri Lanka – Visual Data & Information Design Services",
+  },
     title: "TikTok Marketing Sri Lanka (2026) | TikTok Ads & Viral Campaigns | Cypher Digital",
     description: "Professional TikTok marketing services in Sri Lanka. Viral content creation, TikTok Ads management, influencer marketing & trend optimization. Cost-effective campaigns from LKR 30,000/month.",
     h1: "TikTok Marketing Sri Lanka – Grow Your Brand with Viral, Cost-Effective Campaigns",

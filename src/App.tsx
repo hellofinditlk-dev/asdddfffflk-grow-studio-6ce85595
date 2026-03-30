@@ -142,6 +142,19 @@ const App = () => (
               <Route path="/social-media-design-sri-lanka" element={<DesignSubService />} />
               <Route path="/facebook-ad-design-sri-lanka" element={<DesignSubService />} />
               <Route path="/instagram-post-design-sri-lanka" element={<DesignSubService />} />
+              <Route path="/banner-design-sri-lanka" element={<DesignSubService />} />
+              <Route path="/email-design-sri-lanka" element={<DesignSubService />} />
+              <Route path="/landing-page-design-sri-lanka" element={<DesignSubService />} />
+              <Route path="/ui-ux-design-sri-lanka" element={<DesignSubService />} />
+              <Route path="/website-ui-design-sri-lanka" element={<DesignSubService />} />
+              <Route path="/flyer-design-sri-lanka" element={<DesignSubService />} />
+              <Route path="/brochure-design-sri-lanka" element={<DesignSubService />} />
+              <Route path="/poster-design-sri-lanka" element={<DesignSubService />} />
+              <Route path="/packaging-design-sri-lanka" element={<DesignSubService />} />
+              <Route path="/motion-graphics-sri-lanka" element={<DesignSubService />} />
+              <Route path="/video-ad-design-sri-lanka" element={<DesignSubService />} />
+              <Route path="/presentation-design-sri-lanka" element={<DesignSubService />} />
+              <Route path="/infographic-design-sri-lanka" element={<DesignSubService />} />
               <Route path="/:slug" element={<IndustryPage />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
