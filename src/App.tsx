@@ -20,6 +20,7 @@ const SEOServices = lazy(() => import("./pages/SEOServices"));
 const GraphicDesign = lazy(() => import("./pages/GraphicDesign"));
 const TikTokMarketing = lazy(() => import("./pages/TikTokMarketing"));
 const InfluencerMarketing = lazy(() => import("./pages/InfluencerMarketing"));
+const EventManagement = lazy(() => import("./pages/EventManagement"));
 const Contact = lazy(() => import("./pages/Contact"));
 const Blog = lazy(() => import("./pages/Blog"));
 const BlogPost1 = lazy(() => import("./pages/BlogPost1"));
@@ -165,6 +166,7 @@ const App = () => (
               <Route path="/presentation-design-sri-lanka" element={<DesignSubService />} />
               <Route path="/infographic-design-sri-lanka" element={<DesignSubService />} />
               <Route path="/label-design-sri-lanka" element={<DesignSubService />} />
+              <Route path="/event-management-sri-lanka" element={<EventManagement />} />
               <Route path="/:slug" element={<IndustryPage />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
