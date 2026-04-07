@@ -135,9 +135,29 @@ const META_MAP: Record<string, { title: string; description: string; h1: string 
     h1: "Label Design Sri Lanka – Professional Product Label Design Services",
   },
   "/event-management-sri-lanka": {
-    title: "Event Management Sri Lanka | Cypher Digital Event Planning",
-    description: "Looking for expert event management Sri Lanka? Cypher Digital offers corporate, wedding & promotional event planning. Contact via WhatsApp today.",
+    title: "Event Management Sri Lanka (2026) | Marketing-Driven Event Planning | Cypher Digital",
+    description: "Sri Lanka's leading marketing-driven event management company. Corporate events, product launches, brand activations & wedding planning. Free consultation via WhatsApp.",
     h1: "Event Management Sri Lanka",
+  },
+  "/corporate-event-management-sri-lanka": {
+    title: "Corporate Event Management Sri Lanka | Conferences & Business Events | Cypher Digital",
+    description: "Professional corporate event management in Sri Lanka. Conferences, seminars, product launches, exhibitions & team-building events. Get a free consultation today.",
+    h1: "Corporate Event Management Sri Lanka",
+  },
+  "/wedding-planning-sri-lanka": {
+    title: "Wedding Planning Sri Lanka | Professional Wedding Planners | Cypher Digital",
+    description: "Expert wedding planning services in Sri Lanka. Full coordination, venue selection, decoration & vendor management. Create your dream wedding.",
+    h1: "Wedding Planning Sri Lanka",
+  },
+  "/event-marketing-sri-lanka": {
+    title: "Event Marketing Sri Lanka | Digital Promotion for Events | Cypher Digital",
+    description: "Event marketing services in Sri Lanka. Social media promotion, digital advertising, content creation & lead generation for events. Maximize your event ROI.",
+    h1: "Event Marketing Sri Lanka",
+  },
+  "/product-launch-events-sri-lanka": {
+    title: "Product Launch Events Sri Lanka | Launch Event Planners | Cypher Digital",
+    description: "Professional product launch event management in Sri Lanka. Planning, execution, media coordination & marketing. Make your product launch unforgettable.",
+    h1: "Product Launch Events Sri Lanka",
   },
   "/tiktok-marketing-sri-lanka": {
     title: "TikTok Marketing Sri Lanka (2026) | TikTok Ads & Viral Campaigns | Cypher Digital",

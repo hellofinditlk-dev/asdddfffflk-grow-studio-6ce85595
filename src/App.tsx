@@ -171,6 +171,10 @@ const App = () => (
               <Route path="/infographic-design-sri-lanka" element={<DesignSubService />} />
               <Route path="/label-design-sri-lanka" element={<DesignSubService />} />
               <Route path="/event-management-sri-lanka" element={<EventManagement />} />
+              <Route path="/corporate-event-management-sri-lanka" element={<CorporateEventManagement />} />
+              <Route path="/wedding-planning-sri-lanka" element={<WeddingPlanning />} />
+              <Route path="/event-marketing-sri-lanka" element={<EventMarketing />} />
+              <Route path="/product-launch-events-sri-lanka" element={<ProductLaunchEvents />} />
               <Route path="/:slug" element={<IndustryPage />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
