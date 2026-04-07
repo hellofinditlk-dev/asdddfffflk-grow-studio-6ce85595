@@ -134,6 +134,11 @@ const META_MAP: Record<string, { title: string; description: string; h1: string 
     description: "Professional product label design services in Sri Lanka for food, beverages, cosmetics & retail products.",
     h1: "Label Design Sri Lanka – Professional Product Label Design Services",
   },
+  "/event-management-sri-lanka": {
+    title: "Event Management Sri Lanka | Cypher Digital Event Planning",
+    description: "Looking for expert event management Sri Lanka? Cypher Digital offers corporate, wedding & promotional event planning. Contact via WhatsApp today.",
+    h1: "Event Management Sri Lanka",
+  },
   "/tiktok-marketing-sri-lanka": {
     title: "TikTok Marketing Sri Lanka (2026) | TikTok Ads & Viral Campaigns | Cypher Digital",
     description: "Professional TikTok marketing services in Sri Lanka. Viral content creation, TikTok Ads management, influencer marketing & trend optimization. Cost-effective campaigns from LKR 30,000/month.",
