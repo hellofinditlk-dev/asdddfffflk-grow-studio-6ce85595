@@ -310,7 +310,7 @@ const Blog = () => (
           <p className="text-muted-foreground">Expert strategies and tips for growing your business online in Sri Lanka.</p>
         </div>
         <div className="max-w-3xl mx-auto flex flex-col gap-6">
-          {blogPosts.map((post) => (
+          {[...blogPosts].sort((a, b) => b.date.localeCompare(a.date)).map((post) => (
             <Link
               key={post.slug}
               to={`/blog/${post.slug}`}
