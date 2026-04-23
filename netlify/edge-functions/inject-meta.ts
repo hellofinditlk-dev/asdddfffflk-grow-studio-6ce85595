@@ -526,6 +526,26 @@ const META_MAP: Record<string, { title: string; description: string; h1: string 
     description: "Understanding the difference between motion graphics and video production for Sri Lankan businesses. When to use each, what they cost, and how to choose the right format for your campaign.",
     h1: "Motion Graphics vs Video Production — Which Does Your Brand Need? (2026)",
   },
+  "/blog/landing-page-design-tips-convert-sri-lanka": {
+    title: "Landing Page Design Tips That Convert — Sri Lanka Business Guide 2026",
+    description: "Learn how to design high-converting landing pages for Sri Lankan businesses. Best practices for layout, CTA, trust signals, mobile design, and form optimisation in 2026.",
+    h1: "Landing Page Design Tips That Convert — Sri Lanka Business Guide (2026)",
+  },
+  "/blog/company-profile-design-sri-lanka": {
+    title: "Company Profile Design Sri Lanka 2026 — How to Create an Effective Business Profile",
+    description: "Learn how to create a professional company profile for your Sri Lankan business. Covers structure, design, content, and how a strong profile wins clients and builds credibility.",
+    h1: "Company Profile Design Sri Lanka — How to Create an Effective Business Profile (2026)",
+  },
+  "/blog/ecommerce-digital-marketing-sri-lanka": {
+    title: "Ecommerce Digital Marketing Sri Lanka 2026 — Drive Sales with Paid Ads and SEO",
+    description: "A complete digital marketing guide for ecommerce businesses in Sri Lanka. Learn how to drive online sales using Facebook Ads, Google Shopping, SEO, and email marketing in 2026.",
+    h1: "Ecommerce Digital Marketing Sri Lanka — Drive Sales with Paid Ads and SEO (2026)",
+  },
+  "/blog/corporate-event-management-sri-lanka-choose-agency": {
+    title: "Corporate Event Management Sri Lanka 2026 — How to Choose the Right Agency",
+    description: "Learn what to look for when choosing a corporate event management agency in Sri Lanka. Covers venue selection, event marketing, AV, catering coordination, and what questions to ask.",
+    h1: "Corporate Event Management Sri Lanka — How to Choose the Right Agency (2026)",
+  },
 };
 
 const escapeAttr = (value: string) =>
