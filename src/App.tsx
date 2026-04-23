@@ -62,6 +62,12 @@ const BlogPost32 = lazy(() => import("./pages/BlogPost32"));
 const BlogPost33 = lazy(() => import("./pages/BlogPost33"));
 const BlogPost34 = lazy(() => import("./pages/BlogPost34"));
 const BlogPost35 = lazy(() => import("./pages/BlogPost35"));
+const BlogPost36 = lazy(() => import("./pages/BlogPost36"));
+const BlogPost37 = lazy(() => import("./pages/BlogPost37"));
+const BlogPost38 = lazy(() => import("./pages/BlogPost38"));
+const BlogPost39 = lazy(() => import("./pages/BlogPost39"));
+const BlogPost40 = lazy(() => import("./pages/BlogPost40"));
+const BlogPost41 = lazy(() => import("./pages/BlogPost41"));
 const AdvertisingInSriLanka = lazy(() => import("./pages/AdvertisingInSriLanka"));
 const IndustryPage = lazy(() => import("./pages/IndustryPage"));
 const DesignSubService = lazy(() => import("./pages/DesignSubService"));
@@ -148,6 +154,12 @@ const App = () => (
               <Route path="/blog/ultimate-guide-advertising-sri-lanka" element={<BlogPost33 />} />
               <Route path="/blog/why-digital-advertising-replacing-traditional-sri-lanka" element={<BlogPost34 />} />
               <Route path="/blog/cost-effective-advertising-strategies-sri-lankan-businesses" element={<BlogPost35 />} />
+              <Route path="/blog/digital-marketing-cost-sri-lanka-pricing-guide" element={<BlogPost36 />} />
+              <Route path="/blog/best-digital-marketing-agency-sri-lanka" element={<BlogPost37 />} />
+              <Route path="/blog/instagram-marketing-strategy-sri-lankan-businesses" element={<BlogPost38 />} />
+              <Route path="/blog/whatsapp-marketing-sri-lankan-businesses" element={<BlogPost39 />} />
+              <Route path="/blog/google-my-business-optimization-guide-sri-lanka" element={<BlogPost40 />} />
+              <Route path="/blog/digital-marketing-small-businesses-sri-lanka-starter-guide" element={<BlogPost41 />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/advertising-in-sri-lanka" element={<AdvertisingInSriLanka />} />
               <Route path="/logo-design-sri-lanka" element={<DesignSubService />} />
