@@ -94,7 +94,7 @@ const Footer = () => (
       </div>
 
       <div className="border-t border-border mt-12 pt-6 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} Cypher Digital — Digital Marketing Agency Sri Lanka
+        © 2025 Cypher Digital — Digital Marketing Agency Sri Lanka
       </div>
     </div>
   </footer>
