@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route, Navigate, useLocation } from "react-route
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import BlogCTAInjector from "@/components/BlogCTAInjector";
 
 // Eager load homepage for fastest FCP
 import Index from "./pages/Index";
@@ -236,6 +237,7 @@ const App = () => (
         </main>
         <Footer />
         <WhatsAppButton />
+        <BlogCTAInjector />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
