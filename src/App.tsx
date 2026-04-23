@@ -68,6 +68,13 @@ const BlogPost38 = lazy(() => import("./pages/BlogPost38"));
 const BlogPost39 = lazy(() => import("./pages/BlogPost39"));
 const BlogPost40 = lazy(() => import("./pages/BlogPost40"));
 const BlogPost41 = lazy(() => import("./pages/BlogPost41"));
+const BlogPost42 = lazy(() => import("./pages/BlogPost42"));
+const BlogPost43 = lazy(() => import("./pages/BlogPost43"));
+const BlogPost44 = lazy(() => import("./pages/BlogPost44"));
+const BlogPost45 = lazy(() => import("./pages/BlogPost45"));
+const BlogPost46 = lazy(() => import("./pages/BlogPost46"));
+const BlogPost47 = lazy(() => import("./pages/BlogPost47"));
+const BlogPost48 = lazy(() => import("./pages/BlogPost48"));
 const AdvertisingInSriLanka = lazy(() => import("./pages/AdvertisingInSriLanka"));
 const IndustryPage = lazy(() => import("./pages/IndustryPage"));
 const DesignSubService = lazy(() => import("./pages/DesignSubService"));
@@ -160,6 +167,13 @@ const App = () => (
               <Route path="/blog/whatsapp-marketing-sri-lankan-businesses" element={<BlogPost39 />} />
               <Route path="/blog/google-my-business-optimization-guide-sri-lanka" element={<BlogPost40 />} />
               <Route path="/blog/digital-marketing-small-businesses-sri-lanka-starter-guide" element={<BlogPost41 />} />
+              <Route path="/blog/content-marketing-blog-strategy-sri-lanka" element={<BlogPost42 />} />
+              <Route path="/blog/youtube-ads-sri-lanka-complete-guide" element={<BlogPost43 />} />
+              <Route path="/blog/digital-marketing-restaurants-sri-lanka" element={<BlogPost44 />} />
+              <Route path="/blog/digital-marketing-schools-tuition-classes-sri-lanka" element={<BlogPost45 />} />
+              <Route path="/blog/real-estate-digital-marketing-sri-lanka-lead-generation" element={<BlogPost46 />} />
+              <Route path="/blog/how-to-run-instagram-ads-sri-lanka" element={<BlogPost47 />} />
+              <Route path="/blog/influencer-marketing-guide-sri-lankan-brands" element={<BlogPost48 />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/advertising-in-sri-lanka" element={<AdvertisingInSriLanka />} />
               <Route path="/logo-design-sri-lanka" element={<DesignSubService />} />
