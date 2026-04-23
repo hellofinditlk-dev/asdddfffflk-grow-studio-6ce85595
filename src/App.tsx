@@ -85,6 +85,10 @@ const BlogPost55 = lazy(() => import("./pages/BlogPost55"));
 const BlogPost56 = lazy(() => import("./pages/BlogPost56"));
 const BlogPost57 = lazy(() => import("./pages/BlogPost57"));
 const BlogPost58 = lazy(() => import("./pages/BlogPost58"));
+const BlogPost59 = lazy(() => import("./pages/BlogPost59"));
+const BlogPost60 = lazy(() => import("./pages/BlogPost60"));
+const BlogPost61 = lazy(() => import("./pages/BlogPost61"));
+const BlogPost62 = lazy(() => import("./pages/BlogPost62"));
 const AdvertisingInSriLanka = lazy(() => import("./pages/AdvertisingInSriLanka"));
 const IndustryPage = lazy(() => import("./pages/IndustryPage"));
 const DesignSubService = lazy(() => import("./pages/DesignSubService"));
@@ -194,6 +198,10 @@ const App = () => (
               <Route path="/blog/ui-ux-design-best-practices-sri-lankan-websites" element={<BlogPost56 />} />
               <Route path="/blog/packaging-design-sri-lanka-increase-sales" element={<BlogPost57 />} />
               <Route path="/blog/motion-graphics-vs-video-production-sri-lanka" element={<BlogPost58 />} />
+              <Route path="/blog/landing-page-design-tips-convert-sri-lanka" element={<BlogPost59 />} />
+              <Route path="/blog/company-profile-design-sri-lanka" element={<BlogPost60 />} />
+              <Route path="/blog/ecommerce-digital-marketing-sri-lanka" element={<BlogPost61 />} />
+              <Route path="/blog/corporate-event-management-sri-lanka-choose-agency" element={<BlogPost62 />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/advertising-in-sri-lanka" element={<AdvertisingInSriLanka />} />
               <Route path="/logo-design-sri-lanka" element={<DesignSubService />} />

@@ -410,6 +410,34 @@ const blogPosts = [
     date: "2026-04-23",
     keyword: "Motion Graphics Sri Lanka",
   },
+  {
+    slug: "landing-page-design-tips-convert-sri-lanka",
+    title: "Landing Page Design Tips That Convert — Sri Lanka Business Guide (2026)",
+    excerpt: "Design high-converting landing pages for Sri Lankan businesses — layout, CTA, trust signals, mobile design, and form optimisation in 2026.",
+    date: "2026-04-23",
+    keyword: "Landing Page Design Sri Lanka",
+  },
+  {
+    slug: "company-profile-design-sri-lanka",
+    title: "Company Profile Design Sri Lanka — How to Create an Effective Business Profile (2026)",
+    excerpt: "How to create a professional company profile for your Sri Lankan business — structure, design, content, and how a strong profile wins clients.",
+    date: "2026-04-23",
+    keyword: "Company Profile Design Sri Lanka",
+  },
+  {
+    slug: "ecommerce-digital-marketing-sri-lanka",
+    title: "Ecommerce Digital Marketing Sri Lanka — Drive Sales with Paid Ads and SEO (2026)",
+    excerpt: "Complete digital marketing guide for ecommerce businesses in Sri Lanka — Facebook Ads, Google Shopping, SEO, social commerce, and email/WhatsApp.",
+    date: "2026-04-23",
+    keyword: "Ecommerce Marketing Sri Lanka",
+  },
+  {
+    slug: "corporate-event-management-sri-lanka-choose-agency",
+    title: "Corporate Event Management Sri Lanka — How to Choose the Right Agency (2026)",
+    excerpt: "What to look for when choosing a corporate event management agency in Sri Lanka — venue, AV, catering, marketing, and questions to ask.",
+    date: "2026-04-23",
+    keyword: "Corporate Event Management Sri Lanka",
+  },
 ];
 
 const Blog = () => (
