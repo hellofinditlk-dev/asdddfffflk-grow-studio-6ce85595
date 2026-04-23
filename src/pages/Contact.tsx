@@ -6,7 +6,7 @@ import mascotHeadset from "@/assets/mascot-headset.jpeg";
 
 const contactInfo = [
   { icon: <Phone className="w-5 h-5" />, label: "Phone", value: "+94 70 177 2626", href: "tel:+94701772626" },
-  { icon: <Mail className="w-5 h-5" />, label: "Email", value: "info@cypherdigital.lk", href: "mailto:info@cypherdigital.lk" },
+  { icon: <Mail className="w-5 h-5" />, label: "Email", value: "hello.cypherdigital@gmail.com", href: "mailto:hello.cypherdigital@gmail.com" },
   { icon: <MapPin className="w-5 h-5" />, label: "Location", value: "Colombo, Sri Lanka" },
   { icon: <Clock className="w-5 h-5" />, label: "Working Hours", value: "Mon – Sat, 9AM – 6PM" },
 ];
@@ -16,7 +16,7 @@ const contactSchema = {
   "@type": "LocalBusiness",
   name: "Cypher Digital",
   telephone: "+94701772626",
-  email: "info@cypherdigital.lk",
+  email: "hello.cypherdigital@gmail.com",
   url: "https://cypherdigital.lk/contact",
   address: {
     "@type": "PostalAddress",
