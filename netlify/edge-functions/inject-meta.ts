@@ -411,6 +411,36 @@ const META_MAP: Record<string, { title: string; description: string; h1: string 
     description: "Explore the types of business videos that boost engagement and sales in Sri Lanka — promotional, explainer, testimonial, and social media reels.",
     h1: "Types of Business Videos That Increase Engagement and Sales",
   },
+  "/blog/digital-marketing-cost-sri-lanka-pricing-guide": {
+    title: "Digital Marketing Cost in Sri Lanka 2026 — Full Pricing Guide",
+    description: "Wondering how much digital marketing costs in Sri Lanka? Get a full breakdown of Facebook Ads, Google Ads, SEO, social media management, and design prices for 2026.",
+    h1: "How Much Does Digital Marketing Cost in Sri Lanka? (2026 Pricing Guide)",
+  },
+  "/blog/best-digital-marketing-agency-sri-lanka": {
+    title: "Best Digital Marketing Agency in Sri Lanka 2026 — How to Choose",
+    description: "Looking for the best digital marketing agency in Sri Lanka? Here's exactly what to look for, what questions to ask, and why Cypher Digital is a top choice for Sri Lankan businesses.",
+    h1: "Best Digital Marketing Agency in Sri Lanka — How to Choose (2026)",
+  },
+  "/blog/instagram-marketing-strategy-sri-lankan-businesses": {
+    title: "Instagram Marketing Sri Lanka 2026 — Complete Strategy Guide for Businesses",
+    description: "Learn how to grow your business on Instagram in Sri Lanka. A complete guide covering content strategy, reels, ads, hashtags, and how to generate leads from Instagram in 2026.",
+    h1: "Instagram Marketing Strategy for Sri Lankan Businesses (2026)",
+  },
+  "/blog/whatsapp-marketing-sri-lankan-businesses": {
+    title: "WhatsApp Marketing Sri Lanka 2026 — Complete Business Guide",
+    description: "WhatsApp is Sri Lanka's most-used messaging app. Learn how to use WhatsApp Business, broadcast lists, status marketing, and automation to grow your business in 2026.",
+    h1: "WhatsApp Marketing for Sri Lankan Businesses — How to Use It Effectively (2026)",
+  },
+  "/blog/google-my-business-optimization-guide-sri-lanka": {
+    title: "Google My Business Sri Lanka 2026 — Complete Optimization Guide",
+    description: "Learn how to set up and fully optimize your Google Business Profile in Sri Lanka to rank higher on Google Maps, get more calls, and attract local customers in 2026.",
+    h1: "Google My Business Optimization Guide for Sri Lankan Businesses (2026)",
+  },
+  "/blog/digital-marketing-small-businesses-sri-lanka-starter-guide": {
+    title: "Digital Marketing for Small Businesses Sri Lanka 2026 — Complete Starter Guide",
+    description: "A complete digital marketing starter guide for small businesses in Sri Lanka. Learn which channels to start with, how much to budget, and how to get your first leads online in 2026.",
+    h1: "Digital Marketing for Small Businesses in Sri Lanka — Complete Starter Guide (2026)",
+  },
 };
 
 const escapeAttr = (value: string) =>

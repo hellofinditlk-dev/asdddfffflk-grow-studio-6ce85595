@@ -249,6 +249,48 @@ const blogPosts = [
     date: "2026-03-22",
     keyword: "Advertising in Sri Lanka",
   },
+  {
+    slug: "digital-marketing-cost-sri-lanka-pricing-guide",
+    title: "How Much Does Digital Marketing Cost in Sri Lanka? (2026 Pricing Guide)",
+    excerpt: "A complete breakdown of digital marketing prices in Sri Lanka — Facebook Ads, Google Ads, SEO, social media management, design, and video production.",
+    date: "2026-04-23",
+    keyword: "Digital Marketing Cost Sri Lanka",
+  },
+  {
+    slug: "best-digital-marketing-agency-sri-lanka",
+    title: "Best Digital Marketing Agency in Sri Lanka — How to Choose (2026)",
+    excerpt: "What to look for in a digital marketing agency in Sri Lanka — questions to ask, red flags to avoid, and how to pick the right partner.",
+    date: "2026-04-23",
+    keyword: "Best Digital Marketing Agency Sri Lanka",
+  },
+  {
+    slug: "instagram-marketing-strategy-sri-lankan-businesses",
+    title: "Instagram Marketing Strategy for Sri Lankan Businesses (2026)",
+    excerpt: "A complete Instagram strategy for SL businesses — content, reels, hashtags, ads, and converting followers to customers.",
+    date: "2026-04-23",
+    keyword: "Instagram Marketing Sri Lanka",
+  },
+  {
+    slug: "whatsapp-marketing-sri-lankan-businesses",
+    title: "WhatsApp Marketing for Sri Lankan Businesses — How to Use It Effectively (2026)",
+    excerpt: "Use WhatsApp Business, broadcast lists, status, and Click-to-WhatsApp ads to grow your Sri Lankan business in 2026.",
+    date: "2026-04-23",
+    keyword: "WhatsApp Marketing Sri Lanka",
+  },
+  {
+    slug: "google-my-business-optimization-guide-sri-lanka",
+    title: "Google My Business Optimization Guide for Sri Lankan Businesses (2026)",
+    excerpt: "Set up and fully optimize your Google Business Profile to rank higher on Google Maps and attract local customers in Sri Lanka.",
+    date: "2026-04-23",
+    keyword: "Google My Business Sri Lanka",
+  },
+  {
+    slug: "digital-marketing-small-businesses-sri-lanka-starter-guide",
+    title: "Digital Marketing for Small Businesses in Sri Lanka — Complete Starter Guide (2026)",
+    excerpt: "A complete starter guide for small businesses in Sri Lanka — channels, budgets, content, and how to get your first leads online.",
+    date: "2026-04-23",
+    keyword: "Small Business Digital Marketing Sri Lanka",
+  },
 ];
 
 const Blog = () => (
