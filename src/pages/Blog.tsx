@@ -291,6 +291,55 @@ const blogPosts = [
     date: "2026-04-23",
     keyword: "Small Business Digital Marketing Sri Lanka",
   },
+  {
+    slug: "content-marketing-blog-strategy-sri-lanka",
+    title: "Content Marketing Sri Lanka — Why Your Business Needs a Blog Strategy (2026)",
+    excerpt: "How content marketing and a blog strategy help Sri Lankan businesses rank on Google, build authority, and generate consistent leads.",
+    date: "2026-04-23",
+    keyword: "Content Marketing Sri Lanka",
+  },
+  {
+    slug: "youtube-ads-sri-lanka-complete-guide",
+    title: "YouTube Ads Sri Lanka — Complete Guide to Video Advertising on Google (2026)",
+    excerpt: "How YouTube Ads work in Sri Lanka — formats, costs, targeting, and how to run profitable video ad campaigns in 2026.",
+    date: "2026-04-23",
+    keyword: "YouTube Ads Sri Lanka",
+  },
+  {
+    slug: "digital-marketing-restaurants-sri-lanka",
+    title: "Digital Marketing for Restaurants in Sri Lanka — What Actually Works (2026)",
+    excerpt: "A practical guide to restaurant marketing in Sri Lanka — Instagram, Facebook, Google, TikTok, and ad strategies that bring in diners.",
+    date: "2026-04-23",
+    keyword: "Restaurant Marketing Sri Lanka",
+  },
+  {
+    slug: "digital-marketing-schools-tuition-classes-sri-lanka",
+    title: "Digital Marketing for Schools and Tuition Classes in Sri Lanka (2026)",
+    excerpt: "How schools, tuition centres, and education institutes in Sri Lanka can attract more students and increase enrolments through digital marketing.",
+    date: "2026-04-23",
+    keyword: "Education Marketing Sri Lanka",
+  },
+  {
+    slug: "real-estate-digital-marketing-sri-lanka-lead-generation",
+    title: "Real Estate Digital Marketing Sri Lanka — Lead Generation Strategies (2026)",
+    excerpt: "How real estate agents and developers in Sri Lanka can use Facebook Ads, Google Ads, SEO, and video to generate property leads.",
+    date: "2026-04-23",
+    keyword: "Real Estate Marketing Sri Lanka",
+  },
+  {
+    slug: "how-to-run-instagram-ads-sri-lanka",
+    title: "How to Run Instagram Ads in Sri Lanka — Step-by-Step Guide (2026)",
+    excerpt: "A complete step-by-step guide to setting up, targeting, and optimising Instagram Ads for Sri Lankan businesses in 2026.",
+    date: "2026-04-23",
+    keyword: "Instagram Ads Sri Lanka",
+  },
+  {
+    slug: "influencer-marketing-guide-sri-lankan-brands",
+    title: "Influencer Marketing in Sri Lanka — How to Find and Work with Creators (2026)",
+    excerpt: "How to find the right Sri Lankan creators, what to pay them, how to brief them, and how to measure influencer campaign results.",
+    date: "2026-04-23",
+    keyword: "Influencer Marketing Sri Lanka",
+  },
 ];
 
 const Blog = () => (

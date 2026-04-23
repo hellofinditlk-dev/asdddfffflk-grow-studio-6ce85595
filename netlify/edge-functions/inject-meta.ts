@@ -441,6 +441,41 @@ const META_MAP: Record<string, { title: string; description: string; h1: string 
     description: "A complete digital marketing starter guide for small businesses in Sri Lanka. Learn which channels to start with, how much to budget, and how to get your first leads online in 2026.",
     h1: "Digital Marketing for Small Businesses in Sri Lanka — Complete Starter Guide (2026)",
   },
+  "/blog/content-marketing-blog-strategy-sri-lanka": {
+    title: "Content Marketing Sri Lanka 2026 — Why Your Business Needs a Blog Strategy",
+    description: "Learn how content marketing and a business blog strategy can help Sri Lankan businesses rank on Google, build authority, and generate consistent leads in 2026.",
+    h1: "Content Marketing Sri Lanka — Why Your Business Needs a Blog Strategy (2026)",
+  },
+  "/blog/youtube-ads-sri-lanka-complete-guide": {
+    title: "YouTube Ads Sri Lanka 2026 — Complete Guide to Video Advertising",
+    description: "Learn how YouTube Ads work in Sri Lanka, how much they cost, which ad formats work best, and how to run profitable YouTube video advertising campaigns in 2026.",
+    h1: "YouTube Ads Sri Lanka — Complete Guide to Video Advertising on Google (2026)",
+  },
+  "/blog/digital-marketing-restaurants-sri-lanka": {
+    title: "Digital Marketing for Restaurants in Sri Lanka 2026 — What Actually Works",
+    description: "A practical guide to digital marketing for restaurants in Sri Lanka. Learn which platforms, content types, and ad strategies actually bring in diners and delivery orders.",
+    h1: "Digital Marketing for Restaurants in Sri Lanka — What Actually Works (2026)",
+  },
+  "/blog/digital-marketing-schools-tuition-classes-sri-lanka": {
+    title: "Digital Marketing for Schools and Tuition Classes Sri Lanka 2026 — Complete Guide",
+    description: "Learn how schools, tuition centres, and education institutes in Sri Lanka can use digital marketing to attract more students, increase enrolments, and build brand trust in 2026.",
+    h1: "Digital Marketing for Schools and Tuition Classes in Sri Lanka (2026)",
+  },
+  "/blog/real-estate-digital-marketing-sri-lanka-lead-generation": {
+    title: "Real Estate Digital Marketing Sri Lanka 2026 — Lead Generation Strategies",
+    description: "Learn how real estate agents and property developers in Sri Lanka can use Facebook Ads, Google Ads, SEO, and social media to generate consistent property leads in 2026.",
+    h1: "Real Estate Digital Marketing Sri Lanka — Lead Generation Strategies (2026)",
+  },
+  "/blog/how-to-run-instagram-ads-sri-lanka": {
+    title: "How to Run Instagram Ads in Sri Lanka 2026 — Step-by-Step Guide",
+    description: "A complete step-by-step guide to running Instagram Ads in Sri Lanka. Learn how to set up campaigns, target the right audience, create effective ads, and generate leads in 2026.",
+    h1: "How to Run Instagram Ads in Sri Lanka — Step-by-Step Guide (2026)",
+  },
+  "/blog/influencer-marketing-guide-sri-lankan-brands": {
+    title: "Influencer Marketing Sri Lanka 2026 — How to Find and Work with Creators",
+    description: "Learn how to run influencer marketing campaigns in Sri Lanka. How to find the right creators, what to pay, how to brief them, and how to measure results in 2026.",
+    h1: "Influencer Marketing in Sri Lanka — How to Find and Work with Creators (2026)",
+  },
 };
 
 const escapeAttr = (value: string) =>
