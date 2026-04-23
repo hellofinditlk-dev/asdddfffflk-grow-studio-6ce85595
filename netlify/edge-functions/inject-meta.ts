@@ -476,6 +476,56 @@ const META_MAP: Record<string, { title: string; description: string; h1: string 
     description: "Learn how to run influencer marketing campaigns in Sri Lanka. How to find the right creators, what to pay, how to brief them, and how to measure results in 2026.",
     h1: "Influencer Marketing in Sri Lanka — How to Find and Work with Creators (2026)",
   },
+  "/blog/how-to-build-brand-identity-sri-lankan-business": {
+    title: "How to Build a Brand Identity for Your Sri Lankan Business — Complete Guide 2026",
+    description: "Learn how to build a strong brand identity for your Sri Lankan business. Covers logo design, colour strategy, typography, brand voice, and visual consistency across all platforms.",
+    h1: "How to Build a Brand Identity for Your Sri Lankan Business (2026)",
+  },
+  "/blog/event-marketing-sri-lanka-promote-event-online": {
+    title: "Event Marketing Sri Lanka 2026 — How to Promote Your Event Online",
+    description: "Learn how to promote events in Sri Lanka using Facebook Ads, Instagram, TikTok, Google Ads, and influencer marketing. A complete digital event marketing strategy for 2026.",
+    h1: "Event Marketing Sri Lanka — How to Promote Your Event Online (2026)",
+  },
+  "/blog/remarketing-retargeting-ads-sri-lanka": {
+    title: "Remarketing Ads Sri Lanka 2026 — How to Retarget Customers Effectively",
+    description: "Learn how remarketing and retargeting ads work in Sri Lanka. A complete guide to Facebook retargeting, Google remarketing, and how to convert warm leads into customers.",
+    h1: "Remarketing Ads Sri Lanka — How to Retarget Customers Effectively (2026)",
+  },
+  "/blog/social-media-strategy-hotels-tourism-sri-lanka": {
+    title: "Hotel and Tourism Social Media Marketing Sri Lanka 2026 — Complete Strategy",
+    description: "A complete social media and digital marketing strategy for hotels, resorts, and tourism businesses in Sri Lanka. Covers Instagram, TikTok, Facebook Ads, influencers, and SEO.",
+    h1: "Hotel and Tourism Social Media Marketing Sri Lanka — Complete Strategy (2026)",
+  },
+  "/blog/digital-marketing-roi-measure-results-sri-lanka": {
+    title: "Digital Marketing ROI Sri Lanka 2026 — How to Measure Your Marketing Results",
+    description: "Learn how to measure digital marketing ROI for your Sri Lankan business. Track Facebook Ads, Google Ads, SEO, and social media performance with the right metrics in 2026.",
+    h1: "Digital Marketing ROI Sri Lanka — How to Measure Your Marketing Results (2026)",
+  },
+  "/blog/sinhala-social-media-content-sri-lankan-brands": {
+    title: "Sinhala Social Media Content Sri Lanka 2026 — Should Your Brand Post in Sinhala?",
+    description: "Should your Sri Lankan business post in Sinhala on Facebook and Instagram? We break down the data, audience differences, and best language strategy for Sri Lankan brands in 2026.",
+    h1: "Sinhala Social Media Content — Should Your Brand Post in Sinhala? (2026)",
+  },
+  "/blog/organic-social-media-vs-paid-ads-sri-lanka": {
+    title: "Organic Social Media vs Paid Ads Sri Lanka 2026 — Which Is Better for Your Business?",
+    description: "Should your Sri Lankan business focus on organic social media or paid advertising? We break down the pros, cons, costs, and best strategy for businesses in 2026.",
+    h1: "Organic Social Media vs Paid Ads — Which Is Better for Your Business? (2026)",
+  },
+  "/blog/ui-ux-design-best-practices-sri-lankan-websites": {
+    title: "UI/UX Design Best Practices for Sri Lankan Business Websites 2026",
+    description: "Learn the UI/UX design best practices that help Sri Lankan business websites convert visitors into leads. Covers layout, mobile design, speed, and user experience principles.",
+    h1: "UI/UX Design Best Practices for Sri Lankan Business Websites (2026)",
+  },
+  "/blog/packaging-design-sri-lanka-increase-sales": {
+    title: "Packaging Design Sri Lanka 2026 — How Good Design Increases Your Sales",
+    description: "Learn how professional packaging design helps Sri Lankan product businesses stand out on shelves, build brand trust, and increase sales. Covers design principles, costs, and process.",
+    h1: "Packaging Design Sri Lanka — How Good Design Increases Your Sales (2026)",
+  },
+  "/blog/motion-graphics-vs-video-production-sri-lanka": {
+    title: "Motion Graphics vs Video Production Sri Lanka 2026 — Which Does Your Brand Need?",
+    description: "Understanding the difference between motion graphics and video production for Sri Lankan businesses. When to use each, what they cost, and how to choose the right format for your campaign.",
+    h1: "Motion Graphics vs Video Production — Which Does Your Brand Need? (2026)",
+  },
 };
 
 const escapeAttr = (value: string) =>
