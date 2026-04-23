@@ -94,6 +94,7 @@ const AdvertisingInSriLanka = lazy(() => import("./pages/AdvertisingInSriLanka")
 const IndustryPage = lazy(() => import("./pages/IndustryPage"));
 const DesignSubService = lazy(() => import("./pages/DesignSubService"));
 const NotFound = lazy(() => import("./pages/NotFound"));
+const Test = lazy(() => import("./pages/Test"));
 
 const queryClient = new QueryClient();
 
