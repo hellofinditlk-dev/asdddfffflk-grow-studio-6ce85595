@@ -184,28 +184,28 @@ const SocialMediaManagement = () => {
       <section className="bg-foreground py-20 lg:py-28">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center animate-fade-up">
-            <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mx-auto mb-6">
-              <Megaphone className="w-7 h-7" />
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[hsl(25,95%,53%)]/40 bg-[hsl(25,95%,53%)]/10 text-[hsl(25,95%,53%)] text-xs font-semibold mb-6 uppercase tracking-widest">
+              🇱🇰 #1 Rated Social Media Agency — Colombo, Sri Lanka
             </div>
-            <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Professional Page Management</p>
             <h1 className="font-heading text-3xl md:text-5xl font-extrabold text-white mb-6 leading-tight">
-              Social Media Marketing Sri Lanka – Grow Your Business with Expert Social Media Management
+              Social Media Management Sri Lanka That <span className="text-[hsl(25,95%,53%)]">Actually Grows</span> Your Business
             </h1>
             <p className="text-lg text-white/60 leading-relaxed mb-8 max-w-2xl mx-auto">
-              Social media marketing in Sri Lanka has become one of the most powerful ways for businesses to reach, engage, and convert customers online. At Cypher Digital, we provide <strong className="text-white/80">data-driven social media marketing services in Sri Lanka</strong> designed to increase brand awareness, generate leads, and drive measurable business growth.
+              Stop posting and hoping. Cypher Digital builds <strong className="text-white/80">data-driven social media management strategies in Sri Lanka</strong> that generate real leads, real followers, and real revenue for businesses across Colombo, Kandy, Galle and beyond.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Button asChild size="lg" className="bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-colors text-sm px-7 h-12 rounded-xl">
-                <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20book%20a%20free%20consultation%20for%20social%20media%20marketing" target="_blank" rel="noopener noreferrer">
-                  Book a Free Consultation
+                <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20a%20free%20strategy%20call%20for%20social%20media%20marketing" target="_blank" rel="noopener noreferrer">
+                  Get a Free Strategy Call
                 </a>
               </Button>
               <Button asChild size="lg" className="bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] text-sm px-7 h-12 rounded-xl font-semibold border-none">
-                <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20get%20a%20free%20quote%20for%20social%20media%20marketing" target="_blank" rel="noopener noreferrer">
-                  Get a Free Quote
+                <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20see%20your%20social%20media%20packages" target="_blank" rel="noopener noreferrer">
+                  See Our Packages
                 </a>
               </Button>
             </div>
+            <p className="text-xs text-white/40 mt-5">⚡ No contracts. No fluff. Just results — reply on WhatsApp in under 5 minutes.</p>
           </div>
         </div>
       </section>
