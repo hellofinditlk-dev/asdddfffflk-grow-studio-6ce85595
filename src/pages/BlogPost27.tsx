@@ -22,7 +22,7 @@ const BlogPost27 = () => (
             <p>Learn more about effective strategies in our guide on{" "}<Link to="/hotel-digital-marketing-sri-lanka" className="text-primary font-semibold hover:underline">hotel digital marketing in Sri Lanka</Link>.</p>
 
             <h2 className="font-heading text-lg font-bold text-foreground">Travel Agency Marketing</h2>
-            <p>Travel agencies must inspire travelers and promote destinations effectively through digital platforms. A strong travel agency digital marketing strategy includes destination videos, social media campaigns, and targeted advertising to reach travelers planning their next trip.</p>
+            <p>Travel agencies must inspire travelers and promote destinations effectively through digital platforms. A strong travel agency digital marketing strategy includes destination videos, <Link to="/social-media-management-sri-lanka" className="text-primary hover:underline font-semibold">social media campaigns in Sri Lanka</Link>, and targeted advertising to reach travelers planning their next trip.</p>
             <p>Discover our{" "}<Link to="/travel-agency-digital-marketing-sri-lanka" className="text-primary font-semibold hover:underline">travel agency digital marketing</Link>{" "}strategies.</p>
 
             <h2 className="font-heading text-lg font-bold text-foreground">Fashion & Clothing Brand Marketing</h2>
@@ -38,7 +38,7 @@ const BlogPost27 = () => (
             <p>Explore our{" "}<Link to="/real-estate-digital-marketing-sri-lanka" className="text-primary font-semibold hover:underline">real estate digital marketing</Link>{" "}services.</p>
 
             <h2 className="font-heading text-lg font-bold text-foreground">Education Marketing</h2>
-            <p>Educational institutions such as universities and training centers must promote courses and attract students through digital platforms. Social media campaigns, SEO, and targeted advertising help institutes generate student inquiries.</p>
+            <p>Educational institutions such as universities and training centers must promote courses and attract students through digital platforms. <Link to="/social-media-management-sri-lanka" className="text-primary hover:underline font-semibold">Social media campaigns in Sri Lanka</Link>, SEO, and targeted advertising help institutes generate student inquiries.</p>
             <p>Discover more about{" "}<Link to="/education-marketing-agency-sri-lanka" className="text-primary font-semibold hover:underline">education marketing</Link>{" "}strategies.</p>
 
             <h2 className="font-heading text-lg font-bold text-foreground">Beauty Salon Marketing</h2>
@@ -54,7 +54,7 @@ const BlogPost27 = () => (
             <p>Discover how businesses benefit from{" "}<Link to="/small-business-digital-marketing-sri-lanka" className="text-primary font-semibold hover:underline">small business digital marketing</Link>.</p>
 
             <h2 className="font-heading text-lg font-bold text-foreground">Ecommerce Marketing</h2>
-            <p>Ecommerce businesses depend on digital marketing to attract customers and increase online sales. Effective strategies include search engine optimization, paid advertising, social media marketing, and email marketing.</p>
+            <p>Ecommerce businesses depend on digital marketing to attract customers and increase online sales. Effective strategies include search engine optimization, paid advertising, <Link to="/social-media-management-sri-lanka" className="text-primary hover:underline font-semibold">social media marketing in Sri Lanka</Link>, and email marketing.</p>
             <p>Explore our{" "}<Link to="/ecommerce-digital-marketing-sri-lanka" className="text-primary font-semibold hover:underline">ecommerce digital marketing</Link>{" "}services.</p>
 
             <h2 className="font-heading text-lg font-bold text-foreground">Grow Your Business with Cypher Digital</h2>
