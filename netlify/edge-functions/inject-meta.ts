@@ -5,8 +5,8 @@ const META_MAP: Record<string, { title: string; description: string; h1: string 
     h1: "Social Media & Digital Marketing Solutions in Sri Lanka",
   },
   "/social-media-management-sri-lanka": {
-    title: "Social Media Marketing Sri Lanka (2026) | Expert Management from LKR 60,000/mo | Cypher Digital",
-    description: "Professional social media marketing services in Sri Lanka. Facebook, Instagram, TikTok & LinkedIn management, content creation, advertising & analytics. Packages from LKR 60,000/month.",
+    title: "Social Media Management Sri Lanka | Social Media Marketing",
+    description: "Social Media Management Sri Lanka with expert Social Media Marketing Sri Lanka services to grow your brand, boost engagement, and increase leads",
     h1: "Social Media Marketing Sri Lanka – Grow Your Business with Expert Social Media Management",
   },
   "/facebook-ads-sri-lanka": {
