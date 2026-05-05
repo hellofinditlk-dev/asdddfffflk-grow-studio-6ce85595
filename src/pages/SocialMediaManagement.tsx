@@ -297,6 +297,33 @@ const SocialMediaManagement = () => {
                 </ul>
               </div>
             </div>
+
+            {/* Sri Lanka Social Media Stats */}
+            <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              {[
+                { num: "8.4M+", lbl: "Active social media users in Sri Lanka" },
+                { num: "92%", lbl: "Sri Lankan users access social via mobile" },
+                { num: "2h 45m", lbl: "Average daily time on social media" },
+                { num: "15%", lbl: "Year-on-year growth in SL social users" },
+              ].map((s, i) => (
+                <div key={i} className="bg-card border border-border rounded-xl p-5 text-center">
+                  <div className="font-heading text-2xl font-extrabold text-primary mb-1">{s.num}</div>
+                  <div className="text-xs text-muted-foreground leading-snug">{s.lbl}</div>
+                </div>
+              ))}
+            </div>
+            <p className="text-[11px] text-muted-foreground/70 text-center mt-3">Source: DataReportal 2024 — Digital 2024: Sri Lanka</p>
+
+            {/* Free Audit CTA Strip */}
+            <div className="mt-10 bg-foreground rounded-2xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-5">
+              <div className="text-center md:text-left">
+                <h3 className="font-heading text-lg font-bold text-white mb-1">Not sure where to start? We'll audit your pages — free.</h3>
+                <p className="text-sm text-white/55">No commitment. We'll tell you exactly what's holding your social media back.</p>
+              </div>
+              <Button asChild className="bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] font-semibold rounded-xl h-12 px-6 border-none whitespace-nowrap">
+                <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20a%20free%20social%20media%20audit" target="_blank" rel="noopener noreferrer">Get Free Audit →</a>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
