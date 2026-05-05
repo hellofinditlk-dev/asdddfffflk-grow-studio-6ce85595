@@ -20,7 +20,7 @@ const BlogPost14 = () => (
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
             <p>Running successful Facebook campaigns requires more than boosting posts. A strategic approach focuses on the full customer journey — from awareness to conversion.</p>
             <p>The first stage is awareness campaigns that introduce the brand to new audiences. Next, consideration campaigns engage users through video views, traffic campaigns, or content interaction. Finally, conversion campaigns target users ready to take action.</p>
-            <p>Retargeting is one of the most powerful features of Facebook advertising. Businesses can reach people who visited their website, interacted with social media content, or watched videos. This increases conversion rates significantly.</p>
+            <p>Retargeting is one of the most powerful features of Facebook advertising. Businesses can reach people who visited their website, interacted with their <Link to="/social-media-management-sri-lanka" className="text-primary hover:underline font-semibold">Social Media Marketing Sri Lanka</Link> content, or watched videos. This increases conversion rates significantly.</p>
             <p>Budget allocation also matters. Instead of spending everything on one campaign, successful advertisers distribute budgets across funnel stages.</p>
             <p>Analytics and testing drive long-term success. Continuous experimentation with creatives, audiences, and messaging improves performance and reduces cost per result.</p>
             <p>Working with experts in{" "}
