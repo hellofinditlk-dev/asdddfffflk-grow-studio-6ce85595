@@ -18,7 +18,7 @@ const BlogPost10 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">How Strong Visual Branding Improves Marketing Performance</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
-            <p>Visual branding is one of the most powerful factors influencing how customers perceive a business. Consistent design across social media, advertising, and websites helps create a recognizable brand identity.</p>
+            <p>Visual branding is one of the most powerful factors influencing how customers perceive a business. Consistent design across <Link to="/social-media-management-sri-lanka" className="text-primary hover:underline font-semibold">Social Media Management Sri Lanka</Link>, advertising, and websites helps create a recognizable brand identity.</p>
             <p>Strong visual branding includes color systems, typography, layout style, and graphic elements. When these remain consistent, customers can easily identify the brand's content.</p>
             <p>Design quality also affects marketing performance. Ads with professional visuals attract more attention, improve click-through rates, and increase conversions.</p>
             <p>Businesses often underestimate the impact of design consistency. Inconsistent visuals create confusion and weaken brand trust.</p>
