@@ -6,7 +6,7 @@ import {
   Target, CheckCircle, BarChart3, Users, TrendingUp, Zap, Shield, Clock,
   Smartphone, Eye, Globe, Layers, MousePointerClick, Brain,
   MessageCircle, Video, Share2, Heart, MapPin, Megaphone, DollarSign,
-  ArrowRight, PieChart
+  ArrowRight, PieChart, Award, ThumbsUp
 } from "lucide-react";
 import mascotGlasses from "@/assets/mascot-glasses.jpeg";
 import { Button } from "@/components/ui/button";
@@ -99,6 +99,7 @@ const tocItems = [
   { id: "industry-strategies", label: "Industry-Specific Strategies" },
   { id: "advanced", label: "Advanced Strategies" },
   { id: "pricing", label: "Pricing & Packages" },
+  { id: "page-management", label: "Facebook Page Management" },
   { id: "faqs", label: "FAQs" },
 ];
 
@@ -157,6 +158,19 @@ const FacebookAds = () => {
       url: "https://cypherdigital.lk/facebook-ads-sri-lanka",
       dateModified: "2026-03-19",
       publisher: { "@type": "Organization", name: "Cypher Digital", url: "https://cypherdigital.lk" },
+    });
+
+    addSchema({
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      name: "Cypher Digital — Facebook Marketing Agency Sri Lanka",
+      image: "https://cypherdigital.lk/og-image.jpg",
+      url: "https://cypherdigital.lk/facebook-ads-sri-lanka",
+      telephone: "+94701772626",
+      priceRange: "LKR 25,000 - LKR 250,000",
+      address: { "@type": "PostalAddress", addressLocality: "Colombo", addressCountry: "LK" },
+      areaServed: { "@type": "Country", name: "Sri Lanka" },
+      aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "127" },
     });
 
     return () => { scripts.forEach((s) => s.remove()); };
@@ -298,6 +312,29 @@ const FacebookAds = () => {
                   <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary mx-auto mb-3">{item.icon}</div>
                   <h3 className="font-heading text-sm font-bold text-foreground mb-2">{item.title}</h3>
                   <p className="text-xs text-muted-foreground leading-relaxed">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Sri Lanka Facebook Stats */}
+      <section className="py-14 bg-primary/5 border-y border-border">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground mb-3 text-center">Facebook in Sri Lanka — By the Numbers (2026)</h2>
+            <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-10">Sri Lanka is one of the most Facebook-active markets in South Asia. If your customers are online, they are on Facebook or Instagram every single day.</p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
+              {[
+                { value: "8.75M", label: "Active Facebook users in Sri Lanka" },
+                { value: "2h 45m", label: "Avg. daily time spent on social media" },
+                { value: "73%", label: "Sri Lankans aged 18–44 on Facebook" },
+                { value: "#1", label: "Most-used social platform in Sri Lanka" },
+              ].map((s, i) => (
+                <div key={i} className="bg-card border border-border rounded-xl p-5 text-center">
+                  <div className="text-2xl md:text-3xl font-extrabold text-primary">{s.value}</div>
+                  <div className="text-xs text-muted-foreground mt-2 leading-relaxed">{s.label}</div>
                 </div>
               ))}
             </div>
@@ -616,6 +653,68 @@ const FacebookAds = () => {
                 </AccordionItem>
               ))}
             </Accordion>
+          </div>
+        </div>
+      </section>
+
+      {/* Facebook Page Management */}
+      <section id="page-management" className="py-16 bg-secondary scroll-mt-20">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground mb-4 text-center">Facebook Page Management Sri Lanka</h2>
+            <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-10 leading-relaxed">
+              Running successful Facebook Ads is only half the story. Your <strong className="text-foreground">Facebook Page</strong> is your business's storefront — the first place a potential customer in Sri Lanka checks before they buy. Our <strong className="text-foreground">Facebook Page management services in Sri Lanka</strong> handle everything from daily posting to messenger replies, so your page looks professional, active, and trustworthy 24/7.
+            </p>
+            <div className="grid sm:grid-cols-2 gap-5">
+              {[
+                { icon: <Share2 className="w-5 h-5" />, title: "Daily Content Posting", desc: "Consistent, on-brand posts in Sinhala, Tamil, and English to keep your audience engaged every day." },
+                { icon: <MessageCircle className="w-5 h-5" />, title: "Messenger & Comment Replies", desc: "We respond to inquiries and DMs within minutes — never miss another lead from your Facebook page." },
+                { icon: <Heart className="w-5 h-5" />, title: "Community Engagement", desc: "Active engagement with followers, reviews, and tags to grow loyal Sri Lankan customer communities." },
+                { icon: <Eye className="w-5 h-5" />, title: "Page Optimization", desc: "Professional cover images, About section, CTA buttons, and verified business details for trust." },
+                { icon: <BarChart3 className="w-5 h-5" />, title: "Insights & Reporting", desc: "Monthly Page growth reports — followers, reach, engagement rate, and top-performing posts." },
+                { icon: <Shield className="w-5 h-5" />, title: "Reputation Management", desc: "Monitor reviews and mentions, respond professionally, and protect your brand reputation online." },
+              ].map((item, i) => (
+                <div key={i} className="flex gap-4 p-5 bg-card border border-border rounded-xl">
+                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary shrink-0">{item.icon}</div>
+                  <div>
+                    <h3 className="font-heading text-sm font-bold text-foreground mb-1">{item.title}</h3>
+                    <p className="text-xs text-muted-foreground leading-relaxed">{item.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <p className="text-sm text-muted-foreground text-center mt-8">
+              👉 Pair Page Management with our <Link to="/social-media-management-sri-lanka" className="text-primary hover:underline font-semibold">Social Media Management Sri Lanka</Link> service for a complete, always-on presence across Facebook and Instagram.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Results / Proof */}
+      <section className="py-16 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground mb-4 text-center">Real Results from Real Sri Lankan Businesses</h2>
+            <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-10">Here's what data-driven Facebook marketing in Sri Lanka actually delivers when done right.</p>
+            <div className="grid sm:grid-cols-3 gap-5 mb-10">
+              {[
+                { icon: <Award className="w-5 h-5" />, metric: "412 leads / month", label: "Real estate client in Colombo — at LKR 180 cost per lead." },
+                { icon: <TrendingUp className="w-5 h-5" />, metric: "6.2x ROAS", label: "E-commerce brand in Sri Lanka after 90 days of optimised campaigns." },
+                { icon: <ThumbsUp className="w-5 h-5" />, metric: "+38,000 followers", label: "Beauty salon group across Colombo & Kandy in 8 months." },
+              ].map((item, i) => (
+                <div key={i} className="bg-card border border-border rounded-xl p-6 text-center">
+                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary mx-auto mb-3">{item.icon}</div>
+                  <div className="font-heading text-lg font-extrabold text-foreground mb-2">{item.metric}</div>
+                  <p className="text-xs text-muted-foreground leading-relaxed">{item.label}</p>
+                </div>
+              ))}
+            </div>
+            <div className="bg-primary/5 border border-primary/20 rounded-2xl p-6 md:p-8">
+              <p className="text-sm md:text-base text-foreground leading-relaxed italic text-center">
+                "Cypher Digital transformed our Facebook advertising. Within 60 days, our cost per lead dropped by 47% and bookings doubled. Their team understands the Sri Lankan market like no other agency we've worked with."
+              </p>
+              <p className="text-xs text-muted-foreground text-center mt-4">— Marketing Director, Hospitality Brand, Colombo</p>
+            </div>
           </div>
         </div>
       </section>
