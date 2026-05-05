@@ -555,6 +555,94 @@ const escapeAttr = (value: string) =>
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;");
 
+const SMM_FAQS: { q: string; a: string }[] = [
+  { q: "What is social media marketing?", a: "Social media marketing involves promoting businesses through platforms like Facebook, Instagram, TikTok, and LinkedIn to increase brand awareness, generate leads, and drive sales." },
+  { q: "Why is social media marketing important in Sri Lanka?", a: "Because millions of Sri Lankans are active daily on social media platforms. It's the most cost-effective way for businesses to reach, engage, and convert their target audience." },
+  { q: "Which social media platform is best for my business?", a: "It depends on your business type. B2C brands typically do best on Instagram and Facebook, while B2B companies benefit from LinkedIn. TikTok is ideal for reaching younger audiences with viral content." },
+  { q: "How many posts do you create per month?", a: "Our standard packages include 12–20 posts per month depending on the plan. This includes a mix of graphics, carousels, stories, and reels to keep your audience engaged." },
+  { q: "Do you handle customer messages and comments?", a: "Yes! Inbox and comment management is included. We respond to customer queries professionally and escalate important messages to you immediately." },
+  { q: "Which platforms do you manage?", a: "We primarily manage Facebook and Instagram pages. We can also manage LinkedIn, TikTok, and Google Business Profile as add-on services." },
+  { q: "Can I approve posts before they go live?", a: "Absolutely. We share a monthly content calendar for your approval before publishing. You'll always have final say on what gets posted." },
+  { q: "Do you create video content too?", a: "Yes, our packages include Reels and Story content. For more advanced video production like promotional videos, check our Video Production service." },
+  { q: "How long does it take to see results?", a: "Organic social media growth typically shows meaningful results within 2–3 months. Paid social media advertising delivers immediate traffic and conversions from day one." },
+  { q: "Is social media management affordable for small businesses?", a: "Yes! Our packages are specifically designed for Sri Lankan small businesses and startups. Starting from LKR 60,000/month." },
+  { q: "What does a Social Media Management Sri Lanka package include?", a: "Our Social Media Management Sri Lanka packages include content strategy, monthly content calendars, professional graphic and video creation, post scheduling, hashtag research, community engagement, inbox & comment management, monthly performance reports, and ongoing optimization across Facebook, Instagram, and TikTok." },
+  { q: "How much does Social Media Management Sri Lanka cost?", a: "Social Media Management Sri Lanka pricing starts from LKR 60,000/month for our Starter package, LKR 120,000/month for Growth, and LKR 200,000+/month for Pro plans." },
+  { q: "Why choose Cypher Digital for Social Media Management Sri Lanka?", a: "Cypher Digital is one of the highest-rated agencies for Social Media Management Sri Lanka — offering no long-term contracts, fast 48-hour content delivery, dedicated account managers, transparent monthly reporting, and proven results across 200+ Sri Lankan SMEs." },
+  { q: "Do I need Social Media Management Sri Lanka if I already run Facebook Ads?", a: "Yes. Social Media Management Sri Lanka and Facebook Ads work best together. Pages with active, professional content typically see 30–50% better ad performance." },
+  { q: "Can you handle Social Media Management Sri Lanka in Sinhala and Tamil?", a: "Absolutely. Our Social Media Management Sri Lanka team creates fully localized content in Sinhala, Tamil, and English to maximize reach and engagement across all demographics in Sri Lanka." },
+];
+
+const SCHEMA_MAP: Record<string, object[]> = {
+  "/social-media-management-sri-lanka": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://cypherdigital.lk/#localbusiness",
+      name: "Cypher Digital — Social Media Management Sri Lanka",
+      image: "https://cypherdigital.lk/og-image.jpg",
+      url: "https://cypherdigital.lk/social-media-management-sri-lanka",
+      telephone: "+94701772626",
+      priceRange: "LKR 60,000 - LKR 200,000+",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Colombo",
+        addressLocality: "Colombo",
+        addressRegion: "Western Province",
+        postalCode: "00100",
+        addressCountry: "LK",
+      },
+      geo: { "@type": "GeoCoordinates", latitude: 6.9271, longitude: 79.8612 },
+      areaServed: { "@type": "Country", name: "Sri Lanka" },
+      openingHoursSpecification: [{
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        opens: "09:00", closes: "18:00",
+      }],
+      sameAs: [
+        "https://www.facebook.com/cypherdigital.lk",
+        "https://www.instagram.com/cypherdigital.lk",
+      ],
+      aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "127" },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: SMM_FAQS.map((f) => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: f.a },
+      })),
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      name: "Social Media Management Sri Lanka",
+      provider: {
+        "@type": "LocalBusiness",
+        name: "Cypher Digital",
+        url: "https://cypherdigital.lk",
+        telephone: "+94701772626",
+        address: { "@type": "PostalAddress", addressLocality: "Colombo", addressCountry: "LK" },
+      },
+      areaServed: { "@type": "Country", name: "Sri Lanka" },
+      serviceType: "Social Media Management",
+      description: "Expert Social Media Management Sri Lanka services — Facebook & Instagram page management, content creation, community engagement, and social media marketing for Sri Lankan businesses.",
+      url: "https://cypherdigital.lk/social-media-management-sri-lanka",
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://cypherdigital.lk" },
+        { "@type": "ListItem", position: 2, name: "Social Media Management Sri Lanka", item: "https://cypherdigital.lk/social-media-management-sri-lanka" },
+      ],
+    },
+  ],
+};
+
+const escapeJsonLd = (json: string) => json.replaceAll("</", "<\\/");
+
 export default async function handler(request: Request, context: any) {
   const url = new URL(request.url);
   const path = url.pathname.replace(/\/$/, "") || "/";
@@ -619,6 +707,15 @@ export default async function handler(request: Request, context: any) {
       "</head>",
       `  <link rel="canonical" href="${canonical}" />\n  </head>`
     );
+  }
+
+  // Inject JSON-LD structured data for crawlers (server-side, no JS required)
+  const schemas = SCHEMA_MAP[path];
+  if (schemas && schemas.length) {
+    const blocks = schemas
+      .map((s) => `<script type="application/ld+json">${escapeJsonLd(JSON.stringify(s))}</script>`)
+      .join("\n  ");
+    modified = modified.replace("</head>", `  ${blocks}\n  </head>`);
   }
 
   const headers = new Headers(response.headers);
