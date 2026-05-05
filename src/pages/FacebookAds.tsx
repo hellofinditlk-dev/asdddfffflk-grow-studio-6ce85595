@@ -318,6 +318,29 @@ const FacebookAds = () => {
         </div>
       </section>
 
+      {/* Sri Lanka Facebook Stats */}
+      <section className="py-14 bg-primary/5 border-y border-border">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground mb-3 text-center">Facebook in Sri Lanka — By the Numbers (2026)</h2>
+            <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-10">Sri Lanka is one of the most Facebook-active markets in South Asia. If your customers are online, they are on Facebook or Instagram every single day.</p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
+              {[
+                { value: "8.75M", label: "Active Facebook users in Sri Lanka" },
+                { value: "2h 45m", label: "Avg. daily time spent on social media" },
+                { value: "73%", label: "Sri Lankans aged 18–44 on Facebook" },
+                { value: "#1", label: "Most-used social platform in Sri Lanka" },
+              ].map((s, i) => (
+                <div key={i} className="bg-card border border-border rounded-xl p-5 text-center">
+                  <div className="text-2xl md:text-3xl font-extrabold text-primary">{s.value}</div>
+                  <div className="text-xs text-muted-foreground mt-2 leading-relaxed">{s.label}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Our Services */}
       <section id="services" className="py-16 bg-background scroll-mt-20">
         <div className="container mx-auto px-4">
