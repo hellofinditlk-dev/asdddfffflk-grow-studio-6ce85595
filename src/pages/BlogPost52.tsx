@@ -18,7 +18,7 @@ const BlogPost52 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Hotel and Tourism Social Media Marketing Sri Lanka — Complete Strategy (2026)</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
-            <p>Sri Lanka's tourism industry is one of the most competitive digital marketing landscapes. Hotels and resorts compete with international booking platforms, OTAs, and global hospitality brands. Yet the hotels consistently winning direct bookings aren't necessarily the largest — they're the ones with the strongest digital presence.</p>
+            <p>Sri Lanka's tourism industry is one of the most competitive digital marketing landscapes. Hotels and resorts compete with international booking platforms, OTAs, and global hospitality brands. Yet the hotels consistently winning direct bookings aren't necessarily the largest — they're the ones with the strongest digital presence and consistent <Link to="/social-media-management-sri-lanka" className="text-primary font-semibold hover:underline">social media campaigns in Sri Lanka</Link>.</p>
 
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">Why Direct Bookings Are Worth Fighting For</h2>
             <p>Every booking through Booking.com, Agoda, or Expedia costs your hotel 15–25% in commission. Direct bookings cost zero commission. Building a strong social presence and direct booking capability is one of the highest-ROI investments a Sri Lankan hotel can make.</p>
