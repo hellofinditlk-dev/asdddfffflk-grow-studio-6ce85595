@@ -19,7 +19,7 @@ const BlogPost7 = () => (
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
             <p>Google Ads allows businesses to reach customers exactly when they are searching for a product or service. This makes it one of the most powerful digital marketing channels for generating high-intent leads.</p>
-            <p>Unlike social media advertising, Google Ads targets users based on search behavior. When someone searches for a service, they already have intent, which increases conversion probability.</p>
+            <p>Unlike <Link to="/social-media-management-sri-lanka" className="text-primary hover:underline font-semibold">Social Media Marketing Sri Lanka</Link>, Google Ads targets users based on search behavior. When someone searches for a service, they already have intent, which increases conversion probability.</p>
             <p>Search ads, display ads, remarketing, and YouTube ads provide multiple ways to reach potential customers across the buying journey.</p>
             <p>Keyword research is the foundation of successful campaigns. Choosing the right keywords ensures ads appear in front of relevant audiences while controlling costs.</p>
             <p>Optimization is equally important. Continuous monitoring, bid adjustments, ad testing, and landing page improvements help maximize return on investment.</p>
