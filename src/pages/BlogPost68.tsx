@@ -40,7 +40,7 @@ const BlogPost68 = () => (
             <p>Don't panic — post as soon as you can. A slightly off-time post is better than not posting. Consistency matters more than perfection.</p>
 
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">Get Professional Help Today</h2>
-            <p>For expert <Link to="/social-media-management-sri-lanka" className="text-primary font-semibold hover:underline">social media management in Sri Lanka</Link>, contact Cypher Digital. Also explore our guide on <Link to="/blog/social-media-management-small-business-sri-lanka" className="text-primary font-semibold hover:underline">social media management for small businesses in Sri Lanka</Link>.</p>
+            <p>For expert <Link to="/social-media-management-sri-lanka" className="text-primary font-semibold hover:underline">social media marketing in Sri Lanka</Link>, contact Cypher Digital. Also explore our guide on <Link to="/blog/social-media-management-small-business-sri-lanka" className="text-primary font-semibold hover:underline">social media management for small businesses in Sri Lanka</Link>.</p>
             <p>For broader insights on <Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link> including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
             <p>As one of the <Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
 
