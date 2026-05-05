@@ -85,6 +85,7 @@ const BlogPost32 = () => (
             <h2 className="font-heading text-lg font-bold mb-5">Related Services</h2>
             <div className="grid sm:grid-cols-2 gap-4">
               {[
+                { label: "Social Media Management Sri Lanka", path: "/social-media-management-sri-lanka", desc: "Expert social media marketing services to grow your brand." },
                 { label: "TikTok Marketing Sri Lanka", path: "/tiktok-marketing-sri-lanka", desc: "Viral TikTok campaigns and ads for Sri Lankan businesses." },
                 { label: "Hotel Digital Marketing Sri Lanka", path: "/hotel-digital-marketing-sri-lanka", desc: "Complete digital marketing for hotels and resorts." },
                 { label: "Video Production Sri Lanka", path: "/video-production-sri-lanka", desc: "Professional video content for ads and social media." },

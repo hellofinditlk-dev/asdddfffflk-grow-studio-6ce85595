@@ -18,7 +18,7 @@ const BlogPost6 = () => (
             <h1 className="font-heading text-2xl md:text-3xl font-extrabold mt-3 mb-4">Importance of Professional Graphic Design for Modern Brands</h1>
           </header>
           <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
-            <p>Graphic design plays a critical role in how customers perceive a brand. From social media posts to advertisements and website visuals, design directly influences attention, trust, and conversion.</p>
+            <p>Graphic design plays a critical role in how customers perceive a brand. From <Link to="/social-media-management-sri-lanka" className="text-primary hover:underline font-semibold">Social Media Marketing Sri Lanka</Link> posts to advertisements and website visuals, design directly influences attention, trust, and conversion.</p>
             <p>Strong visual identity helps businesses stand out in crowded markets. Consistent colors, typography, and layout create brand recognition and improve memorability.</p>
             <p>Good design is not only about aesthetics. It improves communication by making messages clear, structured, and visually appealing. Businesses with professional design often appear more credible compared to those using inconsistent visuals.</p>
             <p>Graphic design also impacts marketing performance. Well-designed creatives increase click-through rates, engagement, and ad effectiveness.</p>
