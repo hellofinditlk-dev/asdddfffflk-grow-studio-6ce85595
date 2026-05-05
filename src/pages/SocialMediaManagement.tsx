@@ -620,15 +620,94 @@ const SocialMediaManagement = () => {
       {/* Pricing */}
       <section className="py-20 lg:py-28 bg-secondary" id="pricing">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto">
+          <div className="max-w-5xl mx-auto">
             <div className="text-center mb-12">
-              <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Affordable & Scalable</p>
-              <h2 className="font-heading text-2xl md:text-3xl font-extrabold">Flexible & Cost-Effective Social Media Marketing Packages</h2>
+              <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Pricing</p>
+              <h2 className="font-heading text-2xl md:text-3xl font-extrabold">Affordable Social Media Management Packages in Sri Lanka</h2>
+              <p className="text-sm text-muted-foreground mt-3 max-w-2xl mx-auto">Transparent pricing with no lock-in contracts. Choose a plan that fits your business — and upgrade anytime as you grow.</p>
             </div>
-            <p className="text-sm text-muted-foreground leading-relaxed text-center mb-10">
-              Managing social media shouldn't cost a fortune. Cypher Digital offers affordable, flexible social media management packages perfect for small businesses, startups, and growing brands across Sri Lanka. Get professional content and engagement without the overhead of hiring an in-house team.
-            </p>
-            <div className="grid sm:grid-cols-2 gap-4">
+
+            <div className="grid md:grid-cols-3 gap-5 mb-10">
+              {[
+                { name: "Starter", posts: "12 Posts / Month", desc: "Facebook & Instagram — Perfect for small businesses getting started", features: ["Facebook & Instagram management","Custom graphic design","Monthly content calendar","Caption copywriting","Hashtag strategy","Basic monthly report"], featured: false, msg: "Hi%2C%20I%20am%20interested%20in%20the%20Starter%20package" },
+                { name: "Growth", posts: "16 Posts + 4 Reels / Month", desc: "Best for growing brands that want real results", features: ["Facebook & Instagram management","4 Reels / short-form videos","Story creation (weekly)","Inbox & comment management","Competitor analysis","Detailed monthly analytics report","Dedicated account manager"], featured: true, msg: "Hi%2C%20I%20am%20interested%20in%20the%20Growth%20package" },
+                { name: "Pro", posts: "20+ Posts + 6 Reels / Month", desc: "Facebook, Instagram & TikTok — Full-service for serious growth", features: ["Facebook, Instagram & TikTok","6 Reels / TikTok videos","Daily story management","Facebook or Instagram Ad campaign","Full inbox management (daily)","Advanced analytics & ROI report","Dedicated strategist + designer","Monthly strategy call"], featured: false, msg: "Hi%2C%20I%20am%20interested%20in%20the%20Pro%20package" },
+              ].map((pkg, i) => (
+                <div key={i} className={`relative bg-card border rounded-2xl p-6 flex flex-col ${pkg.featured ? "border-[hsl(25,95%,53%)] shadow-card scale-[1.02]" : "border-border"}`}>
+                  {pkg.featured && (
+                    <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[hsl(25,95%,53%)] text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full">Most Popular</span>
+                  )}
+                  <h3 className="font-heading text-xl font-extrabold mb-1">{pkg.name}</h3>
+                  <p className="text-sm font-semibold text-primary mb-1">{pkg.posts}</p>
+                  <p className="text-xs text-muted-foreground mb-5">{pkg.desc}</p>
+                  <ul className="space-y-2 mb-6 flex-1">
+                    {pkg.features.map((f, j) => (
+                      <li key={j} className="flex items-start gap-2 text-xs">
+                        <CheckCircle className="w-3.5 h-3.5 text-primary mt-0.5 shrink-0" />
+                        <span>{f}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <Button asChild className={`w-full font-semibold rounded-xl h-11 ${pkg.featured ? "bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] border-none" : "bg-primary text-primary-foreground hover:bg-primary/90"}`}>
+                    <a href={`https://wa.me/94701772626?text=${pkg.msg}%20%E2%80%94%20can%20you%20send%20me%20the%20pricing%3F`} target="_blank" rel="noopener noreferrer">Get Pricing →</a>
+                  </Button>
+                </div>
+              ))}
+            </div>
+
+            <div className="bg-card border border-border rounded-2xl p-6 text-center">
+              <p className="text-sm text-muted-foreground">Not sure which package is right for you? <strong className="text-foreground">Chat with us on WhatsApp</strong> — we'll recommend the best plan for your budget and goals in 5 minutes.</p>
+              <Button asChild className="mt-4 bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] font-semibold rounded-xl h-11 px-6 border-none">
+                <a href="https://wa.me/94701772626?text=Hi%2C%20I%20need%20help%20choosing%20the%20right%20social%20media%20package%20for%20my%20business" target="_blank" rel="noopener noreferrer">Help Me Choose a Package →</a>
+              </Button>
+            </div>
+
+            {/* Comparison */}
+            <div className="mt-16">
+              <div className="text-center mb-8">
+                <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-3">Why Choose Us</p>
+                <h3 className="font-heading text-xl md:text-2xl font-extrabold">Cypher Digital vs. In-House vs. Freelancer</h3>
+              </div>
+              <div className="overflow-x-auto bg-card border border-border rounded-2xl">
+                <table className="w-full text-xs md:text-sm">
+                  <thead>
+                    <tr className="border-b border-border bg-secondary">
+                      <th className="text-left p-4 font-semibold">Factor</th>
+                      <th className="text-left p-4 font-semibold text-[hsl(25,95%,53%)]">Cypher Digital</th>
+                      <th className="text-left p-4 font-semibold text-muted-foreground">In-House Hire</th>
+                      <th className="text-left p-4 font-semibold text-muted-foreground">Freelancer</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {[
+                      ["Monthly Cost", "Custom Quote — Chat with Us", "LKR 80K–150K + benefits", "LKR 20K–60K (variable)"],
+                      ["Strategy & Planning", "✓ Full strategy included", "Depends on experience", "✗ Rarely included"],
+                      ["Content Design", "✓ Dedicated design team", "One person (limited)", "Basic, inconsistent"],
+                      ["Video / Reels Production", "✓ Included in packages", "Extra cost / skill gap", "✗ Usually extra"],
+                      ["Paid Ads Management", "✓ Meta & TikTok certified", "Training required", "Hit or miss"],
+                      ["Reporting & Analytics", "✓ Monthly detailed report", "Manual, time-consuming", "✗ Rarely provided"],
+                      ["Contract Flexibility", "✓ Month-to-month", "Permanent employee", "Per project / variable"],
+                      ["Sick Days / Leave Cover", "✓ Team always available", "✗ Pages go silent", "✗ No cover"],
+                    ].map((row, i) => (
+                      <tr key={i} className="border-b border-border last:border-0">
+                        <td className="p-4 font-medium">{row[0]}</td>
+                        <td className="p-4 text-primary font-semibold">{row[1]}</td>
+                        <td className="p-4 text-muted-foreground">{row[2]}</td>
+                        <td className="p-4 text-muted-foreground">{row[3]}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <div className="text-center mt-8">
+                <Button asChild size="lg" className="bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] font-semibold rounded-xl h-12 px-8 border-none">
+                  <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20compare%20Cypher%20Digital%20packages%20for%20my%20business" target="_blank" rel="noopener noreferrer">Find the Right Plan for My Business →</a>
+                </Button>
+              </div>
+            </div>
+
+            {/* Flexible points */}
+            <div className="mt-16 grid sm:grid-cols-2 gap-4">
               {flexiblePoints.map((point, i) => (
                 <div key={i} className="flex items-start gap-3 bg-card border border-border rounded-xl p-4 hover:border-primary/20 transition-colors">
                   <CheckCircle className="w-4 h-4 text-primary mt-0.5 shrink-0" />
