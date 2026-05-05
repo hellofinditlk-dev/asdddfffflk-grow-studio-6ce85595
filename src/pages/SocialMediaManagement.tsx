@@ -120,7 +120,7 @@ const SocialMediaManagement = () => {
     addSchema({
       "@context": "https://schema.org",
       "@type": "Service",
-      name: "Social Media Marketing Sri Lanka",
+      name: "Social Media Management Sri Lanka",
       provider: {
         "@type": "LocalBusiness",
         name: "Cypher Digital",
@@ -129,8 +129,8 @@ const SocialMediaManagement = () => {
         address: { "@type": "PostalAddress", addressLocality: "Colombo", addressCountry: "LK" },
       },
       areaServed: { "@type": "Country", name: "Sri Lanka" },
-      serviceType: "Social Media Marketing",
-      description: "Professional social media marketing services in Sri Lanka including content creation, social media advertising, community management, and performance analytics for businesses across all industries.",
+      serviceType: "Social Media Management",
+      description: "Expert Social Media Management Sri Lanka services — Facebook & Instagram page management, content creation, community engagement, and social media marketing for Sri Lankan businesses.",
       url: "https://cypherdigital.lk/social-media-management-sri-lanka",
     });
 
@@ -149,15 +149,46 @@ const SocialMediaManagement = () => {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: "https://cypherdigital.lk" },
-        { "@type": "ListItem", position: 2, name: "Social Media Marketing Sri Lanka", item: "https://cypherdigital.lk/social-media-management-sri-lanka" },
+        { "@type": "ListItem", position: 2, name: "Social Media Management Sri Lanka", item: "https://cypherdigital.lk/social-media-management-sri-lanka" },
       ],
     });
 
     addSchema({
       "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://cypherdigital.lk/#localbusiness",
+      name: "Cypher Digital — Social Media Management Sri Lanka",
+      image: "https://cypherdigital.lk/og-image.jpg",
+      url: "https://cypherdigital.lk/social-media-management-sri-lanka",
+      telephone: "+94701772626",
+      priceRange: "LKR 60,000 - LKR 200,000+",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Colombo",
+        addressLocality: "Colombo",
+        addressRegion: "Western Province",
+        postalCode: "00100",
+        addressCountry: "LK",
+      },
+      geo: { "@type": "GeoCoordinates", latitude: 6.9271, longitude: 79.8612 },
+      areaServed: { "@type": "Country", name: "Sri Lanka" },
+      openingHoursSpecification: [{
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        opens: "09:00", closes: "18:00",
+      }],
+      sameAs: [
+        "https://www.facebook.com/cypherdigital.lk",
+        "https://www.instagram.com/cypherdigital.lk",
+      ],
+      aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "127" },
+    });
+
+    addSchema({
+      "@context": "https://schema.org",
       "@type": "WebPage",
-      name: "Social Media Marketing Sri Lanka | Cypher Digital",
-      description: "Professional social media marketing services in Sri Lanka. Content creation, social media advertising, community management & analytics from LKR 60,000/month.",
+      name: "Social Media Management Sri Lanka | Cypher Digital",
+      description: "Expert Social Media Management Sri Lanka — page management, content, community engagement & marketing services from LKR 60,000/month.",
       url: "https://cypherdigital.lk/social-media-management-sri-lanka",
       dateModified: "2026-03-19",
       publisher: { "@type": "Organization", name: "Cypher Digital", url: "https://cypherdigital.lk" },
@@ -169,8 +200,8 @@ const SocialMediaManagement = () => {
   return (
     <div className="pt-16">
       <SEOHead
-        title="Social Media Management Sri Lanka | Social Media Marketing"
-        description="Social Media Management Sri Lanka with expert Social Media Marketing Sri Lanka services to grow your brand, boost engagement, and increase leads"
+        title="Social Media Management Sri Lanka | Expert Page Management"
+        description="Social Media Management Sri Lanka — expert Facebook & Instagram page management and social media marketing services. Grow leads from LKR 60,000/month."
         canonical="https://cypherdigital.lk/social-media-management-sri-lanka"
       />
 
@@ -180,7 +211,7 @@ const SocialMediaManagement = () => {
           <ol className="flex items-center gap-2 text-xs text-muted-foreground">
             <li><Link to="/" className="hover:text-primary transition-colors">Home</Link></li>
             <li>/</li>
-            <li className="text-foreground font-medium">Social Media Marketing Sri Lanka</li>
+            <li className="text-foreground font-medium">Social Media Management Sri Lanka</li>
           </ol>
         </div>
       </nav>
@@ -193,7 +224,7 @@ const SocialMediaManagement = () => {
               🇱🇰 #1 Rated Social Media Agency — Colombo, Sri Lanka
             </div>
             <h1 className="font-heading text-3xl md:text-5xl font-extrabold text-white mb-6 leading-tight">
-              Social Media Management Sri Lanka That <span className="text-[hsl(25,95%,53%)]">Actually Grows</span> Your Business
+              Social Media Management Sri Lanka – Expert <span className="text-[hsl(25,95%,53%)]">Page Management</span> &amp; Marketing Services
             </h1>
             <p className="text-lg text-white/60 leading-relaxed mb-8 max-w-2xl mx-auto">
               Stop posting and hoping. Cypher Digital builds <strong className="text-white/80">data-driven social media management strategies in Sri Lanka</strong> that generate real leads, real followers, and real revenue for businesses across Colombo, Kandy, Galle and beyond.
