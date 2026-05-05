@@ -75,7 +75,14 @@ const BlogPost30 = () => (
               <Link to="/seo-services-sri-lanka" className="text-primary font-semibold hover:underline">
                 SEO services Sri Lanka
               </Link>{" "}
-              for long-term organic visibility.
+              for long-term organic visibility. For consistent organic growth, pair them with full-service{" "}
+              <Link to="/social-media-management-sri-lanka" className="text-primary font-semibold hover:underline">
+                social media marketing in Sri Lanka
+              </Link>{" "}
+              to manage daily content, engagement, and ongoing{" "}
+              <Link to="/social-media-management-sri-lanka" className="text-primary font-semibold hover:underline">
+                social media campaigns in Sri Lanka
+              </Link>.
             </p>
             <p>For detailed insights on{" "}<Link to="/advertising-in-sri-lanka" className="text-primary font-semibold hover:underline">advertising in Sri Lanka</Link>{" "}including market data, platform comparisons, and budget strategies, explore our complete guide.</p>
             <p>As one of the{" "}<Link to="/" className="text-primary font-semibold hover:underline">best digital marketing agencies in Sri Lanka</Link>, Cypher Digital offers expert solutions tailored to grow your business online.</p>
