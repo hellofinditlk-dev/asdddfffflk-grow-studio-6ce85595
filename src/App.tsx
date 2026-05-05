@@ -90,6 +90,16 @@ const BlogPost59 = lazy(() => import("./pages/BlogPost59"));
 const BlogPost60 = lazy(() => import("./pages/BlogPost60"));
 const BlogPost61 = lazy(() => import("./pages/BlogPost61"));
 const BlogPost62 = lazy(() => import("./pages/BlogPost62"));
+const BlogPost63 = lazy(() => import("./pages/BlogPost63"));
+const BlogPost64 = lazy(() => import("./pages/BlogPost64"));
+const BlogPost65 = lazy(() => import("./pages/BlogPost65"));
+const BlogPost66 = lazy(() => import("./pages/BlogPost66"));
+const BlogPost67 = lazy(() => import("./pages/BlogPost67"));
+const BlogPost68 = lazy(() => import("./pages/BlogPost68"));
+const BlogPost69 = lazy(() => import("./pages/BlogPost69"));
+const BlogPost70 = lazy(() => import("./pages/BlogPost70"));
+const BlogPost71 = lazy(() => import("./pages/BlogPost71"));
+const BlogPost72 = lazy(() => import("./pages/BlogPost72"));
 const AdvertisingInSriLanka = lazy(() => import("./pages/AdvertisingInSriLanka"));
 const IndustryPage = lazy(() => import("./pages/IndustryPage"));
 const DesignSubService = lazy(() => import("./pages/DesignSubService"));
@@ -204,6 +214,16 @@ const App = () => (
               <Route path="/blog/company-profile-design-sri-lanka" element={<BlogPost60 />} />
               <Route path="/blog/ecommerce-digital-marketing-sri-lanka" element={<BlogPost61 />} />
               <Route path="/blog/corporate-event-management-sri-lanka-choose-agency" element={<BlogPost62 />} />
+              <Route path="/blog/social-media-management-cost-sri-lanka" element={<BlogPost63 />} />
+              <Route path="/blog/social-media-campaign-ideas-sri-lanka" element={<BlogPost64 />} />
+              <Route path="/blog/best-social-media-platform-sri-lanka-business" element={<BlogPost65 />} />
+              <Route path="/blog/how-to-run-social-media-campaign-sri-lanka" element={<BlogPost66 />} />
+              <Route path="/blog/social-media-management-small-business-sri-lanka" element={<BlogPost67 />} />
+              <Route path="/blog/best-time-to-post-social-media-sri-lanka" element={<BlogPost68 />} />
+              <Route path="/blog/colombo-restaurant-social-media-case-study" element={<BlogPost69 />} />
+              <Route path="/blog/sinhala-vs-english-social-media-sri-lanka" element={<BlogPost70 />} />
+              <Route path="/blog/tiktok-marketing-sri-lanka-2025" element={<BlogPost71 />} />
+              <Route path="/blog/signs-you-need-social-media-agency-sri-lanka" element={<BlogPost72 />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/advertising-in-sri-lanka" element={<AdvertisingInSriLanka />} />
               <Route path="/logo-design-sri-lanka" element={<DesignSubService />} />
