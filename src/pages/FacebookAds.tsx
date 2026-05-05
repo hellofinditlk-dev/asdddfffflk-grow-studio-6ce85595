@@ -99,6 +99,7 @@ const tocItems = [
   { id: "industry-strategies", label: "Industry-Specific Strategies" },
   { id: "advanced", label: "Advanced Strategies" },
   { id: "pricing", label: "Pricing & Packages" },
+  { id: "page-management", label: "Facebook Page Management" },
   { id: "faqs", label: "FAQs" },
 ];
 
