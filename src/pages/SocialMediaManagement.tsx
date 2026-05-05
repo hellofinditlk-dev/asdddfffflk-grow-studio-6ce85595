@@ -12,7 +12,7 @@ import { Button } from "@/components/ui/button";
 
 const stats = [
   { value: "30+", label: "Pages Managed" },
-  { value: "500+", label: "Posts Created" },
+  { value: "5,000+", label: "Posts Created" },
   { value: "3x", label: "Engagement Growth" },
   { value: "Daily", label: "Monitoring" },
 ];
@@ -184,28 +184,28 @@ const SocialMediaManagement = () => {
       <section className="bg-foreground py-20 lg:py-28">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center animate-fade-up">
-            <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mx-auto mb-6">
-              <Megaphone className="w-7 h-7" />
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[hsl(25,95%,53%)]/40 bg-[hsl(25,95%,53%)]/10 text-[hsl(25,95%,53%)] text-xs font-semibold mb-6 uppercase tracking-widest">
+              🇱🇰 #1 Rated Social Media Agency — Colombo, Sri Lanka
             </div>
-            <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Professional Page Management</p>
             <h1 className="font-heading text-3xl md:text-5xl font-extrabold text-white mb-6 leading-tight">
-              Social Media Marketing Sri Lanka – Grow Your Business with Expert Social Media Management
+              Social Media Management Sri Lanka That <span className="text-[hsl(25,95%,53%)]">Actually Grows</span> Your Business
             </h1>
             <p className="text-lg text-white/60 leading-relaxed mb-8 max-w-2xl mx-auto">
-              Social media marketing in Sri Lanka has become one of the most powerful ways for businesses to reach, engage, and convert customers online. At Cypher Digital, we provide <strong className="text-white/80">data-driven social media marketing services in Sri Lanka</strong> designed to increase brand awareness, generate leads, and drive measurable business growth.
+              Stop posting and hoping. Cypher Digital builds <strong className="text-white/80">data-driven social media management strategies in Sri Lanka</strong> that generate real leads, real followers, and real revenue for businesses across Colombo, Kandy, Galle and beyond.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Button asChild size="lg" className="bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-colors text-sm px-7 h-12 rounded-xl">
-                <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20book%20a%20free%20consultation%20for%20social%20media%20marketing" target="_blank" rel="noopener noreferrer">
-                  Book a Free Consultation
+                <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20a%20free%20strategy%20call%20for%20social%20media%20marketing" target="_blank" rel="noopener noreferrer">
+                  Get a Free Strategy Call
                 </a>
               </Button>
               <Button asChild size="lg" className="bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] text-sm px-7 h-12 rounded-xl font-semibold border-none">
-                <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20get%20a%20free%20quote%20for%20social%20media%20marketing" target="_blank" rel="noopener noreferrer">
-                  Get a Free Quote
+                <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20see%20your%20social%20media%20packages" target="_blank" rel="noopener noreferrer">
+                  See Our Packages
                 </a>
               </Button>
             </div>
+            <p className="text-xs text-white/40 mt-5">⚡ No contracts. No fluff. Just results — reply on WhatsApp in under 5 minutes.</p>
           </div>
         </div>
       </section>
@@ -296,6 +296,33 @@ const SocialMediaManagement = () => {
                   <li>• Create long-term customer loyalty and advocacy</li>
                 </ul>
               </div>
+            </div>
+
+            {/* Sri Lanka Social Media Stats */}
+            <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              {[
+                { num: "8.4M+", lbl: "Active social media users in Sri Lanka" },
+                { num: "92%", lbl: "Sri Lankan users access social via mobile" },
+                { num: "2h 45m", lbl: "Average daily time on social media" },
+                { num: "15%", lbl: "Year-on-year growth in SL social users" },
+              ].map((s, i) => (
+                <div key={i} className="bg-card border border-border rounded-xl p-5 text-center">
+                  <div className="font-heading text-2xl font-extrabold text-primary mb-1">{s.num}</div>
+                  <div className="text-xs text-muted-foreground leading-snug">{s.lbl}</div>
+                </div>
+              ))}
+            </div>
+            <p className="text-[11px] text-muted-foreground/70 text-center mt-3">Source: DataReportal 2024 — Digital 2024: Sri Lanka</p>
+
+            {/* Free Audit CTA Strip */}
+            <div className="mt-10 bg-foreground rounded-2xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-5">
+              <div className="text-center md:text-left">
+                <h3 className="font-heading text-lg font-bold text-white mb-1">Not sure where to start? We'll audit your pages — free.</h3>
+                <p className="text-sm text-white/55">No commitment. We'll tell you exactly what's holding your social media back.</p>
+              </div>
+              <Button asChild className="bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] font-semibold rounded-xl h-12 px-6 border-none whitespace-nowrap">
+                <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20a%20free%20social%20media%20audit" target="_blank" rel="noopener noreferrer">Get Free Audit →</a>
+              </Button>
             </div>
           </div>
         </div>
@@ -593,15 +620,94 @@ const SocialMediaManagement = () => {
       {/* Pricing */}
       <section className="py-20 lg:py-28 bg-secondary" id="pricing">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto">
+          <div className="max-w-5xl mx-auto">
             <div className="text-center mb-12">
-              <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Affordable & Scalable</p>
-              <h2 className="font-heading text-2xl md:text-3xl font-extrabold">Flexible & Cost-Effective Social Media Marketing Packages</h2>
+              <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Pricing</p>
+              <h2 className="font-heading text-2xl md:text-3xl font-extrabold">Affordable Social Media Management Packages in Sri Lanka</h2>
+              <p className="text-sm text-muted-foreground mt-3 max-w-2xl mx-auto">Transparent pricing with no lock-in contracts. Choose a plan that fits your business — and upgrade anytime as you grow.</p>
             </div>
-            <p className="text-sm text-muted-foreground leading-relaxed text-center mb-10">
-              Managing social media shouldn't cost a fortune. Cypher Digital offers affordable, flexible social media management packages perfect for small businesses, startups, and growing brands across Sri Lanka. Get professional content and engagement without the overhead of hiring an in-house team.
-            </p>
-            <div className="grid sm:grid-cols-2 gap-4">
+
+            <div className="grid md:grid-cols-3 gap-5 mb-10">
+              {[
+                { name: "Starter", posts: "12 Posts / Month", desc: "Facebook & Instagram — Perfect for small businesses getting started", features: ["Facebook & Instagram management","Custom graphic design","Monthly content calendar","Caption copywriting","Hashtag strategy","Basic monthly report"], featured: false, msg: "Hi%2C%20I%20am%20interested%20in%20the%20Starter%20package" },
+                { name: "Growth", posts: "16 Posts + 4 Reels / Month", desc: "Best for growing brands that want real results", features: ["Facebook & Instagram management","4 Reels / short-form videos","Story creation (weekly)","Inbox & comment management","Competitor analysis","Detailed monthly analytics report","Dedicated account manager"], featured: true, msg: "Hi%2C%20I%20am%20interested%20in%20the%20Growth%20package" },
+                { name: "Pro", posts: "20+ Posts + 6 Reels / Month", desc: "Facebook, Instagram & TikTok — Full-service for serious growth", features: ["Facebook, Instagram & TikTok","6 Reels / TikTok videos","Daily story management","Facebook or Instagram Ad campaign","Full inbox management (daily)","Advanced analytics & ROI report","Dedicated strategist + designer","Monthly strategy call"], featured: false, msg: "Hi%2C%20I%20am%20interested%20in%20the%20Pro%20package" },
+              ].map((pkg, i) => (
+                <div key={i} className={`relative bg-card border rounded-2xl p-6 flex flex-col ${pkg.featured ? "border-[hsl(25,95%,53%)] shadow-card scale-[1.02]" : "border-border"}`}>
+                  {pkg.featured && (
+                    <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[hsl(25,95%,53%)] text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full">Most Popular</span>
+                  )}
+                  <h3 className="font-heading text-xl font-extrabold mb-1">{pkg.name}</h3>
+                  <p className="text-sm font-semibold text-primary mb-1">{pkg.posts}</p>
+                  <p className="text-xs text-muted-foreground mb-5">{pkg.desc}</p>
+                  <ul className="space-y-2 mb-6 flex-1">
+                    {pkg.features.map((f, j) => (
+                      <li key={j} className="flex items-start gap-2 text-xs">
+                        <CheckCircle className="w-3.5 h-3.5 text-primary mt-0.5 shrink-0" />
+                        <span>{f}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <Button asChild className={`w-full font-semibold rounded-xl h-11 ${pkg.featured ? "bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] border-none" : "bg-primary text-primary-foreground hover:bg-primary/90"}`}>
+                    <a href={`https://wa.me/94701772626?text=${pkg.msg}%20%E2%80%94%20can%20you%20send%20me%20the%20pricing%3F`} target="_blank" rel="noopener noreferrer">Get Pricing →</a>
+                  </Button>
+                </div>
+              ))}
+            </div>
+
+            <div className="bg-card border border-border rounded-2xl p-6 text-center">
+              <p className="text-sm text-muted-foreground">Not sure which package is right for you? <strong className="text-foreground">Chat with us on WhatsApp</strong> — we'll recommend the best plan for your budget and goals in 5 minutes.</p>
+              <Button asChild className="mt-4 bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] font-semibold rounded-xl h-11 px-6 border-none">
+                <a href="https://wa.me/94701772626?text=Hi%2C%20I%20need%20help%20choosing%20the%20right%20social%20media%20package%20for%20my%20business" target="_blank" rel="noopener noreferrer">Help Me Choose a Package →</a>
+              </Button>
+            </div>
+
+            {/* Comparison */}
+            <div className="mt-16">
+              <div className="text-center mb-8">
+                <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-3">Why Choose Us</p>
+                <h3 className="font-heading text-xl md:text-2xl font-extrabold">Cypher Digital vs. In-House vs. Freelancer</h3>
+              </div>
+              <div className="overflow-x-auto bg-card border border-border rounded-2xl">
+                <table className="w-full text-xs md:text-sm">
+                  <thead>
+                    <tr className="border-b border-border bg-secondary">
+                      <th className="text-left p-4 font-semibold">Factor</th>
+                      <th className="text-left p-4 font-semibold text-[hsl(25,95%,53%)]">Cypher Digital</th>
+                      <th className="text-left p-4 font-semibold text-muted-foreground">In-House Hire</th>
+                      <th className="text-left p-4 font-semibold text-muted-foreground">Freelancer</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {[
+                      ["Monthly Cost", "Custom Quote — Chat with Us", "LKR 80K–150K + benefits", "LKR 20K–60K (variable)"],
+                      ["Strategy & Planning", "✓ Full strategy included", "Depends on experience", "✗ Rarely included"],
+                      ["Content Design", "✓ Dedicated design team", "One person (limited)", "Basic, inconsistent"],
+                      ["Video / Reels Production", "✓ Included in packages", "Extra cost / skill gap", "✗ Usually extra"],
+                      ["Paid Ads Management", "✓ Meta & TikTok certified", "Training required", "Hit or miss"],
+                      ["Reporting & Analytics", "✓ Monthly detailed report", "Manual, time-consuming", "✗ Rarely provided"],
+                      ["Contract Flexibility", "✓ Month-to-month", "Permanent employee", "Per project / variable"],
+                      ["Sick Days / Leave Cover", "✓ Team always available", "✗ Pages go silent", "✗ No cover"],
+                    ].map((row, i) => (
+                      <tr key={i} className="border-b border-border last:border-0">
+                        <td className="p-4 font-medium">{row[0]}</td>
+                        <td className="p-4 text-primary font-semibold">{row[1]}</td>
+                        <td className="p-4 text-muted-foreground">{row[2]}</td>
+                        <td className="p-4 text-muted-foreground">{row[3]}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <div className="text-center mt-8">
+                <Button asChild size="lg" className="bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] font-semibold rounded-xl h-12 px-8 border-none">
+                  <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20compare%20Cypher%20Digital%20packages%20for%20my%20business" target="_blank" rel="noopener noreferrer">Find the Right Plan for My Business →</a>
+                </Button>
+              </div>
+            </div>
+
+            {/* Flexible points */}
+            <div className="mt-16 grid sm:grid-cols-2 gap-4">
               {flexiblePoints.map((point, i) => (
                 <div key={i} className="flex items-start gap-3 bg-card border border-border rounded-xl p-4 hover:border-primary/20 transition-colors">
                   <CheckCircle className="w-4 h-4 text-primary mt-0.5 shrink-0" />
@@ -661,18 +767,25 @@ const SocialMediaManagement = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Get Started</p>
-              <h2 className="font-heading text-2xl md:text-3xl font-extrabold text-white mb-6">Ready to Dominate Social Media in Sri Lanka?</h2>
-              <p className="text-white/50 mb-8 max-w-xl text-sm leading-relaxed">
-                Stop competing blindly and start building a powerful social media presence. Partner with Cypher Digital and grow your business with expert social media marketing in Sri Lanka.
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-[hsl(25,95%,53%)]/40 bg-[hsl(25,95%,53%)]/10 text-[hsl(25,95%,53%)] text-[10px] font-bold mb-4 uppercase tracking-widest">
+                ⚡ Limited Slots This Month
+              </div>
+              <h2 className="font-heading text-2xl md:text-4xl font-extrabold text-white mb-6 leading-tight">Ready to Dominate <span className="text-[hsl(25,95%,53%)]">Social Media in Sri Lanka?</span></h2>
+              <p className="text-white/55 mb-6 max-w-xl text-sm leading-relaxed">
+                Join 30+ Sri Lankan businesses growing their brand and generating leads through expert <strong className="text-white/80">Social Media Management Sri Lanka</strong> services. Your first 30-minute strategy call is completely free — no sales pitch, just an honest look at what's possible for your brand.
               </p>
+              <ul className="space-y-2 mb-8 text-sm text-white/70">
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-[hsl(25,95%,53%)]" /> Free brand audit + strategy call</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-[hsl(25,95%,53%)]" /> First posts live in 3–5 business days</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-[hsl(25,95%,53%)]" /> No long-term contracts — month-to-month</li>
+              </ul>
               <div className="flex items-center gap-4 mb-6 bg-white/5 border border-white/10 rounded-2xl p-4">
                 <img src={mascotGlasses} alt="Cypher Digital mascot" className="w-14 h-14 rounded-xl object-cover hidden sm:block" />
                 <div>
                   <p className="text-white/80 text-sm font-medium mb-2">💬 Don't be shy — say hi! We'd love to hear about your goals.</p>
                   <div className="flex flex-col sm:flex-row gap-3">
-                    <Button asChild className="bg-primary text-primary-foreground font-semibold hover:bg-primary/90 rounded-xl h-11 px-6">
-                      <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20book%20a%20free%20consultation%20for%20social%20media%20marketing" target="_blank" rel="noopener noreferrer">Book Free Consultation</a>
+                    <Button asChild className="bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] font-semibold rounded-xl h-11 px-6 border-none">
+                      <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20book%20a%20free%20consultation%20for%20social%20media%20marketing" target="_blank" rel="noopener noreferrer">Book Free Strategy Call</a>
                     </Button>
                     <Button asChild className="border border-white/20 bg-transparent rounded-xl h-11 px-6 hover:bg-white/5" style={{ color: "white" }}>
                       <a href="https://wa.me/94701772626" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
@@ -680,6 +793,7 @@ const SocialMediaManagement = () => {
                   </div>
                 </div>
               </div>
+              <p className="text-xs text-white/40">📍 Colombo, Sri Lanka &nbsp;|&nbsp; 📞 +94 70 177 2626 &nbsp;|&nbsp; No contracts. No fluff. Just results.</p>
             </div>
             <div className="bg-white/5 border border-white/10 rounded-2xl p-7 md:p-8">
               <h3 className="font-heading text-lg font-bold text-white mb-1.5">Send Us Your Details</h3>
