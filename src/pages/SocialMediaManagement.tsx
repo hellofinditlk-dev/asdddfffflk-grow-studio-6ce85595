@@ -12,7 +12,7 @@ import { Button } from "@/components/ui/button";
 
 const stats = [
   { value: "30+", label: "Pages Managed" },
-  { value: "500+", label: "Posts Created" },
+  { value: "5,000+", label: "Posts Created" },
   { value: "3x", label: "Engagement Growth" },
   { value: "Daily", label: "Monitoring" },
 ];
