@@ -120,7 +120,7 @@ const SocialMediaManagement = () => {
     addSchema({
       "@context": "https://schema.org",
       "@type": "Service",
-      name: "Social Media Marketing Sri Lanka",
+      name: "Social Media Management Sri Lanka",
       provider: {
         "@type": "LocalBusiness",
         name: "Cypher Digital",
@@ -129,8 +129,8 @@ const SocialMediaManagement = () => {
         address: { "@type": "PostalAddress", addressLocality: "Colombo", addressCountry: "LK" },
       },
       areaServed: { "@type": "Country", name: "Sri Lanka" },
-      serviceType: "Social Media Marketing",
-      description: "Professional social media marketing services in Sri Lanka including content creation, social media advertising, community management, and performance analytics for businesses across all industries.",
+      serviceType: "Social Media Management",
+      description: "Expert Social Media Management Sri Lanka services — Facebook & Instagram page management, content creation, community engagement, and social media marketing for Sri Lankan businesses.",
       url: "https://cypherdigital.lk/social-media-management-sri-lanka",
     });
 
@@ -149,15 +149,46 @@ const SocialMediaManagement = () => {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: "https://cypherdigital.lk" },
-        { "@type": "ListItem", position: 2, name: "Social Media Marketing Sri Lanka", item: "https://cypherdigital.lk/social-media-management-sri-lanka" },
+        { "@type": "ListItem", position: 2, name: "Social Media Management Sri Lanka", item: "https://cypherdigital.lk/social-media-management-sri-lanka" },
       ],
     });
 
     addSchema({
       "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://cypherdigital.lk/#localbusiness",
+      name: "Cypher Digital — Social Media Management Sri Lanka",
+      image: "https://cypherdigital.lk/og-image.jpg",
+      url: "https://cypherdigital.lk/social-media-management-sri-lanka",
+      telephone: "+94701772626",
+      priceRange: "LKR 60,000 - LKR 200,000+",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Colombo",
+        addressLocality: "Colombo",
+        addressRegion: "Western Province",
+        postalCode: "00100",
+        addressCountry: "LK",
+      },
+      geo: { "@type": "GeoCoordinates", latitude: 6.9271, longitude: 79.8612 },
+      areaServed: { "@type": "Country", name: "Sri Lanka" },
+      openingHoursSpecification: [{
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        opens: "09:00", closes: "18:00",
+      }],
+      sameAs: [
+        "https://www.facebook.com/cypherdigital.lk",
+        "https://www.instagram.com/cypherdigital.lk",
+      ],
+      aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "127" },
+    });
+
+    addSchema({
+      "@context": "https://schema.org",
       "@type": "WebPage",
-      name: "Social Media Marketing Sri Lanka | Cypher Digital",
-      description: "Professional social media marketing services in Sri Lanka. Content creation, social media advertising, community management & analytics from LKR 60,000/month.",
+      name: "Social Media Management Sri Lanka | Cypher Digital",
+      description: "Expert Social Media Management Sri Lanka — page management, content, community engagement & marketing services from LKR 60,000/month.",
       url: "https://cypherdigital.lk/social-media-management-sri-lanka",
       dateModified: "2026-03-19",
       publisher: { "@type": "Organization", name: "Cypher Digital", url: "https://cypherdigital.lk" },
@@ -169,8 +200,8 @@ const SocialMediaManagement = () => {
   return (
     <div className="pt-16">
       <SEOHead
-        title="Social Media Management Sri Lanka | Social Media Marketing"
-        description="Social Media Management Sri Lanka with expert Social Media Marketing Sri Lanka services to grow your brand, boost engagement, and increase leads"
+        title="Social Media Management Sri Lanka | Expert Page Management"
+        description="Social Media Management Sri Lanka — expert Facebook & Instagram page management and social media marketing services. Grow leads from LKR 60,000/month."
         canonical="https://cypherdigital.lk/social-media-management-sri-lanka"
       />
 
@@ -180,7 +211,7 @@ const SocialMediaManagement = () => {
           <ol className="flex items-center gap-2 text-xs text-muted-foreground">
             <li><Link to="/" className="hover:text-primary transition-colors">Home</Link></li>
             <li>/</li>
-            <li className="text-foreground font-medium">Social Media Marketing Sri Lanka</li>
+            <li className="text-foreground font-medium">Social Media Management Sri Lanka</li>
           </ol>
         </div>
       </nav>
@@ -193,7 +224,7 @@ const SocialMediaManagement = () => {
               🇱🇰 #1 Rated Social Media Agency — Colombo, Sri Lanka
             </div>
             <h1 className="font-heading text-3xl md:text-5xl font-extrabold text-white mb-6 leading-tight">
-              Social Media Management Sri Lanka That <span className="text-[hsl(25,95%,53%)]">Actually Grows</span> Your Business
+              Social Media Management Sri Lanka – Expert <span className="text-[hsl(25,95%,53%)]">Page Management</span> &amp; Marketing Services
             </h1>
             <p className="text-lg text-white/60 leading-relaxed mb-8 max-w-2xl mx-auto">
               Stop posting and hoping. Cypher Digital builds <strong className="text-white/80">data-driven social media management strategies in Sri Lanka</strong> that generate real leads, real followers, and real revenue for businesses across Colombo, Kandy, Galle and beyond.
@@ -235,9 +266,9 @@ const SocialMediaManagement = () => {
           <div className="max-w-4xl mx-auto">
             {/* Definition Box - Featured Snippet Target */}
             <div className="bg-primary/5 border-l-4 border-primary rounded-r-xl p-6 mb-12">
-              <h2 className="font-heading text-xl font-extrabold mb-3">What is Social Media Marketing?</h2>
+              <h2 className="font-heading text-xl font-extrabold mb-3">Social Media Management Sri Lanka — What It Is &amp; Why It Matters</h2>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                <strong>Social media marketing</strong> is the process of using social media platforms like Facebook, Instagram, TikTok, LinkedIn, and YouTube to promote a business, build brand awareness, engage with customers, and drive sales. It includes organic content creation, community management, paid social media advertising, influencer partnerships, and performance analytics.
+                <strong>Social Media Management Sri Lanka</strong> is the end-to-end service of running your Facebook, Instagram, TikTok and LinkedIn pages — including content strategy, graphic & video creation, scheduling, community engagement, inbox management, paid social media marketing, and monthly performance reporting. Cypher Digital is a leading Social Media Management Sri Lanka agency helping SMEs grow leads, followers and revenue.
               </p>
             </div>
 
@@ -260,7 +291,7 @@ const SocialMediaManagement = () => {
       <section className="py-16 lg:py-20 bg-secondary" id="why-important">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="font-heading text-2xl md:text-3xl font-extrabold mb-6">Why Social Media Marketing is Important in Sri Lanka</h2>
+            <h2 className="font-heading text-2xl md:text-3xl font-extrabold mb-6">Why Social Media Management Sri Lanka is Important for Your Business</h2>
             <p className="text-sm text-muted-foreground leading-relaxed mb-8">
               Sri Lanka has a rapidly growing digital audience, with millions of users active daily on social media platforms. Businesses across every industry — from restaurants and fashion brands to real estate companies and educational institutions — are leveraging social media to connect with customers, build brands, and drive sales.
             </p>
@@ -366,7 +397,7 @@ const SocialMediaManagement = () => {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">What We Offer</p>
-              <h2 className="font-heading text-2xl md:text-3xl font-extrabold">Social Media Marketing Services We Offer in Sri Lanka</h2>
+              <h2 className="font-heading text-2xl md:text-3xl font-extrabold">Social Media Management Sri Lanka Services We Offer</h2>
             </div>
             <div className="space-y-5">
               {[
@@ -394,7 +425,7 @@ const SocialMediaManagement = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
             <div>
-              <h2 className="font-heading text-2xl md:text-3xl font-extrabold mb-8">What's Included in Our Social Media Marketing Packages</h2>
+              <h2 className="font-heading text-2xl md:text-3xl font-extrabold mb-8">What's Included in Our Social Media Management Sri Lanka Packages</h2>
               <div className="space-y-3">
                 {features.map((feature, i) => (
                   <div key={i} className="flex items-start gap-3 p-3 rounded-lg hover:bg-secondary transition-colors">
@@ -433,7 +464,7 @@ const SocialMediaManagement = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">How It Works</p>
-            <h2 className="font-heading text-2xl md:text-3xl font-extrabold">Our Social Media Marketing Process</h2>
+            <h2 className="font-heading text-2xl md:text-3xl font-extrabold">Our Social Media Management Sri Lanka Process</h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {processSteps.map((step, i) => (
@@ -606,7 +637,7 @@ const SocialMediaManagement = () => {
         <div className="container mx-auto px-4 max-w-3xl">
           <div className="text-center mb-12">
             <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">FAQ</p>
-            <h2 className="font-heading text-2xl md:text-3xl font-extrabold">Frequently Asked Questions About Social Media Marketing in Sri Lanka</h2>
+            <h2 className="font-heading text-2xl md:text-3xl font-extrabold">Frequently Asked Questions About Social Media Management Sri Lanka</h2>
           </div>
           <div className="space-y-4">
             {faqs.map((faq, i) => (
@@ -785,7 +816,7 @@ const SocialMediaManagement = () => {
                 <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-[hsl(25,95%,53%)]" /> No long-term contracts — month-to-month</li>
               </ul>
               <div className="flex items-center gap-4 mb-6 bg-white/5 border border-white/10 rounded-2xl p-4">
-                <img src={mascotGlasses} alt="Cypher Digital mascot" className="w-14 h-14 rounded-xl object-cover hidden sm:block" />
+                <img src={mascotGlasses} alt="Social Media Management Sri Lanka expert at Cypher Digital" className="w-14 h-14 rounded-xl object-cover hidden sm:block" />
                 <div>
                   <p className="text-white/80 text-sm font-medium mb-2">💬 Don't be shy — say hi! We'd love to hear about your goals.</p>
                   <div className="flex flex-col sm:flex-row gap-3">
