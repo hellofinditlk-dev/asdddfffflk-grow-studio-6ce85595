@@ -26,7 +26,7 @@ const BlogPost27 = () => (
             <p>Discover our{" "}<Link to="/travel-agency-digital-marketing-sri-lanka" className="text-primary font-semibold hover:underline">travel agency digital marketing</Link>{" "}strategies.</p>
 
             <h2 className="font-heading text-lg font-bold text-foreground">Fashion & Clothing Brand Marketing</h2>
-            <p>Fashion brands depend heavily on social media and visual content to build their brand identity. Platforms like Instagram and TikTok allow clothing brands to showcase products and connect with fashion audiences.</p>
+            <p>Fashion brands depend heavily on <Link to="/social-media-management-sri-lanka" className="text-primary hover:underline font-semibold">Social Media Management Sri Lanka</Link> and visual content to build their brand identity. Platforms like Instagram and TikTok allow clothing brands to showcase products and connect with fashion audiences.</p>
             <p>Explore how businesses grow through{" "}<Link to="/fashion-brand-digital-marketing-sri-lanka" className="text-primary font-semibold hover:underline">fashion brand digital marketing</Link>.</p>
 
             <h2 className="font-heading text-lg font-bold text-foreground">Restaurant & Cafe Marketing</h2>
