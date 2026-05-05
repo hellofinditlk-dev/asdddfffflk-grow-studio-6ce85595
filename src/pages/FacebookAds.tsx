@@ -255,7 +255,7 @@ const FacebookAds = () => {
           <div className="max-w-4xl mx-auto">
             <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground mb-6 text-center">Why Facebook Marketing is Important in Sri Lanka</h2>
             <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-10 leading-relaxed">
-              Sri Lanka has a rapidly growing digital audience, with Facebook being the most widely used social media platform in the country. Millions of Sri Lankans actively browse, engage, and shop through Facebook and Instagram daily.
+              Sri Lanka has a rapidly growing digital audience, with Facebook being the most widely used social media platform in the country. Millions of Sri Lankans actively browse, engage, and shop through Facebook and Instagram daily. Pair your ads with expert <Link to="/social-media-management-sri-lanka" className="text-primary hover:underline font-semibold">Social Media Management Sri Lanka</Link> services to maximise reach and engagement.
             </p>
             <div className="grid md:grid-cols-2 gap-6">
               {[

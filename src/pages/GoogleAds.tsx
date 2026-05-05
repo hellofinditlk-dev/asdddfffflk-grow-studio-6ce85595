@@ -258,7 +258,7 @@ const GoogleAds = () => {
           <div className="max-w-4xl mx-auto">
             <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground mb-6 text-center">Why Google Ads is Essential for Businesses in Sri Lanka</h2>
             <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-10 leading-relaxed">
-              Sri Lanka has become a search-driven market, where customers rely on Google to make purchasing decisions. Without Google Ads, you're leaving high-intent customers to your competitors.
+              Sri Lanka has become a search-driven market, where customers rely on Google to make purchasing decisions. Without Google Ads, you're leaving high-intent customers to your competitors. Combine search campaigns with our <Link to="/social-media-management-sri-lanka" className="text-primary hover:underline font-semibold">Social Media Management Sri Lanka</Link> services for a complete funnel — from awareness to conversion.
             </p>
             <div className="grid md:grid-cols-2 gap-6">
               {[

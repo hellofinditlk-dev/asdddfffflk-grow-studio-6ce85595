@@ -662,7 +662,7 @@ const SEOServices = () => {
         <div className="container mx-auto px-4 text-center">
           <h2 className="font-heading text-2xl md:text-3xl font-bold text-white mb-4">Complete Guide to Advertising in Sri Lanka</h2>
           <p className="text-white/60 max-w-2xl mx-auto mb-8 text-sm leading-relaxed">
-            SEO is one part of a comprehensive digital marketing strategy. Read our complete guide to learn how all digital marketing channels — including Google Ads, Facebook Ads, and social media — work together for maximum growth.
+            SEO is one part of a comprehensive digital marketing strategy. Read our complete guide to learn how all digital marketing channels — including Google Ads, Facebook Ads, and <Link to="/social-media-management-sri-lanka" className="text-primary hover:underline font-semibold">Social Media Management Sri Lanka</Link> — work together for maximum growth.
           </p>
           <Button asChild size="lg" className="bg-primary text-primary-foreground font-semibold hover:bg-primary/90 rounded-xl">
             <Link to="/advertising-in-sri-lanka">Read the Full Advertising Guide <ArrowRight className="w-4 h-4 ml-2" /></Link>

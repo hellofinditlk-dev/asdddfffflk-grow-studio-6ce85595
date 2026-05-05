@@ -169,7 +169,7 @@ const Index = () => (
               {" "}in Sri Lanka
             </h1>
             <p className="text-lg md:text-xl text-white/55 leading-relaxed mb-10 max-w-xl animate-fade-up" style={{ animationDelay: "0.3s" }}>
-              We help Sri Lankan businesses grow with professional social media management, Facebook advertising, Google Ads, and video production.
+              We help Sri Lankan businesses grow with professional <Link to="/social-media-management-sri-lanka" className="text-primary hover:underline font-semibold">Social Media Management Sri Lanka</Link>, Facebook advertising, Google Ads, and video production.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 animate-fade-up" style={{ animationDelay: "0.4s" }}>
               <Button asChild size="lg" className="bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-all text-sm px-8 h-13 rounded-xl shadow-[0_0_30px_hsl(252_65%_55%/0.4)] hover:shadow-[0_0_40px_hsl(252_65%_55%/0.6)] hover:scale-[1.02] active:scale-[0.98]">
