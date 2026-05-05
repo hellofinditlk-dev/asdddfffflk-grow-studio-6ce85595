@@ -6,7 +6,7 @@ import {
   Target, CheckCircle, BarChart3, Users, TrendingUp, Zap, Shield, Clock,
   Smartphone, Eye, Globe, Layers, MousePointerClick, Brain,
   MessageCircle, Video, Share2, Heart, MapPin, Megaphone, DollarSign,
-  ArrowRight, PieChart
+  ArrowRight, PieChart, Award, ThumbsUp
 } from "lucide-react";
 import mascotGlasses from "@/assets/mascot-glasses.jpeg";
 import { Button } from "@/components/ui/button";
@@ -157,6 +157,19 @@ const FacebookAds = () => {
       url: "https://cypherdigital.lk/facebook-ads-sri-lanka",
       dateModified: "2026-03-19",
       publisher: { "@type": "Organization", name: "Cypher Digital", url: "https://cypherdigital.lk" },
+    });
+
+    addSchema({
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      name: "Cypher Digital — Facebook Marketing Agency Sri Lanka",
+      image: "https://cypherdigital.lk/og-image.jpg",
+      url: "https://cypherdigital.lk/facebook-ads-sri-lanka",
+      telephone: "+94701772626",
+      priceRange: "LKR 25,000 - LKR 250,000",
+      address: { "@type": "PostalAddress", addressLocality: "Colombo", addressCountry: "LK" },
+      areaServed: { "@type": "Country", name: "Sri Lanka" },
+      aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "127" },
     });
 
     return () => { scripts.forEach((s) => s.remove()); };
