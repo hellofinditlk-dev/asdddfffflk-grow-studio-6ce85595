@@ -767,18 +767,25 @@ const SocialMediaManagement = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-4">Get Started</p>
-              <h2 className="font-heading text-2xl md:text-3xl font-extrabold text-white mb-6">Ready to Dominate Social Media in Sri Lanka?</h2>
-              <p className="text-white/50 mb-8 max-w-xl text-sm leading-relaxed">
-                Stop competing blindly and start building a powerful social media presence. Partner with Cypher Digital and grow your business with expert social media marketing in Sri Lanka.
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-[hsl(25,95%,53%)]/40 bg-[hsl(25,95%,53%)]/10 text-[hsl(25,95%,53%)] text-[10px] font-bold mb-4 uppercase tracking-widest">
+                ⚡ Limited Slots This Month
+              </div>
+              <h2 className="font-heading text-2xl md:text-4xl font-extrabold text-white mb-6 leading-tight">Ready to Dominate <span className="text-[hsl(25,95%,53%)]">Social Media in Sri Lanka?</span></h2>
+              <p className="text-white/55 mb-6 max-w-xl text-sm leading-relaxed">
+                Join 30+ Sri Lankan businesses growing their brand and generating leads through expert <strong className="text-white/80">Social Media Management Sri Lanka</strong> services. Your first 30-minute strategy call is completely free — no sales pitch, just an honest look at what's possible for your brand.
               </p>
+              <ul className="space-y-2 mb-8 text-sm text-white/70">
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-[hsl(25,95%,53%)]" /> Free brand audit + strategy call</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-[hsl(25,95%,53%)]" /> First posts live in 3–5 business days</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-[hsl(25,95%,53%)]" /> No long-term contracts — month-to-month</li>
+              </ul>
               <div className="flex items-center gap-4 mb-6 bg-white/5 border border-white/10 rounded-2xl p-4">
                 <img src={mascotGlasses} alt="Cypher Digital mascot" className="w-14 h-14 rounded-xl object-cover hidden sm:block" />
                 <div>
                   <p className="text-white/80 text-sm font-medium mb-2">💬 Don't be shy — say hi! We'd love to hear about your goals.</p>
                   <div className="flex flex-col sm:flex-row gap-3">
-                    <Button asChild className="bg-primary text-primary-foreground font-semibold hover:bg-primary/90 rounded-xl h-11 px-6">
-                      <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20book%20a%20free%20consultation%20for%20social%20media%20marketing" target="_blank" rel="noopener noreferrer">Book Free Consultation</a>
+                    <Button asChild className="bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] font-semibold rounded-xl h-11 px-6 border-none">
+                      <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20to%20book%20a%20free%20consultation%20for%20social%20media%20marketing" target="_blank" rel="noopener noreferrer">Book Free Strategy Call</a>
                     </Button>
                     <Button asChild className="border border-white/20 bg-transparent rounded-xl h-11 px-6 hover:bg-white/5" style={{ color: "white" }}>
                       <a href="https://wa.me/94701772626" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
@@ -786,6 +793,7 @@ const SocialMediaManagement = () => {
                   </div>
                 </div>
               </div>
+              <p className="text-xs text-white/40">📍 Colombo, Sri Lanka &nbsp;|&nbsp; 📞 +94 70 177 2626 &nbsp;|&nbsp; No contracts. No fluff. Just results.</p>
             </div>
             <div className="bg-white/5 border border-white/10 rounded-2xl p-7 md:p-8">
               <h3 className="font-heading text-lg font-bold text-white mb-1.5">Send Us Your Details</h3>
