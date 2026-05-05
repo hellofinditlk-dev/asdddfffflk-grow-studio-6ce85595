@@ -380,7 +380,7 @@ const FacebookAds = () => {
                 <Zap className="w-3.5 h-3.5" /> Limited March 2026 Slots
               </span>
               <h2 className="font-heading text-2xl md:text-4xl font-extrabold text-white mb-4 leading-tight">
-                Get a <span className="text-primary">Free Facebook Ads Audit</span> Worth LKR 25,000
+                Get a <span className="text-primary">Free Facebook Ads Audit</span> for Your Business
               </h2>
               <p className="text-white/70 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
                 Our experts will review your current Facebook campaigns, audience targeting, and creative — and show you exactly where you're losing money. <strong className="text-white">No obligation. No sales pressure.</strong> Just real, actionable insights you can use immediately.
@@ -402,7 +402,7 @@ const FacebookAds = () => {
 
             <div className="flex flex-col sm:flex-row gap-3 justify-center max-w-xl mx-auto">
               <Button asChild size="lg" className="bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] font-bold text-sm px-7 h-13 rounded-xl border-none shadow-[0_0_32px_hsl(25_95%_53%/0.4)] hover:shadow-[0_0_48px_hsl(25_95%_53%/0.6)] transition-all flex-1">
-                <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20my%20FREE%20Facebook%20Ads%20audit%20worth%20LKR%2025%2C000" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20my%20FREE%20Facebook%20Ads%20audit" target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="w-4 h-4 mr-2" /> Claim Free Audit on WhatsApp
                 </a>
               </Button>
