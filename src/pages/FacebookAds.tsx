@@ -370,6 +370,62 @@ const FacebookAds = () => {
         </div>
       </section>
 
+      {/* High-Converting Mid-Page CTA */}
+      <section className="py-16 bg-foreground relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-[hsl(25,95%,53%)]/10 pointer-events-none" />
+        <div className="container mx-auto px-4 relative">
+          <div className="max-w-4xl mx-auto bg-card/5 backdrop-blur-sm border border-white/10 rounded-3xl p-8 md:p-12">
+            <div className="text-center mb-8">
+              <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[hsl(25,95%,53%)]/20 border border-[hsl(25,95%,53%)]/30 text-[hsl(25,95%,63%)] text-xs font-bold uppercase tracking-wider mb-5">
+                <Zap className="w-3.5 h-3.5" /> Limited March 2026 Slots
+              </span>
+              <h2 className="font-heading text-2xl md:text-4xl font-extrabold text-white mb-4 leading-tight">
+                Get a <span className="text-primary">Free Facebook Ads Audit</span> Worth LKR 25,000
+              </h2>
+              <p className="text-white/70 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
+                Our experts will review your current Facebook campaigns, audience targeting, and creative — and show you exactly where you're losing money. <strong className="text-white">No obligation. No sales pressure.</strong> Just real, actionable insights you can use immediately.
+              </p>
+            </div>
+
+            <div className="grid sm:grid-cols-3 gap-3 mb-8 max-w-2xl mx-auto">
+              {[
+                "30-min strategy call",
+                "Full campaign audit",
+                "Custom growth plan",
+              ].map((item) => (
+                <div key={item} className="flex items-center gap-2 px-4 py-3 rounded-xl bg-white/5 border border-white/10">
+                  <CheckCircle className="w-4 h-4 text-primary shrink-0" />
+                  <span className="text-xs md:text-sm text-white/90 font-medium">{item}</span>
+                </div>
+              ))}
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-3 justify-center max-w-xl mx-auto">
+              <Button asChild size="lg" className="bg-[hsl(25,95%,53%)] !text-white hover:bg-[hsl(25,95%,45%)] font-bold text-sm px-7 h-13 rounded-xl border-none shadow-[0_0_32px_hsl(25_95%_53%/0.4)] hover:shadow-[0_0_48px_hsl(25_95%_53%/0.6)] transition-all flex-1">
+                <a href="https://wa.me/94701772626?text=Hi%2C%20I%20want%20my%20FREE%20Facebook%20Ads%20audit%20worth%20LKR%2025%2C000" target="_blank" rel="noopener noreferrer">
+                  <MessageCircle className="w-4 h-4 mr-2" /> Claim Free Audit on WhatsApp
+                </a>
+              </Button>
+              <Button asChild size="lg" variant="outline" className="border-white/20 bg-white/5 text-white hover:bg-white/10 hover:text-white font-semibold text-sm px-7 h-13 rounded-xl flex-1">
+                <a href="#inquiry-form">Request via Form</a>
+              </Button>
+            </div>
+
+            <div className="flex flex-wrap items-center justify-center gap-4 mt-8 pt-6 border-t border-white/10">
+              <div className="flex items-center gap-1.5 text-xs text-white/60">
+                <Shield className="w-3.5 h-3.5 text-primary" /> No lock-in contracts
+              </div>
+              <div className="flex items-center gap-1.5 text-xs text-white/60">
+                <Clock className="w-3.5 h-3.5 text-primary" /> Reply within 30 min
+              </div>
+              <div className="flex items-center gap-1.5 text-xs text-white/60">
+                <Users className="w-3.5 h-3.5 text-primary" /> 200+ SL businesses helped
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* What's Included */}
       <section id="whats-included" className="py-16 bg-secondary scroll-mt-20">
         <div className="container mx-auto px-4">
