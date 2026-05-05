@@ -205,7 +205,7 @@ const SocialMediaManagement = () => {
     <div className="pt-16">
       <SEOHead
         title="Social Media Management Sri Lanka | Expert Page Management"
-        description="Social Media Management Sri Lanka — expert Facebook & Instagram page management and social media marketing services. Grow leads from LKR 60,000/month."
+        description="#1 Social media management Sri Lanka & social media marketing Sri Lanka. Best social media marketing packages, trusted social media marketing company. Free call."
         canonical="https://cypherdigital.lk/social-media-management-sri-lanka"
       />
 
