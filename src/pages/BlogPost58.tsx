@@ -22,7 +22,7 @@ const BlogPost58 = () => (
 
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">What Is Motion Graphics?</h2>
             <p>Animated visual elements — text, icons, shapes, and graphics — brought to life through animation. No cameras, no filming, no locations. Created digitally with software like After Effects.</p>
-            <p><strong>Common applications:</strong> Animated logo intros, social media animated posts, explainer videos (animated characters/icons), data visualisations, lower thirds, promotional banners, website animations.</p>
+            <p><strong>Common applications:</strong> Animated logo intros, <Link to="/social-media-management-sri-lanka" className="text-primary hover:underline font-semibold">Social Media Management Sri Lanka</Link> animated posts, explainer videos (animated characters/icons), data visualisations, lower thirds, promotional banners, website animations.</p>
             <p><strong>Advantages:</strong> No filming, faster timeline (1–2 weeks), easy to update (change text/colours/data without reshooting), professional results without logistics, consistent with brand colours.</p>
             <p><strong>Use when:</strong> Explaining abstract/complex services, promotional content where filming is too costly, brand identity animations, data-driven content. Our <Link to="/motion-graphics-sri-lanka" className="text-primary font-semibold hover:underline">motion graphics service</Link> covers everything from social animations to full explainer videos.</p>
 
