@@ -93,8 +93,15 @@ const Footer = () => (
         </div>
       </div>
 
-      <div className="border-t border-border mt-12 pt-6 text-center text-xs text-muted-foreground">
-        © 2025 Cypher Digital — Digital Marketing Agency Sri Lanka
+      <div className="border-t border-border mt-12 pt-6 text-center text-xs text-muted-foreground space-y-2">
+        <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1">
+          <Link to="/social-media-management-sri-lanka" className="hover:text-foreground transition-colors">Social Media Management Sri Lanka</Link>
+          <span className="text-border">|</span>
+          <Link to="/google-ads-sri-lanka" className="hover:text-foreground transition-colors">Google Ads Sri Lanka</Link>
+          <span className="text-border">|</span>
+          <Link to="/tiktok-marketing-sri-lanka" className="hover:text-foreground transition-colors">TikTok Marketing Sri Lanka</Link>
+        </div>
+        <p>© 2025 Cypher Digital — Digital Marketing Agency Sri Lanka</p>
       </div>
     </div>
   </footer>
