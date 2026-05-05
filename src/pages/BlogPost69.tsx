@@ -31,7 +31,7 @@ const BlogPost69 = () => (
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">Phase 3 — Month 3: Scaling What Worked</h2>
             <p>Doubled Reels from 2 to 4 per month. Launched lead generation ad: 'Book your table for free' with WhatsApp link — LKR 15,000 ad spend. Created 'Weekend Special' recurring campaign — posted every Thursday to drive Friday/Saturday bookings.</p>
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">The Results: 3 Months of Social Media Management</h2>
-            <p>Followers: 2,400 → 3,870 (+61%). Weekly enquiries: <5 → 22–28. Average post reach: 180–300 → 1,200–3,500. Engagement rate: 0.8% → 4.2%. Monthly ad spend: LKR 20,000 (random) → LKR 31,000 (strategic). Lead cost: LKR 890 per enquiry.</p>
+            <p>Followers: 2,400 → 3,870 (+61%). Weekly enquiries: under 5 → 22–28. Average post reach: 180–300 → 1,200–3,500. Engagement rate: 0.8% → 4.2%. Monthly ad spend: LKR 20,000 (random) → LKR 31,000 (strategic). Lead cost: LKR 890 per enquiry.</p>
             <h2 className="font-heading text-xl font-bold text-foreground mt-8">Key Lessons from This Campaign</h2>
             <p>Consistency beats perfection. Reels are the biggest organic reach driver in Sri Lanka right now. Community management IS lead generation — 40% of DMs converted to bookings. Strategy + small ad budget beats large unstrategic spend: LKR 31,000 strategic delivered 5x results of LKR 20,000 random.</p>
 
